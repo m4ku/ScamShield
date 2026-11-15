@@ -86,6 +86,14 @@ npm run dev
 
 Open http://localhost:3000.
 
+## iOS app
+
+A native SwiftUI app in [`ios/`](ios/) (iOS 18+), with the same screens, text and safety rules as the website. Online it uses the same server; offline, on iPhones with Apple Intelligence (iOS 26+), it checks on the phone with Apple's on-device model. It also adds a "Share to ScamShield" option to the share sheet.
+
+Offline accuracy, measured with the same AI test cases as the website (`node scripts/ios-eval.mjs`): every one of the 78 scam or suspicious test messages got a warning, 18 of 20 ordinary messages were not called "Very likely a scam", and each check took about 3 seconds on the phone. The same Swift copies of the website's safety rules (quote checks, link checks, verdict rules) run on every on-device result.
+
+Open `ios/ScamShield.xcodeproj` in Xcode and run the ScamShield scheme. After changing any interface text, run `npm run ios:content` to update the app's copy.
+
 ## Testing
 
 ```bash

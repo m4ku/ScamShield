@@ -9,7 +9,8 @@
     "lint": "eslint",
     "test": "vitest run",
     "test:ai": "node scripts/check-fixtures.mjs",
-    "test:kit": "node scripts/make-test-kit.mjs"
+    "test:kit": "node scripts/make-test-kit.mjs",
+    "ios:content": "node scripts/export-ios-content.mjs"
   },
   "dependencies": {
     "@google/genai": "^3.3.0",

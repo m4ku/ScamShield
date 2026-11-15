@@ -1,0 +1,4722 @@
+{
+ "languages": [
+  "en",
+  "es",
+  "zh",
+  "vi",
+  "tl",
+  "hi",
+  "fr"
+ ],
+ "languageLabels": {
+  "en": "English",
+  "es": "Español",
+  "zh": "中文",
+  "vi": "Tiếng Việt",
+  "tl": "Tagalog",
+  "hi": "हिन्दी",
+  "fr": "Français"
+ },
+ "languageTags": {
+  "en": "en",
+  "es": "es",
+  "zh": "zh-Hans",
+  "vi": "vi",
+  "tl": "tl",
+  "hi": "hi",
+  "fr": "fr"
+ },
+ "signTypes": [
+  "urgency",
+  "threat",
+  "unusual_payment",
+  "secrets",
+  "suspicious_link",
+  "impersonation",
+  "too_good",
+  "secrecy",
+  "remote_access",
+  "mismatch",
+  "unexpected_contact"
+ ],
+ "helpTopics": [
+  "clicked",
+  "malware",
+  "password",
+  "card",
+  "money",
+  "giftcard",
+  "crypto",
+  "check",
+  "meetup",
+  "ssn",
+  "access",
+  "threats"
+ ],
+ "scamSlugs": [
+  "delivery",
+  "bank",
+  "government",
+  "family",
+  "tech-support",
+  "prize",
+  "romance",
+  "job"
+ ],
+ "limits": {
+  "maxTextChars": 5000,
+  "maxFollowups": 5,
+  "maxQuestionChars": 500
+ },
+ "strings": {
+  "en": {
+   "languageLabel": "Language",
+   "homeTitle": "Check a message",
+   "homeIntro": "Not sure about a text, email, letter or call? Check it here before you reply, click or pay.",
+   "tabs": {
+    "text": "Paste text",
+    "image": "Add a screenshot",
+    "call": "Describe a call"
+   },
+   "textLabel": "The message",
+   "textPlaceholder": "Paste or type the message here",
+   "callLabel": "What happened on the call",
+   "callPlaceholder": "Who did they say they were? What did they ask you to do?",
+   "imageChoose": "Choose a screenshot or photo",
+   "imageChange": "Choose a different picture",
+   "imageHint": "A screenshot of a text or email, or a photo of a letter.",
+   "imageAlt": "The picture you chose",
+   "checkButton": "Check this message",
+   "privacy": "We don't save your messages.",
+   "checking": "Reading your message…",
+   "errors": {
+    "empty": "Paste or type the message first.",
+    "tooLong": "That's too long. Paste just the message, up to 5,000 characters.",
+    "imageMissing": "Choose a screenshot or photo first.",
+    "imageBad": "We couldn't open that picture. Try a different screenshot or photo.",
+    "unreadable": "We couldn't read a message in that picture. Try a clearer photo, or paste the words instead.",
+    "busy": "Too many people are checking right now. Please try again in a few minutes.",
+    "failed": "Something went wrong on our side. Please try again.",
+    "offline": "We couldn't connect. Check your internet and try again."
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "Very likely a scam",
+     "sub": "Don't reply, click or pay."
+    },
+    "careful": {
+     "title": "Be careful",
+     "sub": "Check this another way before you act."
+    },
+    "no_signs": {
+     "title": "No common warning signs found",
+     "sub": "If it asks for money or details, still check with the official number."
+    }
+   },
+   "summaryLabel": "What it wants you to do:",
+   "messageHeading": "The message",
+   "signsHeading": "Warning signs we found",
+   "noSignsNote": "We didn't find any of the usual warning signs. Scams change all the time, so stay careful.",
+   "signs": {
+    "urgency": {
+     "label": "Rushing you",
+     "tip": "Scammers rush you so you don't stop to think."
+    },
+    "threat": {
+     "label": "Threats or fear",
+     "tip": "Real agencies don't threaten arrest or fines by text, email or phone."
+    },
+    "unusual_payment": {
+     "label": "Strange way to pay",
+     "tip": "Surprise fees and odd ways to pay, like gift cards, crypto or wire transfers, are common scam tricks."
+    },
+    "secrets": {
+     "label": "Asks for private details",
+     "tip": "Real banks never ask for your PIN, password or codes."
+    },
+    "suspicious_link": {
+     "label": "Suspicious link",
+     "tip": "The link doesn't go to the real company's website."
+    },
+    "impersonation": {
+     "label": "Pretends to be someone you trust",
+     "tip": "Contact them yourself using a number you already trust."
+    },
+    "too_good": {
+     "label": "Too good to be true",
+     "tip": "You can't win a contest you didn't enter."
+    },
+    "secrecy": {
+     "label": "Asks you to keep it secret",
+     "tip": "Scammers want you alone. Talk to someone you trust."
+    },
+    "remote_access": {
+     "label": "Wants control of your device",
+     "tip": "Never let a stranger control your computer or phone."
+    },
+    "mismatch": {
+     "label": "Something doesn't match",
+     "tip": "Who it says it's from isn't who really sent it."
+    },
+    "unexpected_contact": {
+     "label": "A stranger reaching out",
+     "tip": "Friendly messages from strangers can turn into requests for money later."
+    }
+   },
+   "stepsHeading": "What to do now",
+   "steps": {
+    "likely_scam": [
+     "Don't reply, click any link, or call any number in the message.",
+     "Don't pay, and don't send gift cards, codes or personal details.",
+     "Block the sender and delete the message."
+    ],
+    "careful": [
+     "Don't click links or call numbers in the message yet.",
+     "Ask a family member or friend to look at it with you."
+    ],
+    "no_signs": [
+     "Never share a password, PIN or code with someone who contacts you."
+    ]
+   },
+   "trustedStep": "Contact the organization using a number or website you already trust, like the one on your card, bill or their official website. Not the one in this message.",
+   "shareButton": "Share with family",
+   "shared": "Copied. You can paste it into a text or email.",
+   "shareIntro": "I checked a message with ScamShield.",
+   "shareSigns": "Warning signs:",
+   "shareCheckedWith": "Check one yourself:",
+   "clickedButton": "I already clicked, replied or paid",
+   "againButton": "Check another message",
+   "backButton": "Back",
+   "helpTitle": "Already clicked, replied or paid?",
+   "helpIntro": "Don't panic, and don't feel ashamed. Scammers fool careful people every day. Acting quickly helps.",
+   "helpQuestion": "What happened?",
+   "helpTopics": {
+    "clicked": {
+     "label": "I clicked a link or replied",
+     "steps": [
+      "Close the page. Don't type anything into it.",
+      "Don't reply again. Block the sender.",
+      "If you typed a password, card number or other details, choose that option below too."
+     ]
+    },
+    "password": {
+     "label": "I gave a password or code",
+     "steps": [
+      "Change that password now, using the real app or website, not the link you were sent.",
+      "If you use the same password anywhere else, change it there too.",
+      "Turn on 2-step sign-in if the account offers it."
+     ]
+    },
+    "card": {
+     "label": "I gave card or bank details",
+     "steps": [
+      "Call your bank now, using the number on the back of your card.",
+      "Ask them to block the card and send a new one.",
+      "Check your statements for charges you don't know."
+     ]
+    },
+    "money": {
+     "label": "I sent money (bank, wire, Zelle, Cash App)",
+     "steps": [
+      "Call your bank or the payment app right away. Ask them to stop or reverse the payment.",
+      "For a wire transfer, ask for a \"wire recall.\"",
+      "Don't send more money, even if they promise to pay you back."
+     ]
+    },
+    "giftcard": {
+     "label": "I paid with gift cards",
+     "steps": [
+      "Call the gift card company now, using the number on the back of the card. Say it was a scam.",
+      "Keep the cards and the receipts.",
+      "Don't buy more cards, whatever they tell you."
+     ]
+    },
+    "ssn": {
+     "label": "I gave my Social Security number or a photo of my ID",
+     "steps": [
+      "Go to IdentityTheft.gov for a step-by-step recovery plan.",
+      "Freeze your credit for free with Equifax, Experian and TransUnion.",
+      "Watch your mail and bank accounts for anything you don't recognize."
+     ]
+    },
+    "access": {
+     "label": "I let them into my computer or phone",
+     "steps": [
+      "Turn off Wi-Fi or unplug the internet now.",
+      "Remove any app they asked you to install.",
+      "From a different device, change your email and bank passwords.",
+      "Have a trusted person or repair shop check the device."
+     ]
+    },
+    "malware": {
+     "label": "I downloaded a file or app they sent",
+     "steps": [
+      "Don't open it again. Delete the file or uninstall the app.",
+      "Turn off Wi-Fi, then run your device's built-in security check (Windows Security on a computer; update your phone).",
+      "From a different device, change your email and bank passwords.",
+      "Ask a trusted person or repair shop to check the device."
+     ]
+    },
+    "meetup": {
+     "label": "Someone is coming to me, or I met them in person",
+     "steps": [
+      "If someone is on the way to pick up cash, gold, cards or a package, don't hand anything over. Real banks, police and government agencies never send couriers.",
+      "If you feel unsafe, call 911. Otherwise call your local police and tell them a courier is coming.",
+      "If you already handed something over, write down what they looked like, their car and the time, and call the police right away.",
+      "Never meet someone from online alone. Meet in a busy public place and tell someone where you'll be."
+     ]
+    },
+    "crypto": {
+     "label": "I sent cryptocurrency or used a Bitcoin ATM",
+     "steps": [
+      "Contact the crypto exchange or the Bitcoin ATM company right away, using the number on the machine or the receipt.",
+      "Keep the receipt, the wallet address and any transaction ID.",
+      "Report it to the FBI at ic3.gov and to ReportFraud.ftc.gov.",
+      "Beware of anyone who offers to \"recover\" your money for a fee. That is a second scam."
+     ]
+    },
+    "check": {
+     "label": "I deposited a check a stranger sent me",
+     "steps": [
+      "Don't spend the money, and don't send any of it back, even if they say it was a mistake.",
+      "Tell your bank now that you think the check is fake. A check can bounce days or weeks later.",
+      "Stop talking to the person who sent it."
+     ]
+    },
+    "threats": {
+     "label": "They're threatening or blackmailing me",
+     "steps": [
+      "Stop replying, and don't pay. Paying usually leads to more demands.",
+      "Save the messages with screenshots, then block the sender.",
+      "If you are in danger, call 911. Report online threats at ic3.gov.",
+      "Talk to someone you trust. Being targeted is not your fault."
+     ]
+    }
+   },
+   "reportHeading": "Report it",
+   "reportSteps": [
+    "Tell your bank if money or card details were involved.",
+    "Report it to the FTC at ReportFraud.ftc.gov.",
+    "If you lost money, report it to your local police too.",
+    "Free help line: AARP Fraud Watch, 877-908-3360.",
+    "Tell someone you trust. You don't have to handle this alone."
+   ],
+   "helpOpenAnother": "Choose another",
+   "footer": "ScamShield doesn't save what you check."
+  },
+  "es": {
+   "languageLabel": "Idioma",
+   "homeTitle": "Revisar un mensaje",
+   "homeIntro": "¿No está seguro de un texto, correo, carta o llamada? Revíselo aquí antes de responder, hacer clic o pagar.",
+   "tabs": {
+    "text": "Pegar texto",
+    "image": "Agregar una captura",
+    "call": "Describir una llamada"
+   },
+   "textLabel": "El mensaje",
+   "textPlaceholder": "Pegue o escriba el mensaje aquí",
+   "callLabel": "Qué pasó en la llamada",
+   "callPlaceholder": "¿Quién dijeron que eran? ¿Qué le pidieron que hiciera?",
+   "imageChoose": "Elegir una captura o foto",
+   "imageChange": "Elegir otra imagen",
+   "imageHint": "Una captura de pantalla de un texto o correo, o una foto de una carta.",
+   "imageAlt": "La imagen que eligió",
+   "checkButton": "Revisar este mensaje",
+   "privacy": "No guardamos sus mensajes.",
+   "checking": "Leyendo su mensaje…",
+   "errors": {
+    "empty": "Primero pegue o escriba el mensaje.",
+    "tooLong": "Es demasiado largo. Pegue solo el mensaje, hasta 5,000 caracteres.",
+    "imageMissing": "Primero elija una captura o foto.",
+    "imageBad": "No pudimos abrir esa imagen. Pruebe con otra captura o foto.",
+    "unreadable": "No pudimos leer un mensaje en esa imagen. Pruebe con una foto más clara o pegue el texto.",
+    "busy": "Hay muchas personas revisando ahora. Inténtelo de nuevo en unos minutos.",
+    "failed": "Algo salió mal de nuestro lado. Inténtelo de nuevo.",
+    "offline": "No pudimos conectarnos. Revise su internet e inténtelo de nuevo."
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "Muy probablemente es una estafa",
+     "sub": "No responda, no haga clic y no pague."
+    },
+    "careful": {
+     "title": "Tenga cuidado",
+     "sub": "Verifíquelo de otra forma antes de actuar."
+    },
+    "no_signs": {
+     "title": "No encontramos señales comunes de alerta",
+     "sub": "Si pide dinero o datos, verifíquelo igual con el número oficial."
+    }
+   },
+   "summaryLabel": "Lo que le pide hacer:",
+   "messageHeading": "El mensaje",
+   "signsHeading": "Señales de alerta que encontramos",
+   "noSignsNote": "No encontramos ninguna de las señales de alerta comunes. Las estafas cambian todo el tiempo, así que siga con cuidado.",
+   "signs": {
+    "urgency": {
+     "label": "Le apura",
+     "tip": "Los estafadores le apuran para que no se detenga a pensar."
+    },
+    "threat": {
+     "label": "Amenazas o miedo",
+     "tip": "Las agencias reales no amenazan con arresto o multas por texto, correo o teléfono."
+    },
+    "unusual_payment": {
+     "label": "Forma de pago extraña",
+     "tip": "Los cobros inesperados y las formas de pago raras, como tarjetas de regalo, criptomonedas o giros, son trucos comunes de estafa."
+    },
+    "secrets": {
+     "label": "Pide datos privados",
+     "tip": "Los bancos reales nunca piden su PIN, contraseña o códigos."
+    },
+    "suspicious_link": {
+     "label": "Enlace sospechoso",
+     "tip": "El enlace no lleva al sitio web real de la empresa."
+    },
+    "impersonation": {
+     "label": "Se hace pasar por alguien de confianza",
+     "tip": "Comuníquese usted mismo usando un número en el que ya confía."
+    },
+    "too_good": {
+     "label": "Demasiado bueno para ser verdad",
+     "tip": "No puede ganar un concurso en el que no participó."
+    },
+    "secrecy": {
+     "label": "Le pide guardar el secreto",
+     "tip": "Los estafadores quieren que esté solo. Hable con alguien de confianza."
+    },
+    "remote_access": {
+     "label": "Quiere controlar su aparato",
+     "tip": "Nunca deje que un desconocido controle su computadora o teléfono."
+    },
+    "mismatch": {
+     "label": "Algo no coincide",
+     "tip": "Quien dice enviarlo no es quien realmente lo envió."
+    },
+    "unexpected_contact": {
+     "label": "Un desconocido le escribe",
+     "tip": "Los mensajes amables de desconocidos pueden terminar en pedidos de dinero."
+    }
+   },
+   "stepsHeading": "Qué hacer ahora",
+   "steps": {
+    "likely_scam": [
+     "No responda, no haga clic en enlaces y no llame a números del mensaje.",
+     "No pague ni envíe tarjetas de regalo, códigos o datos personales.",
+     "Bloquee al remitente y borre el mensaje."
+    ],
+    "careful": [
+     "Todavía no haga clic en enlaces ni llame a números del mensaje.",
+     "Pida a un familiar o amigo que lo revise con usted."
+    ],
+    "no_signs": [
+     "Nunca comparta una contraseña, PIN o código con alguien que le contacte."
+    ]
+   },
+   "trustedStep": "Comuníquese con la organización usando un número o sitio web en el que ya confía, como el de su tarjeta, su factura o su sitio oficial. No el de este mensaje.",
+   "shareButton": "Compartir con la familia",
+   "shared": "Copiado. Puede pegarlo en un texto o correo.",
+   "shareIntro": "Revisé un mensaje con ScamShield.",
+   "shareSigns": "Señales de alerta:",
+   "shareCheckedWith": "Revise uno usted también:",
+   "clickedButton": "Ya hice clic, respondí o pagué",
+   "againButton": "Revisar otro mensaje",
+   "backButton": "Volver",
+   "helpTitle": "¿Ya hizo clic, respondió o pagó?",
+   "helpIntro": "No se asuste ni sienta vergüenza. Los estafadores engañan a personas cuidadosas todos los días. Actuar rápido ayuda.",
+   "helpQuestion": "¿Qué pasó?",
+   "helpTopics": {
+    "clicked": {
+     "label": "Hice clic en un enlace o respondí",
+     "steps": [
+      "Cierre la página. No escriba nada en ella.",
+      "No vuelva a responder. Bloquee al remitente.",
+      "Si escribió una contraseña, número de tarjeta u otros datos, elija también esa opción abajo."
+     ]
+    },
+    "password": {
+     "label": "Di una contraseña o código",
+     "steps": [
+      "Cambie esa contraseña ahora, desde la aplicación o sitio web real, no desde el enlace que le enviaron.",
+      "Si usa la misma contraseña en otro lugar, cámbiela allí también.",
+      "Active la verificación en dos pasos si la cuenta la ofrece."
+     ]
+    },
+    "card": {
+     "label": "Di datos de mi tarjeta o banco",
+     "steps": [
+      "Llame a su banco ahora, al número que está detrás de su tarjeta.",
+      "Pida que bloqueen la tarjeta y le envíen una nueva.",
+      "Revise sus estados de cuenta por cargos que no conoce."
+     ]
+    },
+    "money": {
+     "label": "Envié dinero (banco, giro, Zelle, Cash App)",
+     "steps": [
+      "Llame de inmediato a su banco o a la aplicación de pago. Pida que detengan o reviertan el pago.",
+      "Si fue una transferencia bancaria (wire), pida un \"wire recall\".",
+      "No envíe más dinero, aunque le prometan devolvérselo."
+     ]
+    },
+    "giftcard": {
+     "label": "Pagué con tarjetas de regalo",
+     "steps": [
+      "Llame ahora a la empresa de la tarjeta, al número que está detrás de la tarjeta. Diga que fue una estafa.",
+      "Guarde las tarjetas y los recibos.",
+      "No compre más tarjetas, le digan lo que le digan."
+     ]
+    },
+    "ssn": {
+     "label": "Di mi número de Seguro Social o una foto de mi identificación",
+     "steps": [
+      "Visite IdentityTheft.gov (también en español) para un plan de recuperación paso a paso.",
+      "Congele su crédito gratis con Equifax, Experian y TransUnion.",
+      "Revise su correo y sus cuentas por cualquier cosa que no reconozca."
+     ]
+    },
+    "access": {
+     "label": "Les di acceso a mi computadora o teléfono",
+     "steps": [
+      "Apague el Wi-Fi o desconecte el internet ahora.",
+      "Borre cualquier aplicación que le pidieron instalar.",
+      "Desde otro aparato, cambie las contraseñas de su correo y su banco.",
+      "Pida a una persona de confianza o a un taller que revise el aparato."
+     ]
+    },
+    "malware": {
+     "label": "Descargué un archivo o aplicación que me enviaron",
+     "steps": [
+      "No lo vuelva a abrir. Borre el archivo o desinstale la aplicación.",
+      "Apague el Wi-Fi y use la revisión de seguridad de su aparato (Seguridad de Windows en la computadora; actualice su teléfono).",
+      "Desde otro aparato, cambie las contraseñas de su correo y su banco.",
+      "Pida a una persona de confianza o a un taller que revise el aparato."
+     ]
+    },
+    "meetup": {
+     "label": "Alguien viene a verme, o me reuní con la persona",
+     "steps": [
+      "Si alguien viene a recoger efectivo, oro, tarjetas o un paquete, no entregue nada. Los bancos, la policía y el gobierno nunca envían mensajeros.",
+      "Si se siente en peligro, llame al 911. Si no, llame a la policía local y avise que viene un mensajero.",
+      "Si ya entregó algo, anote cómo era la persona, su carro y la hora, y llame a la policía de inmediato.",
+      "Nunca se reúna a solas con alguien que conoció en internet. Hágalo en un lugar público y concurrido, y avise a alguien."
+     ]
+    },
+    "crypto": {
+     "label": "Envié criptomonedas o usé un cajero de Bitcoin",
+     "steps": [
+      "Comuníquese de inmediato con la plataforma de criptomonedas o la empresa del cajero de Bitcoin, al número que aparece en la máquina o el recibo.",
+      "Guarde el recibo, la dirección de la billetera y cualquier número de transacción.",
+      "Repórtelo al FBI en ic3.gov y en ReportaFraude.ftc.gov.",
+      "Cuidado con quien ofrezca \"recuperar\" su dinero a cambio de un pago. Es otra estafa."
+     ]
+    },
+    "check": {
+     "label": "Deposité un cheque que me envió un desconocido",
+     "steps": [
+      "No gaste el dinero ni devuelva nada, aunque le digan que fue un error.",
+      "Avise ahora a su banco que cree que el cheque es falso. Un cheque puede rebotar días o semanas después.",
+      "Deje de hablar con la persona que lo envió."
+     ]
+    },
+    "threats": {
+     "label": "Me están amenazando o chantajeando",
+     "steps": [
+      "Deje de responder y no pague. Pagar suele traer más exigencias.",
+      "Guarde los mensajes con capturas de pantalla y luego bloquee al remitente.",
+      "Si está en peligro, llame al 911. Reporte las amenazas en línea en ic3.gov.",
+      "Hable con alguien de confianza. Que le hayan elegido como blanco no es su culpa."
+     ]
+    }
+   },
+   "reportHeading": "Repórtelo",
+   "reportSteps": [
+    "Avise a su banco si hubo dinero o datos de tarjeta de por medio.",
+    "Repórtelo a la FTC en ReportaFraude.ftc.gov.",
+    "Si perdió dinero, repórtelo también a la policía local.",
+    "Línea de ayuda gratis: AARP Fraud Watch, 877-908-3360.",
+    "Cuénteselo a alguien de confianza. No tiene que enfrentarlo solo."
+   ],
+   "helpOpenAnother": "Elegir otra",
+   "footer": "ScamShield no guarda lo que usted revisa."
+  },
+  "zh": {
+   "languageLabel": "语言",
+   "homeTitle": "检查一条信息",
+   "homeIntro": "不确定一条短信、邮件、信件或电话是否可信？在回复、点击或付款之前，先在这里检查一下。",
+   "tabs": {
+    "text": "粘贴文字",
+    "image": "添加截图",
+    "call": "描述来电"
+   },
+   "textLabel": "信息内容",
+   "textPlaceholder": "在这里粘贴或输入信息",
+   "callLabel": "电话里发生了什么",
+   "callPlaceholder": "对方说自己是谁？要求您做什么？",
+   "imageChoose": "选择截图或照片",
+   "imageChange": "换一张图片",
+   "imageHint": "短信或邮件的截图，或信件的照片。",
+   "imageAlt": "您选择的图片",
+   "checkButton": "检查这条信息",
+   "privacy": "我们不会保存您的信息。",
+   "checking": "正在阅读您的信息…",
+   "errors": {
+    "empty": "请先粘贴或输入信息。",
+    "tooLong": "内容太长了。请只粘贴信息本身，最多 5,000 个字符。",
+    "imageMissing": "请先选择截图或照片。",
+    "imageBad": "无法打开这张图片。请换一张截图或照片。",
+    "unreadable": "无法从这张图片中读出信息。请换一张更清楚的照片，或直接粘贴文字。",
+    "busy": "现在检查的人太多了。请过几分钟再试。",
+    "failed": "我们这边出了问题。请再试一次。",
+    "offline": "无法连接。请检查网络后再试。"
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "很可能是诈骗",
+     "sub": "不要回复、不要点击、不要付款。"
+    },
+    "careful": {
+     "title": "请小心",
+     "sub": "行动之前，先用别的方式核实。"
+    },
+    "no_signs": {
+     "title": "没有发现常见的警告信号",
+     "sub": "如果它要钱或要个人资料，仍请拨打官方电话核实。"
+    }
+   },
+   "summaryLabel": "它要您做的事：",
+   "messageHeading": "信息内容",
+   "signsHeading": "我们发现的警告信号",
+   "noSignsNote": "我们没有发现常见的警告信号。诈骗手法一直在变，请继续保持警惕。",
+   "signs": {
+    "urgency": {
+     "label": "催促您",
+     "tip": "骗子催促您，是为了让您来不及思考。"
+    },
+    "threat": {
+     "label": "威胁或恐吓",
+     "tip": "真正的政府机构不会通过短信、邮件或电话威胁逮捕或罚款。"
+    },
+    "unusual_payment": {
+     "label": "奇怪的付款方式",
+     "tip": "意外的收费，以及礼品卡、加密货币、电汇等奇怪的付款方式，都是常见的诈骗手法。"
+    },
+    "secrets": {
+     "label": "索要私人资料",
+     "tip": "真正的银行从不索要您的密码、PIN 码或验证码。"
+    },
+    "suspicious_link": {
+     "label": "可疑链接",
+     "tip": "这个链接不是通往该公司的真实网站。"
+    },
+    "impersonation": {
+     "label": "冒充您信任的人或机构",
+     "tip": "请用您本来就信任的电话号码自己联系对方。"
+    },
+    "too_good": {
+     "label": "好得令人难以置信",
+     "tip": "您不可能赢得一个从没参加过的抽奖。"
+    },
+    "secrecy": {
+     "label": "要求您保密",
+     "tip": "骗子想让您孤立无援。请和您信任的人谈谈。"
+    },
+    "remote_access": {
+     "label": "想控制您的设备",
+     "tip": "绝不要让陌生人控制您的电脑或手机。"
+    },
+    "mismatch": {
+     "label": "有些地方对不上",
+     "tip": "声称的发送者并不是真正的发送者。"
+    },
+    "unexpected_contact": {
+     "label": "陌生人主动联系",
+     "tip": "陌生人的友好信息，之后可能会变成要钱。"
+    }
+   },
+   "stepsHeading": "现在该怎么做",
+   "steps": {
+    "likely_scam": [
+     "不要回复，不要点击信息里的任何链接，也不要拨打里面的任何电话。",
+     "不要付款，不要发送礼品卡、验证码或个人资料。",
+     "屏蔽发送者，并删除这条信息。"
+    ],
+    "careful": [
+     "暂时不要点击信息里的链接或拨打里面的电话。",
+     "请家人或朋友和您一起看看。"
+    ],
+    "no_signs": [
+     "绝不要把密码、PIN 码或验证码告诉主动联系您的人。"
+    ]
+   },
+   "trustedStep": "请用您本来就信任的电话号码或网站联系该机构，例如您的卡背面、账单上或其官方网站上的号码。不要用这条信息里的。",
+   "shareButton": "分享给家人",
+   "shared": "已复制。您可以把它粘贴到短信或邮件里。",
+   "shareIntro": "我用 ScamShield 检查了一条信息。",
+   "shareSigns": "警告信号：",
+   "shareCheckedWith": "您也可以自己检查：",
+   "clickedButton": "我已经点击、回复或付款了",
+   "againButton": "检查另一条信息",
+   "backButton": "返回",
+   "helpTitle": "已经点击、回复或付款了？",
+   "helpIntro": "别慌，也不用觉得丢脸。骗子每天都在骗细心的人。尽快行动会有帮助。",
+   "helpQuestion": "发生了什么？",
+   "helpTopics": {
+    "clicked": {
+     "label": "我点了链接或回复了",
+     "steps": [
+      "关闭那个网页，不要在里面输入任何东西。",
+      "不要再回复，屏蔽发送者。",
+      "如果您输入了密码、卡号或其他资料，也请选择下面对应的选项。"
+     ]
+    },
+    "password": {
+     "label": "我给了密码或验证码",
+     "steps": [
+      "立即修改那个密码，要通过真正的应用或网站，不要用别人发给您的链接。",
+      "如果别的地方也用同一个密码，也要一起修改。",
+      "如果账户提供两步验证，请开启。"
+     ]
+    },
+    "card": {
+     "label": "我给了银行卡或银行资料",
+     "steps": [
+      "现在就拨打您卡背面的电话联系银行。",
+      "请银行冻结这张卡并补发新卡。",
+      "查看账单上有没有您不认识的消费。"
+     ]
+    },
+    "money": {
+     "label": "我汇了钱（银行、电汇、Zelle、Cash App）",
+     "steps": [
+      "立刻联系您的银行或付款应用，请他们停止或撤回这笔付款。",
+      "如果是电汇，请要求办理\"电汇召回\"（wire recall）。",
+      "不要再汇钱，即使对方承诺会还给您。"
+     ]
+    },
+    "giftcard": {
+     "label": "我用礼品卡付了钱",
+     "steps": [
+      "现在就拨打礼品卡背面的电话联系发卡公司，说明这是诈骗。",
+      "保留礼品卡和收据。",
+      "无论对方怎么说，都不要再买卡。"
+     ]
+    },
+    "ssn": {
+     "label": "我给了社会安全号码或证件照片",
+     "steps": [
+      "访问 IdentityTheft.gov，获取一步一步的补救方案。",
+      "在 Equifax、Experian 和 TransUnion 免费冻结您的信用。",
+      "留意您的信件和银行账户里有没有不认识的东西。"
+     ]
+    },
+    "access": {
+     "label": "我让他们进入了我的电脑或手机",
+     "steps": [
+      "现在就关闭 Wi-Fi 或拔掉网线。",
+      "删除他们让您安装的任何应用。",
+      "用另一台设备修改您的邮箱和银行密码。",
+      "请信任的人或维修店检查这台设备。"
+     ]
+    },
+    "malware": {
+     "label": "我下载了对方发来的文件或应用",
+     "steps": [
+      "不要再打开它。删除文件或卸载应用。",
+      "关闭 Wi-Fi，然后运行设备自带的安全检查（电脑用 Windows 安全中心；手机请更新系统）。",
+      "用另一台设备修改您的邮箱和银行密码。",
+      "请信任的人或维修店检查这台设备。"
+     ]
+    },
+    "meetup": {
+     "label": "有人要来找我，或我已经和对方见过面",
+     "steps": [
+      "如果有人要上门来取现金、黄金、银行卡或包裹，什么都不要交出去。真正的银行、警察和政府机构从不派人上门取钱。",
+      "如果您感到不安全，请拨打 911。否则请打电话给当地警察，告诉他们有人要上门来取东西。",
+      "如果已经交出去了，记下对方的长相、车辆和时间，并立刻报警。",
+      "绝不要单独去见网上认识的人。约在人多的公共场所，并告诉别人您的去向。"
+     ]
+    },
+    "crypto": {
+     "label": "我转了加密货币或用了比特币 ATM",
+     "steps": [
+      "立刻用机器或收据上的电话联系加密货币交易所或比特币 ATM 公司。",
+      "保留收据、钱包地址和交易编号。",
+      "在 ic3.gov 向联邦调查局（FBI）举报，并在 ReportFraud.ftc.gov 举报。",
+      "小心任何收费帮您\"追回\"钱的人。那是第二个骗局。"
+     ]
+    },
+    "check": {
+     "label": "我存了陌生人寄来的支票",
+     "steps": [
+      "不要花这笔钱，也不要退回任何钱，即使对方说是寄错了。",
+      "现在就告诉银行您怀疑这张支票是假的。支票可能几天甚至几周后才被退票。",
+      "不要再和寄支票的人联系。"
+     ]
+    },
+    "threats": {
+     "label": "对方在威胁或勒索我",
+     "steps": [
+      "不要再回复，也不要付钱。付了钱通常只会被要更多。",
+      "把信息截图保存，然后屏蔽对方。",
+      "如果您有危险，请拨打 911。网上的威胁可以在 ic3.gov 举报。",
+      "和您信任的人谈谈。被骗子盯上不是您的错。"
+     ]
+    }
+   },
+   "reportHeading": "举报",
+   "reportSteps": [
+    "如果涉及钱或银行卡资料，请告诉您的银行。",
+    "在 ReportFraud.ftc.gov 向联邦贸易委员会（FTC）举报。",
+    "如果您损失了钱，也请向当地警察报案。",
+    "免费求助热线：AARP Fraud Watch，877-908-3360。",
+    "告诉一个您信任的人。您不必独自面对。"
+   ],
+   "helpOpenAnother": "选择其他",
+   "footer": "ScamShield 不会保存您检查的内容。"
+  },
+  "vi": {
+   "languageLabel": "Ngôn ngữ",
+   "homeTitle": "Kiểm tra một tin nhắn",
+   "homeIntro": "Không chắc về một tin nhắn, email, thư hay cuộc gọi? Hãy kiểm tra ở đây trước khi trả lời, bấm vào hay trả tiền.",
+   "tabs": {
+    "text": "Dán chữ",
+    "image": "Thêm ảnh chụp",
+    "call": "Kể về cuộc gọi"
+   },
+   "textLabel": "Tin nhắn",
+   "textPlaceholder": "Dán hoặc gõ tin nhắn vào đây",
+   "callLabel": "Chuyện gì xảy ra trong cuộc gọi",
+   "callPlaceholder": "Họ nói họ là ai? Họ bảo quý vị làm gì?",
+   "imageChoose": "Chọn ảnh chụp màn hình hoặc ảnh",
+   "imageChange": "Chọn ảnh khác",
+   "imageHint": "Ảnh chụp màn hình tin nhắn hoặc email, hoặc ảnh chụp một lá thư.",
+   "imageAlt": "Ảnh quý vị đã chọn",
+   "checkButton": "Kiểm tra tin nhắn này",
+   "privacy": "Chúng tôi không lưu tin nhắn của quý vị.",
+   "checking": "Đang đọc tin nhắn của quý vị…",
+   "errors": {
+    "empty": "Hãy dán hoặc gõ tin nhắn trước.",
+    "tooLong": "Quá dài. Chỉ dán phần tin nhắn, tối đa 5.000 ký tự.",
+    "imageMissing": "Hãy chọn ảnh chụp màn hình hoặc ảnh trước.",
+    "imageBad": "Chúng tôi không mở được ảnh đó. Hãy thử ảnh khác.",
+    "unreadable": "Chúng tôi không đọc được tin nhắn trong ảnh đó. Hãy thử ảnh rõ hơn, hoặc dán chữ vào.",
+    "busy": "Hiện có quá nhiều người đang kiểm tra. Vui lòng thử lại sau vài phút.",
+    "failed": "Có lỗi xảy ra ở phía chúng tôi. Vui lòng thử lại.",
+    "offline": "Không kết nối được. Hãy kiểm tra mạng và thử lại."
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "Rất có thể là lừa đảo",
+     "sub": "Đừng trả lời, đừng bấm vào, đừng trả tiền."
+    },
+    "careful": {
+     "title": "Hãy cẩn thận",
+     "sub": "Hãy kiểm tra bằng cách khác trước khi làm gì."
+    },
+    "no_signs": {
+     "title": "Không thấy dấu hiệu cảnh báo thường gặp",
+     "sub": "Nếu nó đòi tiền hoặc thông tin, vẫn nên kiểm tra qua số điện thoại chính thức."
+    }
+   },
+   "summaryLabel": "Nó muốn quý vị làm gì:",
+   "messageHeading": "Tin nhắn",
+   "signsHeading": "Dấu hiệu cảnh báo chúng tôi tìm thấy",
+   "noSignsNote": "Chúng tôi không thấy dấu hiệu cảnh báo thường gặp nào. Kẻ lừa đảo luôn thay đổi cách làm, nên hãy tiếp tục cẩn thận.",
+   "signs": {
+    "urgency": {
+     "label": "Hối thúc quý vị",
+     "tip": "Kẻ lừa đảo hối thúc để quý vị không kịp suy nghĩ."
+    },
+    "threat": {
+     "label": "Đe dọa hoặc gây sợ hãi",
+     "tip": "Cơ quan thật không đe dọa bắt giữ hay phạt tiền qua tin nhắn, email hay điện thoại."
+    },
+    "unusual_payment": {
+     "label": "Cách trả tiền lạ",
+     "tip": "Phí bất ngờ và cách trả tiền lạ, như thẻ quà tặng, tiền mã hóa hay chuyển khoản, là mánh lừa đảo thường gặp."
+    },
+    "secrets": {
+     "label": "Đòi thông tin riêng tư",
+     "tip": "Ngân hàng thật không bao giờ hỏi mã PIN, mật khẩu hay mã xác nhận."
+    },
+    "suspicious_link": {
+     "label": "Đường link đáng ngờ",
+     "tip": "Đường link không dẫn đến trang web thật của công ty."
+    },
+    "impersonation": {
+     "label": "Giả làm người hoặc nơi quý vị tin",
+     "tip": "Hãy tự liên lạc với họ bằng số điện thoại quý vị đã tin tưởng."
+    },
+    "too_good": {
+     "label": "Tốt đến khó tin",
+     "tip": "Quý vị không thể trúng một cuộc thi mà mình không tham gia."
+    },
+    "secrecy": {
+     "label": "Bảo quý vị giữ bí mật",
+     "tip": "Kẻ lừa đảo muốn quý vị một mình. Hãy nói chuyện với người quý vị tin."
+    },
+    "remote_access": {
+     "label": "Muốn điều khiển thiết bị của quý vị",
+     "tip": "Đừng bao giờ để người lạ điều khiển máy tính hay điện thoại của quý vị."
+    },
+    "mismatch": {
+     "label": "Có điều không khớp",
+     "tip": "Người nói là gửi tin không phải là người thật sự gửi."
+    },
+    "unexpected_contact": {
+     "label": "Người lạ chủ động liên lạc",
+     "tip": "Tin nhắn thân thiện từ người lạ về sau có thể thành lời xin tiền."
+    }
+   },
+   "stepsHeading": "Bây giờ nên làm gì",
+   "steps": {
+    "likely_scam": [
+     "Đừng trả lời, đừng bấm vào link, và đừng gọi số nào trong tin nhắn.",
+     "Đừng trả tiền, đừng gửi thẻ quà tặng, mã số hay thông tin cá nhân.",
+     "Chặn người gửi và xóa tin nhắn."
+    ],
+    "careful": [
+     "Khoan bấm vào link hay gọi số điện thoại trong tin nhắn.",
+     "Nhờ người thân hoặc bạn bè xem cùng quý vị."
+    ],
+    "no_signs": [
+     "Đừng bao giờ đưa mật khẩu, mã PIN hay mã số cho người tự liên lạc với quý vị."
+    ]
+   },
+   "trustedStep": "Hãy liên lạc với tổ chức đó bằng số điện thoại hoặc trang web quý vị đã tin tưởng, như số trên thẻ, trên hóa đơn hoặc trang web chính thức của họ. Không dùng số trong tin nhắn này.",
+   "shareButton": "Chia sẻ với gia đình",
+   "shared": "Đã sao chép. Quý vị có thể dán vào tin nhắn hoặc email.",
+   "shareIntro": "Tôi đã kiểm tra một tin nhắn bằng ScamShield.",
+   "shareSigns": "Dấu hiệu cảnh báo:",
+   "shareCheckedWith": "Tự kiểm tra tại:",
+   "clickedButton": "Tôi đã bấm vào, trả lời hoặc trả tiền",
+   "againButton": "Kiểm tra tin nhắn khác",
+   "backButton": "Quay lại",
+   "helpTitle": "Đã bấm vào, trả lời hoặc trả tiền?",
+   "helpIntro": "Đừng hoảng sợ và đừng xấu hổ. Kẻ lừa đảo lừa cả những người cẩn thận mỗi ngày. Hành động nhanh sẽ giúp ích.",
+   "helpQuestion": "Chuyện gì đã xảy ra?",
+   "helpTopics": {
+    "clicked": {
+     "label": "Tôi đã bấm vào link hoặc trả lời",
+     "steps": [
+      "Đóng trang đó lại. Đừng gõ gì vào đó.",
+      "Đừng trả lời nữa. Chặn người gửi.",
+      "Nếu quý vị đã gõ mật khẩu, số thẻ hay thông tin khác, hãy chọn thêm mục đó bên dưới."
+     ]
+    },
+    "password": {
+     "label": "Tôi đã đưa mật khẩu hoặc mã số",
+     "steps": [
+      "Đổi mật khẩu đó ngay, bằng ứng dụng hoặc trang web thật, không dùng link được gửi cho quý vị.",
+      "Nếu quý vị dùng cùng mật khẩu ở chỗ khác, hãy đổi ở đó luôn.",
+      "Bật xác minh 2 bước nếu tài khoản có."
+     ]
+    },
+    "card": {
+     "label": "Tôi đã đưa thông tin thẻ hoặc ngân hàng",
+     "steps": [
+      "Gọi ngân hàng ngay, bằng số ở mặt sau thẻ của quý vị.",
+      "Xin họ khóa thẻ và gửi thẻ mới.",
+      "Xem sao kê để tìm khoản chi quý vị không biết."
+     ]
+    },
+    "money": {
+     "label": "Tôi đã gửi tiền (ngân hàng, chuyển khoản, Zelle, Cash App)",
+     "steps": [
+      "Gọi ngay cho ngân hàng hoặc ứng dụng thanh toán. Xin họ dừng hoặc hoàn lại khoản tiền.",
+      "Nếu là chuyển khoản điện tử (wire), hãy xin \"wire recall\".",
+      "Đừng gửi thêm tiền, dù họ hứa sẽ trả lại."
+     ]
+    },
+    "giftcard": {
+     "label": "Tôi đã trả bằng thẻ quà tặng",
+     "steps": [
+      "Gọi ngay công ty phát hành thẻ, bằng số ở mặt sau thẻ. Nói rằng đây là lừa đảo.",
+      "Giữ lại thẻ và hóa đơn.",
+      "Đừng mua thêm thẻ, dù họ nói gì."
+     ]
+    },
+    "ssn": {
+     "label": "Tôi đã đưa số An Sinh Xã Hội hoặc ảnh giấy tờ tùy thân",
+     "steps": [
+      "Vào IdentityTheft.gov để có kế hoạch khắc phục từng bước.",
+      "Đóng băng tín dụng miễn phí với Equifax, Experian và TransUnion.",
+      "Để ý thư từ và tài khoản ngân hàng xem có gì lạ không."
+     ]
+    },
+    "access": {
+     "label": "Tôi đã cho họ vào máy tính hoặc điện thoại",
+     "steps": [
+      "Tắt Wi-Fi hoặc rút dây mạng ngay.",
+      "Xóa ứng dụng mà họ bảo quý vị cài.",
+      "Dùng một thiết bị khác để đổi mật khẩu email và ngân hàng.",
+      "Nhờ người quý vị tin hoặc tiệm sửa máy kiểm tra thiết bị."
+     ]
+    },
+    "malware": {
+     "label": "Tôi đã tải tập tin hoặc ứng dụng họ gửi",
+     "steps": [
+      "Đừng mở lại. Xóa tập tin hoặc gỡ ứng dụng.",
+      "Tắt Wi-Fi, rồi chạy kiểm tra bảo mật có sẵn trên thiết bị (Windows Security trên máy tính; cập nhật điện thoại).",
+      "Dùng một thiết bị khác để đổi mật khẩu email và ngân hàng.",
+      "Nhờ người quý vị tin hoặc tiệm sửa máy kiểm tra thiết bị."
+     ]
+    },
+    "meetup": {
+     "label": "Có người đang đến gặp tôi, hoặc tôi đã gặp họ",
+     "steps": [
+      "Nếu có người đang đến lấy tiền mặt, vàng, thẻ hoặc gói hàng, đừng đưa gì cả. Ngân hàng, cảnh sát và cơ quan chính phủ thật không bao giờ cử người đến lấy tiền.",
+      "Nếu thấy không an toàn, hãy gọi 911. Nếu không, gọi cảnh sát địa phương và báo có người sắp đến lấy đồ.",
+      "Nếu đã đưa rồi, hãy ghi lại hình dáng người đó, xe và giờ giấc, rồi gọi cảnh sát ngay.",
+      "Đừng bao giờ gặp người quen trên mạng một mình. Hẹn ở nơi công cộng đông người và báo cho người khác biết."
+     ]
+    },
+    "crypto": {
+     "label": "Tôi đã gửi tiền mã hóa hoặc dùng máy ATM Bitcoin",
+     "steps": [
+      "Liên lạc ngay với sàn tiền mã hóa hoặc công ty máy ATM Bitcoin, bằng số trên máy hoặc trên biên lai.",
+      "Giữ biên lai, địa chỉ ví và mã giao dịch.",
+      "Báo cáo với FBI tại ic3.gov và tại ReportFraud.ftc.gov.",
+      "Cẩn thận với ai hứa \"lấy lại\" tiền cho quý vị nếu trả phí. Đó là vụ lừa thứ hai."
+     ]
+    },
+    "check": {
+     "label": "Tôi đã gửi vào ngân hàng tấm séc người lạ gửi",
+     "steps": [
+      "Đừng tiêu số tiền đó, và đừng gửi lại đồng nào, dù họ nói là gửi nhầm.",
+      "Báo ngay cho ngân hàng rằng quý vị nghĩ tấm séc là giả. Séc có thể bị trả về sau nhiều ngày hoặc nhiều tuần.",
+      "Ngừng liên lạc với người đã gửi séc."
+     ]
+    },
+    "threats": {
+     "label": "Họ đang đe dọa hoặc tống tiền tôi",
+     "steps": [
+      "Ngừng trả lời và đừng trả tiền. Trả tiền thường khiến họ đòi thêm.",
+      "Chụp màn hình lưu tin nhắn, rồi chặn người gửi.",
+      "Nếu đang gặp nguy hiểm, hãy gọi 911. Báo cáo đe dọa trên mạng tại ic3.gov.",
+      "Nói chuyện với người quý vị tin. Bị nhắm đến không phải lỗi của quý vị."
+     ]
+    }
+   },
+   "reportHeading": "Báo cáo",
+   "reportSteps": [
+    "Báo cho ngân hàng nếu có liên quan đến tiền hoặc thông tin thẻ.",
+    "Báo cáo với FTC tại ReportFraud.ftc.gov.",
+    "Nếu bị mất tiền, hãy báo cả cảnh sát địa phương.",
+    "Đường dây trợ giúp miễn phí: AARP Fraud Watch, 877-908-3360.",
+    "Kể cho người quý vị tin. Quý vị không phải tự lo một mình."
+   ],
+   "helpOpenAnother": "Chọn mục khác",
+   "footer": "ScamShield không lưu những gì quý vị kiểm tra."
+  },
+  "tl": {
+   "languageLabel": "Wika",
+   "homeTitle": "Suriin ang isang mensahe",
+   "homeIntro": "Hindi sigurado sa isang text, email, sulat o tawag? Suriin ito dito bago ka sumagot, mag-click o magbayad.",
+   "tabs": {
+    "text": "I-paste ang text",
+    "image": "Mag-screenshot",
+    "call": "Ilarawan ang tawag"
+   },
+   "textLabel": "Ang mensahe",
+   "textPlaceholder": "I-paste o i-type ang mensahe dito",
+   "callLabel": "Ano ang nangyari sa tawag",
+   "callPlaceholder": "Sino raw sila? Ano ang pinagagawa nila sa iyo?",
+   "imageChoose": "Pumili ng screenshot o litrato",
+   "imageChange": "Pumili ng ibang larawan",
+   "imageHint": "Screenshot ng text o email, o litrato ng sulat.",
+   "imageAlt": "Ang larawang pinili mo",
+   "checkButton": "Suriin ang mensaheng ito",
+   "privacy": "Hindi namin sine-save ang iyong mga mensahe.",
+   "checking": "Binabasa ang iyong mensahe…",
+   "errors": {
+    "empty": "I-paste o i-type muna ang mensahe.",
+    "tooLong": "Masyadong mahaba. I-paste lang ang mensahe, hanggang 5,000 character.",
+    "imageMissing": "Pumili muna ng screenshot o litrato.",
+    "imageBad": "Hindi namin mabuksan ang larawang iyan. Subukan ang ibang screenshot o litrato.",
+    "unreadable": "Wala kaming mabasang mensahe sa larawang iyan. Subukan ang mas malinaw na litrato, o i-paste ang mga salita.",
+    "busy": "Maraming tao ang nagsusuri ngayon. Pakisubukang muli pagkalipas ng ilang minuto.",
+    "failed": "May nagkaproblema sa aming panig. Pakisubukang muli.",
+    "offline": "Hindi kami makakonekta. Tingnan ang iyong internet at subukang muli."
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "Malamang na scam ito",
+     "sub": "Huwag sumagot, mag-click o magbayad."
+    },
+    "careful": {
+     "title": "Mag-ingat",
+     "sub": "Suriin ito sa ibang paraan bago kumilos."
+    },
+    "no_signs": {
+     "title": "Walang nakitang karaniwang babala",
+     "sub": "Kung humihingi ito ng pera o detalye, tiyakin pa rin sa opisyal na numero."
+    }
+   },
+   "summaryLabel": "Ang gusto nitong ipagawa sa iyo:",
+   "messageHeading": "Ang mensahe",
+   "signsHeading": "Mga babalang nakita namin",
+   "noSignsNote": "Wala kaming nakitang karaniwang babala. Palaging nagbabago ang mga scam, kaya patuloy na mag-ingat.",
+   "signs": {
+    "urgency": {
+     "label": "Minamadali ka",
+     "tip": "Minamadali ka ng scammer para hindi ka makapag-isip."
+    },
+    "threat": {
+     "label": "Pananakot",
+     "tip": "Hindi nananakot ng pag-aresto o multa ang tunay na ahensya sa text, email o telepono."
+    },
+    "unusual_payment": {
+     "label": "Kakaibang paraan ng bayad",
+     "tip": "Ang biglaang singil at kakaibang paraan ng bayad, tulad ng gift card, crypto o wire transfer, ay karaniwang taktika ng scam."
+    },
+    "secrets": {
+     "label": "Humihingi ng pribadong detalye",
+     "tip": "Hindi kailanman hihingin ng tunay na bangko ang iyong PIN, password o code."
+    },
+    "suspicious_link": {
+     "label": "Kahina-hinalang link",
+     "tip": "Hindi papunta sa tunay na website ng kumpanya ang link."
+    },
+    "impersonation": {
+     "label": "Nagpapanggap na pinagkakatiwalaan mo",
+     "tip": "Ikaw mismo ang tumawag sa kanila gamit ang numerong pinagkakatiwalaan mo na."
+    },
+    "too_good": {
+     "label": "Masyadong maganda para totoo",
+     "tip": "Hindi ka mananalo sa paligsahang hindi mo sinalihan."
+    },
+    "secrecy": {
+     "label": "Pinalilihim sa iyo",
+     "tip": "Gusto ng scammer na mag-isa ka. Kausapin ang taong pinagkakatiwalaan mo."
+    },
+    "remote_access": {
+     "label": "Gustong kontrolin ang iyong device",
+     "tip": "Huwag hayaang kontrolin ng estranghero ang iyong computer o telepono."
+    },
+    "mismatch": {
+     "label": "May hindi tugma",
+     "tip": "Hindi ang sinasabing nagpadala ang tunay na nagpadala."
+    },
+    "unexpected_contact": {
+     "label": "Estrangherong lumalapit",
+     "tip": "Ang mabait na mensahe mula sa estranghero ay maaaring mauwi sa paghingi ng pera."
+    }
+   },
+   "stepsHeading": "Ano ang gagawin ngayon",
+   "steps": {
+    "likely_scam": [
+     "Huwag sumagot, mag-click ng link, o tumawag sa anumang numero sa mensahe.",
+     "Huwag magbayad o magpadala ng gift card, code o personal na detalye.",
+     "I-block ang nagpadala at burahin ang mensahe."
+    ],
+    "careful": [
+     "Huwag munang mag-click ng link o tumawag sa numero sa mensahe.",
+     "Ipatingin ito sa isang kapamilya o kaibigan."
+    ],
+    "no_signs": [
+     "Huwag ibigay ang password, PIN o code sa sinumang kumontak sa iyo."
+    ]
+   },
+   "trustedStep": "Kontakin ang organisasyon gamit ang numero o website na pinagkakatiwalaan mo na, tulad ng nasa iyong card, bill o opisyal nilang website. Hindi ang nasa mensaheng ito.",
+   "shareButton": "Ibahagi sa pamilya",
+   "shared": "Nakopya na. Maaari mo itong i-paste sa text o email.",
+   "shareIntro": "Sinuri ko ang isang mensahe gamit ang ScamShield.",
+   "shareSigns": "Mga babala:",
+   "shareCheckedWith": "Suriin mo rin dito:",
+   "clickedButton": "Nakapag-click, sumagot o nagbayad na ako",
+   "againButton": "Suriin ang ibang mensahe",
+   "backButton": "Bumalik",
+   "helpTitle": "Nakapag-click, sumagot o nagbayad na?",
+   "helpIntro": "Huwag mag-panic at huwag mahiya. Araw-araw nalilinlang ng scammer kahit ang maingat na tao. Makatutulong ang mabilis na pagkilos.",
+   "helpQuestion": "Ano ang nangyari?",
+   "helpTopics": {
+    "clicked": {
+     "label": "Nag-click ako ng link o sumagot",
+     "steps": [
+      "Isara ang page. Huwag mag-type ng kahit ano roon.",
+      "Huwag nang sumagot. I-block ang nagpadala.",
+      "Kung nag-type ka ng password, numero ng card o ibang detalye, piliin din ang opsyong iyon sa ibaba."
+     ]
+    },
+    "password": {
+     "label": "Nagbigay ako ng password o code",
+     "steps": [
+      "Palitan agad ang password na iyon, sa tunay na app o website, hindi sa link na ipinadala sa iyo.",
+      "Kung ginagamit mo ang parehong password sa iba, palitan din doon.",
+      "I-on ang 2-step sign-in kung mayroon ang account."
+     ]
+    },
+    "card": {
+     "label": "Nagbigay ako ng detalye ng card o bangko",
+     "steps": [
+      "Tawagan agad ang iyong bangko, sa numerong nasa likod ng iyong card.",
+      "Ipa-block ang card at humingi ng bago.",
+      "Tingnan ang iyong statement kung may singil na hindi mo kilala."
+     ]
+    },
+    "money": {
+     "label": "Nagpadala ako ng pera (bangko, wire, Zelle, Cash App)",
+     "steps": [
+      "Tawagan agad ang iyong bangko o ang payment app. Hilingin na pigilan o ibalik ang bayad.",
+      "Kung wire transfer, humingi ng \"wire recall.\"",
+      "Huwag nang magpadala ng pera, kahit mangako silang ibabalik ito."
+     ]
+    },
+    "giftcard": {
+     "label": "Nagbayad ako gamit ang gift card",
+     "steps": [
+      "Tawagan agad ang kumpanya ng gift card, sa numerong nasa likod ng card. Sabihing scam ito.",
+      "Itago ang mga card at resibo.",
+      "Huwag nang bumili ng card, anuman ang sabihin nila."
+     ]
+    },
+    "ssn": {
+     "label": "Ibinigay ko ang aking Social Security number o litrato ng ID ko",
+     "steps": [
+      "Pumunta sa IdentityTheft.gov para sa sunud-sunod na plano.",
+      "I-freeze nang libre ang iyong credit sa Equifax, Experian at TransUnion.",
+      "Bantayan ang iyong sulat at bank account kung may hindi mo kilala."
+     ]
+    },
+    "access": {
+     "label": "Pinapasok ko sila sa aking computer o telepono",
+     "steps": [
+      "I-off agad ang Wi-Fi o tanggalin ang internet.",
+      "Burahin ang anumang app na ipina-install nila.",
+      "Sa ibang device, palitan ang password ng iyong email at bangko.",
+      "Ipasuri ang device sa taong pinagkakatiwalaan mo o sa repair shop."
+     ]
+    },
+    "malware": {
+     "label": "Nag-download ako ng file o app na ipinadala nila",
+     "steps": [
+      "Huwag na itong buksan ulit. Burahin ang file o i-uninstall ang app.",
+      "I-off ang Wi-Fi, saka patakbuhin ang built-in na security check ng device (Windows Security sa computer; i-update ang telepono).",
+      "Sa ibang device, palitan ang password ng iyong email at bangko.",
+      "Ipasuri ang device sa taong pinagkakatiwalaan mo o sa repair shop."
+     ]
+    },
+    "meetup": {
+     "label": "May pupunta sa akin, o nakipagkita na ako sa kanila",
+     "steps": [
+      "Kung may papunta para kunin ang cash, ginto, card o package, huwag magbigay ng kahit ano. Hindi nagpapadala ng courier ang tunay na bangko, pulis o ahensya ng gobyerno.",
+      "Kung pakiramdam mo ay hindi ka ligtas, tumawag sa 911. Kung hindi, tawagan ang lokal na pulis at sabihing may courier na papunta.",
+      "Kung may naibigay ka na, isulat ang itsura nila, ang sasakyan at ang oras, at tumawag agad sa pulis.",
+      "Huwag makipagkita nang mag-isa sa nakilala mo online. Sa mataong pampublikong lugar, at sabihan ang iba kung nasaan ka."
+     ]
+    },
+    "crypto": {
+     "label": "Nagpadala ako ng crypto o gumamit ng Bitcoin ATM",
+     "steps": [
+      "Tawagan agad ang crypto exchange o ang kumpanya ng Bitcoin ATM, gamit ang numero sa makina o resibo.",
+      "Itago ang resibo, ang wallet address at anumang transaction ID.",
+      "I-report sa FBI sa ic3.gov at sa ReportFraud.ftc.gov.",
+      "Mag-ingat sa sinumang nag-aalok na \"bawiin\" ang pera mo kapalit ng bayad. Pangalawang scam iyon."
+     ]
+    },
+    "check": {
+     "label": "Nag-deposito ako ng tseke na ipinadala ng estranghero",
+     "steps": [
+      "Huwag gastusin ang pera at huwag magpadala pabalik, kahit sabihin nilang nagkamali sila.",
+      "Sabihan ngayon ang bangko na sa tingin mo ay peke ang tseke. Maaaring tumalbog ang tseke pagkalipas ng ilang araw o linggo.",
+      "Huminto na sa pakikipag-usap sa nagpadala nito."
+     ]
+    },
+    "threats": {
+     "label": "Tinatakot o bina-blackmail nila ako",
+     "steps": [
+      "Huminto sa pagsagot at huwag magbayad. Kadalasang humihingi pa sila ng higit kapag nagbayad ka.",
+      "I-save ang mga mensahe gamit ang screenshot, saka i-block ang nagpadala.",
+      "Kung nasa panganib ka, tumawag sa 911. I-report ang online na pananakot sa ic3.gov.",
+      "Kausapin ang taong pinagkakatiwalaan mo. Hindi mo kasalanan na ikaw ang tinarget."
+     ]
+    }
+   },
+   "reportHeading": "I-report ito",
+   "reportSteps": [
+    "Sabihan ang iyong bangko kung may kinalaman ang pera o detalye ng card.",
+    "I-report sa FTC sa ReportFraud.ftc.gov.",
+    "Kung nawalan ka ng pera, i-report din sa lokal na pulis.",
+    "Libreng help line: AARP Fraud Watch, 877-908-3360.",
+    "Sabihan ang taong pinagkakatiwalaan mo. Hindi mo kailangang harapin ito nang mag-isa."
+   ],
+   "helpOpenAnother": "Pumili ng iba",
+   "footer": "Hindi sine-save ng ScamShield ang iyong sinusuri."
+  },
+  "hi": {
+   "languageLabel": "भाषा",
+   "homeTitle": "संदेश जाँचें",
+   "homeIntro": "किसी मैसेज, ईमेल, चिट्ठी या कॉल पर शक है? जवाब देने, क्लिक करने या पैसे देने से पहले यहाँ जाँचें।",
+   "tabs": {
+    "text": "टेक्स्ट चिपकाएँ",
+    "image": "स्क्रीनशॉट जोड़ें",
+    "call": "कॉल के बारे में बताएँ"
+   },
+   "textLabel": "संदेश",
+   "textPlaceholder": "संदेश यहाँ चिपकाएँ या लिखें",
+   "callLabel": "कॉल पर क्या हुआ",
+   "callPlaceholder": "उन्होंने खुद को कौन बताया? आपसे क्या करने को कहा?",
+   "imageChoose": "स्क्रीनशॉट या फ़ोटो चुनें",
+   "imageChange": "दूसरी तस्वीर चुनें",
+   "imageHint": "किसी मैसेज या ईमेल का स्क्रीनशॉट, या किसी चिट्ठी की फ़ोटो।",
+   "imageAlt": "आपकी चुनी हुई तस्वीर",
+   "checkButton": "यह संदेश जाँचें",
+   "privacy": "हम आपके संदेश सेव नहीं करते।",
+   "checking": "आपका संदेश पढ़ा जा रहा है…",
+   "errors": {
+    "empty": "पहले संदेश चिपकाएँ या लिखें।",
+    "tooLong": "यह बहुत लंबा है। सिर्फ़ संदेश चिपकाएँ, 5,000 अक्षरों तक।",
+    "imageMissing": "पहले स्क्रीनशॉट या फ़ोटो चुनें।",
+    "imageBad": "वह तस्वीर नहीं खुल पाई। कोई दूसरा स्क्रीनशॉट या फ़ोटो आज़माएँ।",
+    "unreadable": "उस तस्वीर में हमें कोई संदेश नहीं दिखा। साफ़ फ़ोटो लें, या शब्द चिपका दें।",
+    "busy": "अभी बहुत लोग जाँच कर रहे हैं। कृपया कुछ मिनट बाद फिर कोशिश करें।",
+    "failed": "हमारी तरफ़ से कुछ गड़बड़ हुई। कृपया फिर कोशिश करें।",
+    "offline": "कनेक्ट नहीं हो पाया। अपना इंटरनेट देखें और फिर कोशिश करें।"
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "यह बहुत संभव है कि धोखा है",
+     "sub": "जवाब न दें, क्लिक न करें, पैसे न दें।"
+    },
+    "careful": {
+     "title": "सावधान रहें",
+     "sub": "कुछ भी करने से पहले किसी और तरीके से पुष्टि करें।"
+    },
+    "no_signs": {
+     "title": "आम चेतावनी के संकेत नहीं मिले",
+     "sub": "अगर इसमें पैसे या जानकारी माँगी गई है, तो भी आधिकारिक नंबर पर पुष्टि करें।"
+    }
+   },
+   "summaryLabel": "यह आपसे क्या करवाना चाहता है:",
+   "messageHeading": "संदेश",
+   "signsHeading": "हमें मिले चेतावनी के संकेत",
+   "noSignsNote": "हमें आम चेतावनी के संकेत नहीं मिले। धोखेबाज़ अपने तरीके बदलते रहते हैं, इसलिए सावधान रहें।",
+   "signs": {
+    "urgency": {
+     "label": "जल्दबाज़ी करवाना",
+     "tip": "धोखेबाज़ जल्दी करवाते हैं ताकि आप रुककर सोच न पाएँ।"
+    },
+    "threat": {
+     "label": "धमकी या डर",
+     "tip": "असली सरकारी विभाग मैसेज, ईमेल या फ़ोन पर गिरफ़्तारी या जुर्माने की धमकी नहीं देते।"
+    },
+    "unusual_payment": {
+     "label": "पैसे देने का अजीब तरीका",
+     "tip": "अचानक कोई फ़ीस, या गिफ़्ट कार्ड, क्रिप्टो या वायर ट्रांसफ़र से पैसे माँगना धोखे की आम चाल है।"
+    },
+    "secrets": {
+     "label": "निजी जानकारी माँगना",
+     "tip": "असली बैंक कभी आपका PIN, पासवर्ड या कोड नहीं माँगते।"
+    },
+    "suspicious_link": {
+     "label": "संदिग्ध लिंक",
+     "tip": "यह लिंक कंपनी की असली वेबसाइट पर नहीं ले जाता।"
+    },
+    "impersonation": {
+     "label": "भरोसेमंद होने का दिखावा",
+     "tip": "उनसे खुद उस नंबर पर संपर्क करें जिस पर आपको पहले से भरोसा है।"
+    },
+    "too_good": {
+     "label": "सच होने के लिए बहुत अच्छा",
+     "tip": "जिस प्रतियोगिता में आपने भाग नहीं लिया, उसे आप जीत नहीं सकते।"
+    },
+    "secrecy": {
+     "label": "बात छिपाने को कहना",
+     "tip": "धोखेबाज़ चाहते हैं कि आप अकेले रहें। किसी भरोसेमंद व्यक्ति से बात करें।"
+    },
+    "remote_access": {
+     "label": "आपका डिवाइस चलाना चाहते हैं",
+     "tip": "किसी अनजान को कभी अपना कंप्यूटर या फ़ोन चलाने न दें।"
+    },
+    "mismatch": {
+     "label": "कुछ मेल नहीं खाता",
+     "tip": "जिसके नाम से संदेश आया है, असल में भेजने वाला वह नहीं है।"
+    },
+    "unexpected_contact": {
+     "label": "अनजान व्यक्ति का संपर्क",
+     "tip": "अनजान लोगों के दोस्ताना संदेश बाद में पैसे माँगने में बदल सकते हैं।"
+    }
+   },
+   "stepsHeading": "अब क्या करें",
+   "steps": {
+    "likely_scam": [
+     "जवाब न दें, किसी लिंक पर क्लिक न करें, और संदेश में दिए किसी नंबर पर कॉल न करें।",
+     "पैसे न दें, और गिफ़्ट कार्ड, कोड या निजी जानकारी न भेजें।",
+     "भेजने वाले को ब्लॉक करें और संदेश डिलीट करें।"
+    ],
+    "careful": [
+     "अभी संदेश के लिंक पर क्लिक न करें और उसके नंबर पर कॉल न करें।",
+     "परिवार के किसी सदस्य या दोस्त के साथ इसे देखें।"
+    ],
+    "no_signs": [
+     "जो व्यक्ति खुद आपसे संपर्क करे, उसे कभी पासवर्ड, PIN या कोड न दें।"
+    ]
+   },
+   "trustedStep": "उस संस्था से ऐसे नंबर या वेबसाइट पर संपर्क करें जिस पर आपको पहले से भरोसा है, जैसे आपके कार्ड या बिल पर लिखा नंबर, या उनकी आधिकारिक वेबसाइट। इस संदेश वाला नहीं।",
+   "shareButton": "परिवार को भेजें",
+   "shared": "कॉपी हो गया। इसे मैसेज या ईमेल में चिपका सकते हैं।",
+   "shareIntro": "मैंने ScamShield से एक संदेश जाँचा।",
+   "shareSigns": "चेतावनी के संकेत:",
+   "shareCheckedWith": "आप भी जाँचें:",
+   "clickedButton": "मैंने पहले ही क्लिक, जवाब या भुगतान कर दिया",
+   "againButton": "दूसरा संदेश जाँचें",
+   "backButton": "वापस",
+   "helpTitle": "पहले ही क्लिक, जवाब या भुगतान कर दिया?",
+   "helpIntro": "घबराएँ नहीं, और शर्मिंदा न हों। धोखेबाज़ हर दिन सावधान लोगों को भी फँसाते हैं। जल्दी कदम उठाने से मदद मिलती है।",
+   "helpQuestion": "क्या हुआ?",
+   "helpTopics": {
+    "clicked": {
+     "label": "मैंने लिंक पर क्लिक किया या जवाब दिया",
+     "steps": [
+      "वह पेज बंद करें। उसमें कुछ न लिखें।",
+      "दोबारा जवाब न दें। भेजने वाले को ब्लॉक करें।",
+      "अगर आपने पासवर्ड, कार्ड नंबर या कोई और जानकारी डाली थी, तो नीचे वह विकल्प भी चुनें।"
+     ]
+    },
+    "malware": {
+     "label": "मैंने उनकी भेजी फ़ाइल या ऐप डाउनलोड की",
+     "steps": [
+      "उसे दोबारा न खोलें। फ़ाइल डिलीट करें या ऐप अनइंस्टॉल करें।",
+      "Wi-Fi बंद करें, फिर डिवाइस की अपनी सुरक्षा जाँच चलाएँ (कंप्यूटर पर Windows Security; फ़ोन अपडेट करें)।",
+      "किसी दूसरे डिवाइस से अपने ईमेल और बैंक के पासवर्ड बदलें।",
+      "किसी भरोसेमंद व्यक्ति या रिपेयर शॉप से डिवाइस जँचवाएँ।"
+     ]
+    },
+    "password": {
+     "label": "मैंने पासवर्ड या कोड दे दिया",
+     "steps": [
+      "वह पासवर्ड अभी बदलें, असली ऐप या वेबसाइट से, भेजे गए लिंक से नहीं।",
+      "अगर वही पासवर्ड कहीं और भी इस्तेमाल करते हैं, तो वहाँ भी बदलें।",
+      "अगर खाते में 2-स्टेप साइन-इन है, तो उसे चालू करें।"
+     ]
+    },
+    "card": {
+     "label": "मैंने कार्ड या बैंक की जानकारी दे दी",
+     "steps": [
+      "अभी अपने कार्ड के पीछे लिखे नंबर पर बैंक को कॉल करें।",
+      "कार्ड ब्लॉक करवाएँ और नया कार्ड माँगें।",
+      "अपने स्टेटमेंट में अनजान खर्च देखें।"
+     ]
+    },
+    "money": {
+     "label": "मैंने पैसे भेज दिए (बैंक, वायर, Zelle, Cash App)",
+     "steps": [
+      "तुरंत अपने बैंक या पेमेंट ऐप को कॉल करें। भुगतान रोकने या वापस करने को कहें।",
+      "वायर ट्रांसफ़र हो तो \"wire recall\" माँगें।",
+      "और पैसे न भेजें, चाहे वे लौटाने का वादा करें।"
+     ]
+    },
+    "giftcard": {
+     "label": "मैंने गिफ़्ट कार्ड से भुगतान किया",
+     "steps": [
+      "अभी कार्ड के पीछे लिखे नंबर पर गिफ़्ट कार्ड कंपनी को कॉल करें। बताएँ कि यह धोखा था।",
+      "कार्ड और रसीदें संभालकर रखें।",
+      "वे कुछ भी कहें, और कार्ड न खरीदें।"
+     ]
+    },
+    "crypto": {
+     "label": "मैंने क्रिप्टो भेजा या Bitcoin ATM इस्तेमाल किया",
+     "steps": [
+      "मशीन या रसीद पर लिखे नंबर से तुरंत क्रिप्टो एक्सचेंज या Bitcoin ATM कंपनी से संपर्क करें।",
+      "रसीद, वॉलेट पता और ट्रांज़ैक्शन ID संभालकर रखें।",
+      "ic3.gov पर FBI को और ReportFraud.ftc.gov पर रिपोर्ट करें।",
+      "जो फ़ीस लेकर पैसे \"वापस दिलाने\" की बात करे, उससे सावधान रहें। वह दूसरा धोखा है।"
+     ]
+    },
+    "check": {
+     "label": "मैंने किसी अनजान का भेजा चेक जमा किया",
+     "steps": [
+      "वह पैसा खर्च न करें, और कुछ भी वापस न भेजें, चाहे वे कहें कि गलती से ज़्यादा भेजा।",
+      "अभी बैंक को बताएँ कि आपको चेक नकली लगता है। चेक कई दिन या हफ़्तों बाद बाउंस हो सकता है।",
+      "भेजने वाले से बात करना बंद करें।"
+     ]
+    },
+    "meetup": {
+     "label": "कोई मुझसे मिलने आ रहा है, या मैं उनसे मिल चुका/चुकी हूँ",
+     "steps": [
+      "अगर कोई नकद, सोना, कार्ड या पैकेट लेने आ रहा है, तो कुछ भी न दें। असली बैंक, पुलिस या सरकार कभी किसी को लेने नहीं भेजते।",
+      "अगर आप असुरक्षित महसूस करें, तो 911 पर कॉल करें। वरना स्थानीय पुलिस को बताएँ कि कोई लेने आ रहा है।",
+      "अगर कुछ दे चुके हैं, तो उस व्यक्ति का हुलिया, गाड़ी और समय लिख लें, और तुरंत पुलिस को कॉल करें।",
+      "ऑनलाइन मिले किसी व्यक्ति से कभी अकेले न मिलें। भीड़ वाली सार्वजनिक जगह पर मिलें और किसी को बताकर जाएँ।"
+     ]
+    },
+    "ssn": {
+     "label": "मैंने Social Security नंबर या अपनी ID की फ़ोटो दे दी",
+     "steps": [
+      "क़दम-दर-क़दम मदद के लिए IdentityTheft.gov पर जाएँ।",
+      "Equifax, Experian और TransUnion पर मुफ़्त में अपना क्रेडिट फ़्रीज़ करें।",
+      "अपनी डाक और बैंक खातों में कोई अनजान चीज़ दिखे तो ध्यान दें।"
+     ]
+    },
+    "access": {
+     "label": "मैंने उन्हें अपना कंप्यूटर या फ़ोन चलाने दिया",
+     "steps": [
+      "अभी Wi-Fi बंद करें या इंटरनेट का तार निकाल दें।",
+      "उन्होंने जो ऐप इंस्टॉल करवाया, उसे हटाएँ।",
+      "किसी दूसरे डिवाइस से अपने ईमेल और बैंक के पासवर्ड बदलें।",
+      "किसी भरोसेमंद व्यक्ति या रिपेयर शॉप से डिवाइस जँचवाएँ।"
+     ]
+    },
+    "threats": {
+     "label": "वे मुझे धमका रहे हैं या ब्लैकमेल कर रहे हैं",
+     "steps": [
+      "जवाब देना बंद करें, और पैसे न दें। पैसे देने पर वे अक्सर और माँगते हैं।",
+      "स्क्रीनशॉट लेकर संदेश सेव करें, फिर भेजने वाले को ब्लॉक करें।",
+      "अगर आप खतरे में हैं, तो 911 पर कॉल करें। ऑनलाइन धमकियों की रिपोर्ट ic3.gov पर करें।",
+      "किसी भरोसेमंद व्यक्ति से बात करें। निशाना बनाया जाना आपकी गलती नहीं है।"
+     ]
+    }
+   },
+   "reportHeading": "रिपोर्ट करें",
+   "reportSteps": [
+    "अगर पैसे या कार्ड की जानकारी शामिल थी, तो अपने बैंक को बताएँ।",
+    "FTC को ReportFraud.ftc.gov पर रिपोर्ट करें।",
+    "अगर पैसे गए हैं, तो स्थानीय पुलिस को भी रिपोर्ट करें।",
+    "मुफ़्त हेल्पलाइन: AARP Fraud Watch, 877-908-3360।",
+    "किसी भरोसेमंद व्यक्ति को बताएँ। आपको यह अकेले नहीं संभालना है।"
+   ],
+   "helpOpenAnother": "कोई और चुनें",
+   "footer": "ScamShield आपके जाँचे गए संदेश सेव नहीं करता।"
+  },
+  "fr": {
+   "languageLabel": "Langue",
+   "homeTitle": "Vérifier un message",
+   "homeIntro": "Un doute sur un SMS, un e-mail, une lettre ou un appel ? Vérifiez-le ici avant de répondre, de cliquer ou de payer.",
+   "tabs": {
+    "text": "Coller le texte",
+    "image": "Ajouter une capture",
+    "call": "Décrire un appel"
+   },
+   "textLabel": "Le message",
+   "textPlaceholder": "Collez ou tapez le message ici",
+   "callLabel": "Ce qui s'est passé pendant l'appel",
+   "callPlaceholder": "Qui ont-ils dit être ? Que vous ont-ils demandé de faire ?",
+   "imageChoose": "Choisir une capture d'écran ou une photo",
+   "imageChange": "Choisir une autre image",
+   "imageHint": "Une capture d'écran d'un SMS ou d'un e-mail, ou la photo d'une lettre.",
+   "imageAlt": "L'image que vous avez choisie",
+   "checkButton": "Vérifier ce message",
+   "privacy": "Nous n'enregistrons pas vos messages.",
+   "checking": "Lecture de votre message…",
+   "errors": {
+    "empty": "Collez ou tapez d'abord le message.",
+    "tooLong": "C'est trop long. Collez seulement le message, jusqu'à 5 000 caractères.",
+    "imageMissing": "Choisissez d'abord une capture d'écran ou une photo.",
+    "imageBad": "Impossible d'ouvrir cette image. Essayez une autre capture ou photo.",
+    "unreadable": "Nous n'avons pas pu lire de message sur cette image. Essayez une photo plus nette, ou collez le texte.",
+    "busy": "Trop de personnes vérifient en ce moment. Réessayez dans quelques minutes.",
+    "failed": "Un problème est survenu de notre côté. Veuillez réessayer.",
+    "offline": "Connexion impossible. Vérifiez votre accès à Internet et réessayez."
+   },
+   "verdicts": {
+    "likely_scam": {
+     "title": "Très probablement une arnaque",
+     "sub": "Ne répondez pas, ne cliquez pas, ne payez pas."
+    },
+    "careful": {
+     "title": "Prudence",
+     "sub": "Vérifiez autrement avant d'agir."
+    },
+    "no_signs": {
+     "title": "Aucun signe d'alerte courant",
+     "sub": "S'il demande de l'argent ou des informations, vérifiez quand même avec le numéro officiel."
+    }
+   },
+   "summaryLabel": "Ce qu'il veut que vous fassiez :",
+   "messageHeading": "Le message",
+   "signsHeading": "Signes d'alerte trouvés",
+   "noSignsNote": "Nous n'avons trouvé aucun des signes d'alerte habituels. Les arnaques évoluent sans cesse, alors restez prudent.",
+   "signs": {
+    "urgency": {
+     "label": "On vous presse",
+     "tip": "Les escrocs vous pressent pour que vous ne preniez pas le temps de réfléchir."
+    },
+    "threat": {
+     "label": "Menaces ou peur",
+     "tip": "Les vraies administrations ne menacent pas d'arrestation ou d'amende par SMS, e-mail ou téléphone."
+    },
+    "unusual_payment": {
+     "label": "Moyen de paiement étrange",
+     "tip": "Des frais inattendus ou des paiements en cartes cadeaux, cryptomonnaie ou virement sont des ruses courantes."
+    },
+    "secrets": {
+     "label": "Demande d'informations privées",
+     "tip": "Une vraie banque ne demande jamais votre code PIN, votre mot de passe ou vos codes."
+    },
+    "suspicious_link": {
+     "label": "Lien suspect",
+     "tip": "Le lien ne mène pas au vrai site de l'entreprise."
+    },
+    "impersonation": {
+     "label": "Se fait passer pour quelqu'un de confiance",
+     "tip": "Contactez-les vous-même avec un numéro que vous connaissez déjà."
+    },
+    "too_good": {
+     "label": "Trop beau pour être vrai",
+     "tip": "On ne gagne pas un concours auquel on n'a pas participé."
+    },
+    "secrecy": {
+     "label": "Vous demande de garder le secret",
+     "tip": "Les escrocs veulent vous isoler. Parlez-en à quelqu'un de confiance."
+    },
+    "remote_access": {
+     "label": "Veut prendre le contrôle de votre appareil",
+     "tip": "Ne laissez jamais un inconnu contrôler votre ordinateur ou votre téléphone."
+    },
+    "mismatch": {
+     "label": "Quelque chose ne colle pas",
+     "tip": "L'expéditeur annoncé n'est pas celui qui a vraiment envoyé le message."
+    },
+    "unexpected_contact": {
+     "label": "Un inconnu vous contacte",
+     "tip": "Les messages amicaux d'inconnus peuvent finir en demandes d'argent."
+    }
+   },
+   "stepsHeading": "Que faire maintenant",
+   "steps": {
+    "likely_scam": [
+     "Ne répondez pas, ne cliquez sur aucun lien et n'appelez aucun numéro du message.",
+     "Ne payez pas, et n'envoyez ni cartes cadeaux, ni codes, ni informations personnelles.",
+     "Bloquez l'expéditeur et supprimez le message."
+    ],
+    "careful": [
+     "Ne cliquez pas encore sur les liens et n'appelez pas les numéros du message.",
+     "Demandez à un proche de le regarder avec vous."
+    ],
+    "no_signs": [
+     "Ne donnez jamais un mot de passe, un code PIN ou un code à quelqu'un qui vous contacte."
+    ]
+   },
+   "trustedStep": "Contactez l'organisme avec un numéro ou un site que vous connaissez déjà, comme celui au dos de votre carte, sur votre facture ou sur son site officiel. Pas celui de ce message.",
+   "shareButton": "Partager avec la famille",
+   "shared": "Copié. Vous pouvez le coller dans un SMS ou un e-mail.",
+   "shareIntro": "J'ai vérifié un message avec ScamShield.",
+   "shareSigns": "Signes d'alerte :",
+   "shareCheckedWith": "Vérifiez-en un vous aussi :",
+   "clickedButton": "J'ai déjà cliqué, répondu ou payé",
+   "againButton": "Vérifier un autre message",
+   "backButton": "Retour",
+   "helpTitle": "Vous avez déjà cliqué, répondu ou payé ?",
+   "helpIntro": "Pas de panique, et pas de honte. Les escrocs trompent des gens prudents chaque jour. Agir vite aide.",
+   "helpQuestion": "Que s'est-il passé ?",
+   "helpTopics": {
+    "clicked": {
+     "label": "J'ai cliqué sur un lien ou répondu",
+     "steps": [
+      "Fermez la page. N'y tapez rien.",
+      "Ne répondez plus. Bloquez l'expéditeur.",
+      "Si vous avez tapé un mot de passe, un numéro de carte ou d'autres informations, choisissez aussi cette option ci-dessous."
+     ]
+    },
+    "malware": {
+     "label": "J'ai téléchargé un fichier ou une application qu'ils m'ont envoyé",
+     "steps": [
+      "Ne l'ouvrez plus. Supprimez le fichier ou désinstallez l'application.",
+      "Coupez le Wi-Fi, puis lancez l'analyse de sécurité de votre appareil (Sécurité Windows sur un ordinateur ; mettez votre téléphone à jour).",
+      "Depuis un autre appareil, changez les mots de passe de votre messagerie et de votre banque.",
+      "Faites vérifier l'appareil par une personne de confiance ou un réparateur."
+     ]
+    },
+    "password": {
+     "label": "J'ai donné un mot de passe ou un code",
+     "steps": [
+      "Changez ce mot de passe maintenant, dans la vraie application ou le vrai site, pas avec le lien reçu.",
+      "Si vous utilisez le même mot de passe ailleurs, changez-le là aussi.",
+      "Activez la validation en deux étapes si le compte le propose."
+     ]
+    },
+    "card": {
+     "label": "J'ai donné mes informations de carte ou de banque",
+     "steps": [
+      "Appelez votre banque maintenant, au numéro au dos de votre carte.",
+      "Demandez-lui de bloquer la carte et d'en envoyer une nouvelle.",
+      "Vérifiez vos relevés pour repérer des achats inconnus."
+     ]
+    },
+    "money": {
+     "label": "J'ai envoyé de l'argent (banque, virement, Zelle, Cash App)",
+     "steps": [
+      "Appelez tout de suite votre banque ou l'application de paiement. Demandez d'arrêter ou d'annuler le paiement.",
+      "Pour un virement bancaire, demandez un rappel de virement (\"wire recall\").",
+      "N'envoyez plus d'argent, même s'ils promettent de vous rembourser."
+     ]
+    },
+    "giftcard": {
+     "label": "J'ai payé avec des cartes cadeaux",
+     "steps": [
+      "Appelez maintenant l'émetteur de la carte, au numéro au dos. Dites que c'était une arnaque.",
+      "Gardez les cartes et les reçus.",
+      "N'achetez plus de cartes, quoi qu'ils disent."
+     ]
+    },
+    "crypto": {
+     "label": "J'ai envoyé de la cryptomonnaie ou utilisé un distributeur Bitcoin",
+     "steps": [
+      "Contactez tout de suite la plateforme ou la société du distributeur Bitcoin, au numéro sur la machine ou le reçu.",
+      "Gardez le reçu, l'adresse du portefeuille et l'identifiant de transaction.",
+      "Signalez-le au FBI sur ic3.gov et sur ReportFraud.ftc.gov.",
+      "Méfiez-vous de quiconque propose de \"récupérer\" votre argent contre des frais. C'est une deuxième arnaque."
+     ]
+    },
+    "check": {
+     "label": "J'ai déposé un chèque envoyé par un inconnu",
+     "steps": [
+      "Ne dépensez pas l'argent et ne renvoyez rien, même s'ils disent que c'était une erreur.",
+      "Prévenez maintenant votre banque que le chèque vous semble faux. Un chèque peut être rejeté des jours ou des semaines plus tard.",
+      "Arrêtez de parler à la personne qui l'a envoyé."
+     ]
+    },
+    "meetup": {
+     "label": "Quelqu'un vient me voir, ou je l'ai rencontré en personne",
+     "steps": [
+      "Si quelqu'un vient chercher de l'argent liquide, de l'or, des cartes ou un colis, ne remettez rien. Les vraies banques, la police et l'administration n'envoient jamais de coursier.",
+      "Si vous ne vous sentez pas en sécurité, appelez le 911. Sinon, appelez la police locale et prévenez qu'un coursier arrive.",
+      "Si vous avez déjà remis quelque chose, notez son apparence, sa voiture et l'heure, et appelez la police tout de suite.",
+      "Ne rencontrez jamais seul une personne connue en ligne. Choisissez un lieu public fréquenté et prévenez quelqu'un."
+     ]
+    },
+    "ssn": {
+     "label": "J'ai donné mon numéro de sécurité sociale ou une photo de ma pièce d'identité",
+     "steps": [
+      "Allez sur IdentityTheft.gov pour un plan de récupération étape par étape.",
+      "Gelez gratuitement votre crédit auprès d'Equifax, Experian et TransUnion.",
+      "Surveillez votre courrier et vos comptes bancaires."
+     ]
+    },
+    "access": {
+     "label": "Je les ai laissés accéder à mon ordinateur ou téléphone",
+     "steps": [
+      "Coupez le Wi-Fi ou débranchez Internet maintenant.",
+      "Supprimez toute application qu'ils vous ont fait installer.",
+      "Depuis un autre appareil, changez les mots de passe de votre messagerie et de votre banque.",
+      "Faites vérifier l'appareil par une personne de confiance ou un réparateur."
+     ]
+    },
+    "threats": {
+     "label": "On me menace ou on me fait chanter",
+     "steps": [
+      "Arrêtez de répondre et ne payez pas. Payer entraîne souvent d'autres exigences.",
+      "Gardez les messages en captures d'écran, puis bloquez l'expéditeur.",
+      "Si vous êtes en danger, appelez le 911. Signalez les menaces en ligne sur ic3.gov.",
+      "Parlez à quelqu'un de confiance. Être ciblé n'est pas de votre faute."
+     ]
+    }
+   },
+   "reportHeading": "Le signaler",
+   "reportSteps": [
+    "Prévenez votre banque si de l'argent ou une carte est en jeu.",
+    "Signalez-le à la FTC sur ReportFraud.ftc.gov.",
+    "Si vous avez perdu de l'argent, signalez-le aussi à la police locale.",
+    "Ligne d'aide gratuite : AARP Fraud Watch, 877-908-3360.",
+    "Parlez-en à quelqu'un de confiance. Vous n'êtes pas seul."
+   ],
+   "helpOpenAnother": "Choisir autre chose",
+   "footer": "ScamShield n'enregistre pas ce que vous vérifiez."
+  }
+ },
+ "site": {
+  "en": {
+   "nav": {
+    "check": "Check",
+    "learn": "Learn",
+    "practice": "Practice",
+    "help": "Get help",
+    "about": "About"
+   },
+   "home": {
+    "eyebrow": "Free · No sign-up · Nothing saved",
+    "heroBefore": "Check a message before you ",
+    "heroEmph": "reply, click or pay",
+    "heroAfter": ".",
+    "helpTitle": "Already clicked, replied or paid?",
+    "helpBody": "Don't panic. Acting quickly helps, and we'll show you exactly what to do.",
+    "helpCta": "Get help now"
+   },
+   "checkingSteps": [
+    "Reading your message…",
+    "Looking for warning signs…",
+    "Getting your next steps ready…"
+   ],
+   "scale": {
+    "no_signs": "No common signs",
+    "careful": "Be careful",
+    "likely_scam": "Likely scam"
+   },
+   "learn": {
+    "eyebrow": "Learn",
+    "title": "Know the common scams",
+    "intro": "Scammers change their stories, but their tricks stay the same. Here are the ones we see most.",
+    "exampleLabel": "What it looks like",
+    "howLabel": "How it works",
+    "signsLabel": "Warning signs",
+    "todoLabel": "What to do",
+    "checkCta": "Got one like this? Check it",
+    "practiceCta": "Practice spotting scams",
+    "allTypes": "All scam types",
+    "next": "Next"
+   },
+   "practice": {
+    "eyebrow": "Practice",
+    "title": "Can you spot the scam?",
+    "intro": "We'll show you 8 messages. Some are scams and some are real. Decide for each one, then see the clues.",
+    "start": "Start",
+    "progress": "Message {n} of {total}",
+    "fromLabel": "From",
+    "scamButton": "Looks like a scam",
+    "realButton": "Looks real",
+    "correct": "You got it!",
+    "wrong": "Not quite.",
+    "answerScam": "This one is a scam.",
+    "answerReal": "This one looks real.",
+    "cluesLabel": "The clues",
+    "next": "Next message",
+    "finish": "See my score",
+    "scoreTitle": "You spotted {n} of {total}",
+    "scoreHigh": "Great eye. Share this practice with someone you love, so they can try it too.",
+    "scoreLow": "Scams are designed to fool people. Every round you play makes the next real one easier to spot.",
+    "again": "Practice again",
+    "checkReal": "Check a real message"
+   },
+   "about": {
+    "eyebrow": "About",
+    "title": "How ScamShield works",
+    "intro": "ScamShield is a free tool that helps people check a suspicious message before they act on it.",
+    "sections": [
+     {
+      "title": "What it checks",
+      "body": [
+       "It reads the message, a screenshot, or your description of a call, and looks for 11 common warning signs, like rushing you, threats, strange ways to pay, or asking for codes.",
+       "Every sign it shows points to the exact words in your message, so you can see the evidence yourself."
+      ]
+     },
+     {
+      "title": "How the answer is decided",
+      "body": [
+       "A computer program reads the message and lists the warning signs. The answer itself follows fixed rules: two or more signs, or one serious sign like asking for gift cards or your PIN, means \"Very likely a scam.\"",
+       "ScamShield never says a message is safe. It can miss new tricks, so when money or personal details are involved, always contact the company using a number you already trust."
+      ]
+     },
+     {
+      "title": "Your privacy",
+      "body": [
+       "We don't save your messages, and there's no account. Your message is checked and then forgotten.",
+       "Your language choice is remembered only on your own device."
+      ]
+     },
+     {
+      "title": "For community groups",
+      "body": [
+       "Rotary clubs, libraries, senior centers and faith groups can use the Practice and Learn pages in workshops. They work on any phone, in 7 languages, with no sign-up."
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "We couldn't find that page",
+    "body": "The link may be old or mistyped. You can still check a message or learn about common scams."
+   },
+   "footerAbout": "How ScamShield works",
+   "footerMade": "Made for the Rotary AI for Good hackathon."
+  },
+  "es": {
+   "nav": {
+    "check": "Revisar",
+    "learn": "Aprender",
+    "practice": "Practicar",
+    "help": "Ayuda",
+    "about": "Acerca de"
+   },
+   "home": {
+    "eyebrow": "Gratis · Sin registrarse · No guardamos nada",
+    "heroBefore": "Revise un mensaje antes de ",
+    "heroEmph": "responder, hacer clic o pagar",
+    "heroAfter": ".",
+    "helpTitle": "¿Ya hizo clic, respondió o pagó?",
+    "helpBody": "No se asuste. Actuar rápido ayuda, y le mostramos exactamente qué hacer.",
+    "helpCta": "Obtener ayuda ahora"
+   },
+   "checkingSteps": [
+    "Leyendo su mensaje…",
+    "Buscando señales de alerta…",
+    "Preparando sus próximos pasos…"
+   ],
+   "scale": {
+    "no_signs": "Sin señales comunes",
+    "careful": "Cuidado",
+    "likely_scam": "Probable estafa"
+   },
+   "learn": {
+    "eyebrow": "Aprender",
+    "title": "Conozca las estafas comunes",
+    "intro": "Los estafadores cambian sus historias, pero sus trucos son los mismos. Estos son los que más vemos.",
+    "exampleLabel": "Cómo se ve",
+    "howLabel": "Cómo funciona",
+    "signsLabel": "Señales de alerta",
+    "todoLabel": "Qué hacer",
+    "checkCta": "¿Recibió uno así? Revíselo",
+    "practiceCta": "Practique cómo detectar estafas",
+    "allTypes": "Todos los tipos de estafa",
+    "next": "Siguiente"
+   },
+   "practice": {
+    "eyebrow": "Practicar",
+    "title": "¿Puede detectar la estafa?",
+    "intro": "Le mostraremos 8 mensajes. Algunos son estafas y otros son reales. Decida en cada uno y luego vea las pistas.",
+    "start": "Empezar",
+    "progress": "Mensaje {n} de {total}",
+    "fromLabel": "De",
+    "scamButton": "Parece una estafa",
+    "realButton": "Parece real",
+    "correct": "¡Correcto!",
+    "wrong": "No exactamente.",
+    "answerScam": "Este es una estafa.",
+    "answerReal": "Este parece real.",
+    "cluesLabel": "Las pistas",
+    "next": "Siguiente mensaje",
+    "finish": "Ver mi resultado",
+    "scoreTitle": "Detectó {n} de {total}",
+    "scoreHigh": "Muy buen ojo. Comparta esta práctica con alguien querido para que también la intente.",
+    "scoreLow": "Las estafas están hechas para engañar. Cada ronda que juega hace más fácil detectar la próxima de verdad.",
+    "again": "Practicar otra vez",
+    "checkReal": "Revisar un mensaje real"
+   },
+   "about": {
+    "eyebrow": "Acerca de",
+    "title": "Cómo funciona ScamShield",
+    "intro": "ScamShield es una herramienta gratuita que ayuda a revisar un mensaje sospechoso antes de actuar.",
+    "sections": [
+     {
+      "title": "Qué revisa",
+      "body": [
+       "Lee el mensaje, una captura o su descripción de una llamada, y busca 11 señales de alerta comunes, como apurarle, amenazas, formas de pago extrañas o pedir códigos.",
+       "Cada señal que muestra apunta a las palabras exactas de su mensaje, para que usted mismo vea la evidencia."
+      ]
+     },
+     {
+      "title": "Cómo se decide la respuesta",
+      "body": [
+       "Un programa de computadora lee el mensaje y enumera las señales de alerta. La respuesta sigue reglas fijas: dos o más señales, o una señal grave como pedir tarjetas de regalo o su PIN, significa \"Muy probablemente es una estafa\".",
+       "ScamShield nunca dice que un mensaje es seguro. Puede no detectar trucos nuevos, así que cuando hay dinero o datos personales de por medio, comuníquese siempre con la empresa usando un número en el que ya confía."
+      ]
+     },
+     {
+      "title": "Su privacidad",
+      "body": [
+       "No guardamos sus mensajes y no hay cuentas. Su mensaje se revisa y luego se olvida.",
+       "Su idioma se recuerda solo en su propio aparato."
+      ]
+     },
+     {
+      "title": "Para grupos comunitarios",
+      "body": [
+       "Clubes Rotarios, bibliotecas, centros para personas mayores y grupos de fe pueden usar las páginas de Practicar y Aprender en talleres. Funcionan en cualquier teléfono, en 7 idiomas, sin registrarse."
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "No encontramos esa página",
+    "body": "Puede que el enlace sea antiguo o tenga un error. Aún puede revisar un mensaje o conocer las estafas comunes."
+   },
+   "footerAbout": "Cómo funciona ScamShield",
+   "footerMade": "Hecho para el hackathon Rotary AI for Good."
+  },
+  "zh": {
+   "nav": {
+    "check": "检查",
+    "learn": "了解",
+    "practice": "练习",
+    "help": "求助",
+    "about": "关于"
+   },
+   "home": {
+    "eyebrow": "免费 · 无需注册 · 不保存任何内容",
+    "heroBefore": "在",
+    "heroEmph": "回复、点击或付款",
+    "heroAfter": "之前，先检查一下信息。",
+    "helpTitle": "已经点击、回复或付款了？",
+    "helpBody": "别慌。尽快行动会有帮助，我们会一步步告诉您该怎么做。",
+    "helpCta": "立即求助"
+   },
+   "checkingSteps": [
+    "正在阅读您的信息…",
+    "正在寻找警告信号…",
+    "正在准备下一步建议…"
+   ],
+   "scale": {
+    "no_signs": "无常见信号",
+    "careful": "请小心",
+    "likely_scam": "很可能是诈骗"
+   },
+   "learn": {
+    "eyebrow": "了解",
+    "title": "了解常见诈骗",
+    "intro": "骗子会换说法，但手法不变。下面是我们最常见到的几种。",
+    "exampleLabel": "看起来是什么样",
+    "howLabel": "骗局怎么运作",
+    "signsLabel": "警告信号",
+    "todoLabel": "该怎么做",
+    "checkCta": "收到类似的？检查一下",
+    "practiceCta": "练习识破诈骗",
+    "allTypes": "所有诈骗类型",
+    "next": "下一个"
+   },
+   "practice": {
+    "eyebrow": "练习",
+    "title": "您能识破诈骗吗？",
+    "intro": "我们会给您看 8 条信息，有些是诈骗，有些是真的。逐条判断，然后看看线索。",
+    "start": "开始",
+    "progress": "第 {n} 条，共 {total} 条",
+    "fromLabel": "发件人",
+    "scamButton": "像是诈骗",
+    "realButton": "看起来是真的",
+    "correct": "答对了！",
+    "wrong": "不太对。",
+    "answerScam": "这条是诈骗。",
+    "answerReal": "这条看起来是真的。",
+    "cluesLabel": "线索",
+    "next": "下一条",
+    "finish": "查看我的成绩",
+    "scoreTitle": "您识破了 {total} 条中的 {n} 条",
+    "scoreHigh": "眼力很好！把这个练习分享给您关心的人，让他们也试试。",
+    "scoreLow": "诈骗就是设计来骗人的。每多练一次，下次遇到真的就更容易识破。",
+    "again": "再练一次",
+    "checkReal": "检查一条真实信息"
+   },
+   "about": {
+    "eyebrow": "关于",
+    "title": "ScamShield 如何运作",
+    "intro": "ScamShield 是一个免费工具，帮助人们在采取行动之前检查可疑信息。",
+    "sections": [
+     {
+      "title": "检查什么",
+      "body": [
+       "它会阅读信息、截图或您对来电的描述，寻找 11 种常见的警告信号，例如催促您、威胁、奇怪的付款方式或索要验证码。",
+       "它显示的每个信号都会指向您信息中的具体字句，让您亲眼看到证据。"
+      ]
+     },
+     {
+      "title": "结论如何得出",
+      "body": [
+       "电脑程序阅读信息并列出警告信号。结论遵循固定规则：两个或以上信号，或一个严重信号（例如要求礼品卡或 PIN 码），就判定为\"很可能是诈骗\"。",
+       "ScamShield 从不说一条信息是安全的。它可能识别不出新手法，所以只要涉及钱或个人资料，请务必用您本来就信任的号码联系对方。"
+      ]
+     },
+     {
+      "title": "您的隐私",
+      "body": [
+       "我们不保存您的信息，也不需要账户。信息检查完就会被丢弃。",
+       "您选择的语言只保存在您自己的设备上。"
+      ]
+     },
+     {
+      "title": "给社区团体",
+      "body": [
+       "扶轮社、图书馆、老年中心和宗教团体可以在讲座中使用\"练习\"和\"了解\"页面。任何手机都能用，支持 7 种语言，无需注册。"
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "找不到这个页面",
+    "body": "链接可能已失效或输入有误。您仍然可以检查信息，或了解常见诈骗。"
+   },
+   "footerAbout": "ScamShield 如何运作",
+   "footerMade": "为 Rotary AI for Good 黑客松而做。"
+  },
+  "vi": {
+   "nav": {
+    "check": "Kiểm tra",
+    "learn": "Tìm hiểu",
+    "practice": "Luyện tập",
+    "help": "Trợ giúp",
+    "about": "Giới thiệu"
+   },
+   "home": {
+    "eyebrow": "Miễn phí · Không cần đăng ký · Không lưu gì cả",
+    "heroBefore": "Kiểm tra tin nhắn trước khi ",
+    "heroEmph": "trả lời, bấm vào hay trả tiền",
+    "heroAfter": ".",
+    "helpTitle": "Đã bấm vào, trả lời hoặc trả tiền?",
+    "helpBody": "Đừng hoảng sợ. Hành động nhanh sẽ giúp ích, và chúng tôi sẽ chỉ rõ cần làm gì.",
+    "helpCta": "Nhận trợ giúp ngay"
+   },
+   "checkingSteps": [
+    "Đang đọc tin nhắn của quý vị…",
+    "Đang tìm dấu hiệu cảnh báo…",
+    "Đang chuẩn bị các bước tiếp theo…"
+   ],
+   "scale": {
+    "no_signs": "Không có dấu hiệu",
+    "careful": "Cẩn thận",
+    "likely_scam": "Có thể lừa đảo"
+   },
+   "learn": {
+    "eyebrow": "Tìm hiểu",
+    "title": "Các kiểu lừa đảo thường gặp",
+    "intro": "Kẻ lừa đảo đổi câu chuyện, nhưng mánh khóe vẫn vậy. Đây là những kiểu chúng tôi gặp nhiều nhất.",
+    "exampleLabel": "Trông như thế nào",
+    "howLabel": "Cách chúng lừa",
+    "signsLabel": "Dấu hiệu cảnh báo",
+    "todoLabel": "Nên làm gì",
+    "checkCta": "Nhận được tin như vậy? Kiểm tra ngay",
+    "practiceCta": "Luyện tập nhận ra lừa đảo",
+    "allTypes": "Tất cả các kiểu lừa đảo",
+    "next": "Tiếp theo"
+   },
+   "practice": {
+    "eyebrow": "Luyện tập",
+    "title": "Quý vị có nhận ra lừa đảo không?",
+    "intro": "Chúng tôi sẽ cho quý vị xem 8 tin nhắn. Có tin là lừa đảo, có tin là thật. Hãy chọn cho từng tin, rồi xem manh mối.",
+    "start": "Bắt đầu",
+    "progress": "Tin nhắn {n} / {total}",
+    "fromLabel": "Từ",
+    "scamButton": "Giống lừa đảo",
+    "realButton": "Trông như thật",
+    "correct": "Đúng rồi!",
+    "wrong": "Chưa đúng.",
+    "answerScam": "Tin này là lừa đảo.",
+    "answerReal": "Tin này trông như thật.",
+    "cluesLabel": "Manh mối",
+    "next": "Tin nhắn tiếp theo",
+    "finish": "Xem kết quả",
+    "scoreTitle": "Quý vị nhận ra {n} / {total}",
+    "scoreHigh": "Tinh mắt lắm. Hãy chia sẻ bài luyện tập này với người thân để họ cùng thử.",
+    "scoreLow": "Lừa đảo được tạo ra để đánh lừa. Mỗi lần luyện tập giúp quý vị dễ nhận ra vụ thật hơn.",
+    "again": "Luyện tập lại",
+    "checkReal": "Kiểm tra một tin nhắn thật"
+   },
+   "about": {
+    "eyebrow": "Giới thiệu",
+    "title": "ScamShield hoạt động thế nào",
+    "intro": "ScamShield là công cụ miễn phí giúp mọi người kiểm tra tin nhắn đáng ngờ trước khi làm theo.",
+    "sections": [
+     {
+      "title": "Kiểm tra những gì",
+      "body": [
+       "Nó đọc tin nhắn, ảnh chụp màn hình hoặc lời kể về cuộc gọi, và tìm 11 dấu hiệu cảnh báo thường gặp, như hối thúc, đe dọa, cách trả tiền lạ hoặc đòi mã số.",
+       "Mỗi dấu hiệu đều chỉ đúng những chữ trong tin nhắn, để quý vị tự thấy bằng chứng."
+      ]
+     },
+     {
+      "title": "Kết luận được đưa ra thế nào",
+      "body": [
+       "Một chương trình máy tính đọc tin nhắn và liệt kê dấu hiệu cảnh báo. Kết luận theo quy tắc cố định: từ hai dấu hiệu trở lên, hoặc một dấu hiệu nghiêm trọng như đòi thẻ quà tặng hay mã PIN, nghĩa là \"Rất có thể là lừa đảo\".",
+       "ScamShield không bao giờ nói một tin nhắn là an toàn. Nó có thể bỏ sót mánh mới, nên khi liên quan đến tiền hay thông tin cá nhân, hãy luôn liên lạc bằng số điện thoại quý vị đã tin tưởng."
+      ]
+     },
+     {
+      "title": "Quyền riêng tư",
+      "body": [
+       "Chúng tôi không lưu tin nhắn và không cần tài khoản. Tin nhắn được kiểm tra rồi bị xóa khỏi bộ nhớ.",
+       "Ngôn ngữ quý vị chọn chỉ được nhớ trên thiết bị của quý vị."
+      ]
+     },
+     {
+      "title": "Cho các nhóm cộng đồng",
+      "body": [
+       "Câu lạc bộ Rotary, thư viện, trung tâm người cao tuổi và các nhóm tôn giáo có thể dùng trang Luyện tập và Tìm hiểu trong các buổi hội thảo. Dùng được trên mọi điện thoại, 7 ngôn ngữ, không cần đăng ký."
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "Không tìm thấy trang này",
+    "body": "Đường dẫn có thể đã cũ hoặc bị gõ sai. Quý vị vẫn có thể kiểm tra tin nhắn hoặc tìm hiểu các kiểu lừa đảo thường gặp."
+   },
+   "footerAbout": "ScamShield hoạt động thế nào",
+   "footerMade": "Làm cho cuộc thi Rotary AI for Good."
+  },
+  "tl": {
+   "nav": {
+    "check": "Suriin",
+    "learn": "Alamin",
+    "practice": "Magsanay",
+    "help": "Tulong",
+    "about": "Tungkol"
+   },
+   "home": {
+    "eyebrow": "Libre · Walang sign-up · Walang sine-save",
+    "heroBefore": "Suriin ang mensahe bago ka ",
+    "heroEmph": "sumagot, mag-click o magbayad",
+    "heroAfter": ".",
+    "helpTitle": "Nakapag-click, sumagot o nagbayad na?",
+    "helpBody": "Huwag mag-panic. Makatutulong ang mabilis na pagkilos, at ipapakita namin ang eksaktong gagawin.",
+    "helpCta": "Humingi ng tulong ngayon"
+   },
+   "checkingSteps": [
+    "Binabasa ang iyong mensahe…",
+    "Naghahanap ng mga babala…",
+    "Inihahanda ang susunod mong hakbang…"
+   ],
+   "scale": {
+    "no_signs": "Walang karaniwang babala",
+    "careful": "Mag-ingat",
+    "likely_scam": "Malamang scam"
+   },
+   "learn": {
+    "eyebrow": "Alamin",
+    "title": "Ang mga karaniwang scam",
+    "intro": "Binabago ng mga scammer ang kanilang kuwento, pero pareho pa rin ang taktika. Ito ang madalas naming makita.",
+    "exampleLabel": "Ganito ang itsura",
+    "howLabel": "Paano ito gumagana",
+    "signsLabel": "Mga babala",
+    "todoLabel": "Ano ang gagawin",
+    "checkCta": "May natanggap kang ganito? Suriin ito",
+    "practiceCta": "Magsanay makakita ng scam",
+    "allTypes": "Lahat ng uri ng scam",
+    "next": "Susunod"
+   },
+   "practice": {
+    "eyebrow": "Magsanay",
+    "title": "Kaya mo bang makita ang scam?",
+    "intro": "Magpapakita kami ng 8 mensahe. Ang ilan ay scam at ang ilan ay totoo. Pumili para sa bawat isa, saka tingnan ang mga palatandaan.",
+    "start": "Magsimula",
+    "progress": "Mensahe {n} sa {total}",
+    "fromLabel": "Mula kay",
+    "scamButton": "Mukhang scam",
+    "realButton": "Mukhang totoo",
+    "correct": "Tama ka!",
+    "wrong": "Hindi pa tama.",
+    "answerScam": "Scam ito.",
+    "answerReal": "Mukhang totoo ito.",
+    "cluesLabel": "Mga palatandaan",
+    "next": "Susunod na mensahe",
+    "finish": "Tingnan ang iskor ko",
+    "scoreTitle": "Nakita mo ang {n} sa {total}",
+    "scoreHigh": "Matalas ang mata mo. Ibahagi ang pagsasanay na ito sa mahal mo sa buhay para masubukan din nila.",
+    "scoreLow": "Ginawa ang scam para manlinlang. Bawat round na nilalaro mo ay nagpapadali sa pagkakita sa susunod na totoong scam.",
+    "again": "Magsanay ulit",
+    "checkReal": "Suriin ang totoong mensahe"
+   },
+   "about": {
+    "eyebrow": "Tungkol",
+    "title": "Paano gumagana ang ScamShield",
+    "intro": "Ang ScamShield ay libreng tool na tumutulong suriin ang kahina-hinalang mensahe bago kumilos.",
+    "sections": [
+     {
+      "title": "Ano ang sinusuri nito",
+      "body": [
+       "Binabasa nito ang mensahe, screenshot o ang paglalarawan mo sa tawag, at naghahanap ng 11 karaniwang babala, tulad ng pagmamadali, pananakot, kakaibang paraan ng bayad o paghingi ng code.",
+       "Bawat babalang ipinapakita ay tumuturo sa eksaktong mga salita sa iyong mensahe, para makita mo mismo ang ebidensya."
+      ]
+     },
+     {
+      "title": "Paano napagpapasyahan ang sagot",
+      "body": [
+       "Isang computer program ang nagbabasa ng mensahe at naglilista ng mga babala. Ang sagot ay sumusunod sa nakapirming tuntunin: dalawa o higit pang babala, o isang seryosong babala tulad ng paghingi ng gift card o PIN, ay nangangahulugang \"Malamang na scam ito.\"",
+       "Hindi kailanman sasabihin ng ScamShield na ligtas ang isang mensahe. Maaari itong makaligtaan ng bagong taktika, kaya kapag may pera o personal na detalye, laging kontakin ang kumpanya gamit ang numerong pinagkakatiwalaan mo na."
+      ]
+     },
+     {
+      "title": "Ang iyong privacy",
+      "body": [
+       "Hindi namin sine-save ang iyong mensahe at walang account. Sinusuri ang mensahe at saka kinakalimutan.",
+       "Ang napili mong wika ay naaalala lang sa sarili mong device."
+      ]
+     },
+     {
+      "title": "Para sa mga grupo sa komunidad",
+      "body": [
+       "Magagamit ng mga Rotary club, aklatan, senior center at grupo ng simbahan ang mga page na Magsanay at Alamin sa mga workshop. Gumagana sa kahit anong telepono, sa 7 wika, nang walang sign-up."
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "Hindi namin makita ang page na iyan",
+    "body": "Maaaring luma o mali ang pagkaka-type ng link. Puwede ka pa ring magsuri ng mensahe o alamin ang mga karaniwang scam."
+   },
+   "footerAbout": "Paano gumagana ang ScamShield",
+   "footerMade": "Ginawa para sa Rotary AI for Good hackathon."
+  },
+  "hi": {
+   "nav": {
+    "check": "जाँचें",
+    "learn": "सीखें",
+    "practice": "अभ्यास",
+    "help": "मदद",
+    "about": "जानकारी"
+   },
+   "home": {
+    "eyebrow": "मुफ़्त · कोई साइन-अप नहीं · कुछ भी सेव नहीं होता",
+    "heroBefore": "",
+    "heroEmph": "जवाब देने, क्लिक करने या पैसे देने",
+    "heroAfter": " से पहले संदेश जाँचें।",
+    "helpTitle": "पहले ही क्लिक, जवाब या भुगतान कर दिया?",
+    "helpBody": "घबराएँ नहीं। जल्दी कदम उठाने से मदद मिलती है, और हम ठीक-ठीक बताएँगे क्या करना है।",
+    "helpCta": "अभी मदद लें"
+   },
+   "checkingSteps": [
+    "आपका संदेश पढ़ा जा रहा है…",
+    "चेतावनी के संकेत खोजे जा रहे हैं…",
+    "आपके अगले कदम तैयार हो रहे हैं…"
+   ],
+   "scale": {
+    "no_signs": "आम संकेत नहीं",
+    "careful": "सावधान",
+    "likely_scam": "संभावित धोखा"
+   },
+   "learn": {
+    "eyebrow": "सीखें",
+    "title": "आम धोखों को पहचानें",
+    "intro": "धोखेबाज़ कहानियाँ बदलते हैं, पर चालें वही रहती हैं। ये वे धोखे हैं जो हम सबसे ज़्यादा देखते हैं।",
+    "exampleLabel": "यह कैसा दिखता है",
+    "howLabel": "यह कैसे काम करता है",
+    "signsLabel": "चेतावनी के संकेत",
+    "todoLabel": "क्या करें",
+    "checkCta": "ऐसा कोई संदेश आया है? जाँचें",
+    "practiceCta": "धोखा पहचानने का अभ्यास करें",
+    "allTypes": "सभी तरह के धोखे",
+    "next": "अगला"
+   },
+   "practice": {
+    "eyebrow": "अभ्यास",
+    "title": "क्या आप धोखा पहचान सकते हैं?",
+    "intro": "हम 8 संदेश दिखाएँगे। कुछ धोखा हैं और कुछ असली। हर एक के लिए फ़ैसला करें, फिर सुराग देखें।",
+    "start": "शुरू करें",
+    "progress": "संदेश {n} / {total}",
+    "fromLabel": "भेजने वाला",
+    "scamButton": "धोखा लगता है",
+    "realButton": "असली लगता है",
+    "correct": "सही जवाब!",
+    "wrong": "पूरी तरह नहीं।",
+    "answerScam": "यह धोखा है।",
+    "answerReal": "यह असली लगता है।",
+    "cluesLabel": "सुराग",
+    "next": "अगला संदेश",
+    "finish": "मेरा स्कोर देखें",
+    "scoreTitle": "आपने {total} में से {n} पहचाने",
+    "scoreHigh": "बहुत बढ़िया। यह अभ्यास अपने किसी प्रियजन को भेजें ताकि वे भी आज़माएँ।",
+    "scoreLow": "धोखे लोगों को फँसाने के लिए ही बनाए जाते हैं। हर अभ्यास से अगला असली धोखा पहचानना आसान होता है।",
+    "again": "फिर से अभ्यास करें",
+    "checkReal": "कोई असली संदेश जाँचें"
+   },
+   "about": {
+    "eyebrow": "जानकारी",
+    "title": "ScamShield कैसे काम करता है",
+    "intro": "ScamShield एक मुफ़्त टूल है जो किसी संदिग्ध संदेश पर कुछ करने से पहले उसे जाँचने में मदद करता है।",
+    "sections": [
+     {
+      "title": "यह क्या जाँचता है",
+      "body": [
+       "यह संदेश, स्क्रीनशॉट या कॉल के बारे में आपका विवरण पढ़ता है और 11 आम चेतावनी संकेत खोजता है, जैसे जल्दबाज़ी, धमकी, पैसे देने के अजीब तरीके, या कोड माँगना।",
+       "हर संकेत आपके संदेश के ठीक उन्हीं शब्दों की ओर इशारा करता है, ताकि आप सबूत खुद देख सकें।"
+      ]
+     },
+     {
+      "title": "जवाब कैसे तय होता है",
+      "body": [
+       "एक कंप्यूटर प्रोग्राम संदेश पढ़कर चेतावनी के संकेत बताता है। जवाब तय नियमों से निकलता है: दो या ज़्यादा संकेत, या एक गंभीर संकेत जैसे गिफ़्ट कार्ड या PIN माँगना, यानी \"यह बहुत संभव है कि धोखा है\"।",
+       "ScamShield कभी नहीं कहता कि कोई संदेश सुरक्षित है। नए तरीके छूट सकते हैं, इसलिए जब पैसे या निजी जानकारी की बात हो, तो हमेशा भरोसेमंद नंबर पर संपर्क करें।"
+      ]
+     },
+     {
+      "title": "आपकी निजता",
+      "body": [
+       "हम आपके संदेश सेव नहीं करते, और कोई खाता नहीं बनता। संदेश जाँचा जाता है और फिर भुला दिया जाता है।",
+       "आपकी चुनी भाषा सिर्फ़ आपके अपने डिवाइस पर याद रहती है।"
+      ]
+     },
+     {
+      "title": "सामुदायिक समूहों के लिए",
+      "body": [
+       "रोटरी क्लब, लाइब्रेरी, वरिष्ठ नागरिक केंद्र और धार्मिक समूह वर्कशॉप में \"अभ्यास\" और \"सीखें\" पेज इस्तेमाल कर सकते हैं। ये किसी भी फ़ोन पर, 7 भाषाओं में, बिना साइन-अप के चलते हैं।"
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "यह पेज नहीं मिला",
+    "body": "हो सकता है लिंक पुराना हो या गलत लिखा गया हो। आप फिर भी कोई संदेश जाँच सकते हैं या आम धोखों के बारे में जान सकते हैं।"
+   },
+   "footerAbout": "ScamShield कैसे काम करता है",
+   "footerMade": "Rotary AI for Good हैकथॉन के लिए बनाया गया।"
+  },
+  "fr": {
+   "nav": {
+    "check": "Vérifier",
+    "learn": "Apprendre",
+    "practice": "S'entraîner",
+    "help": "Aide",
+    "about": "À propos"
+   },
+   "home": {
+    "eyebrow": "Gratuit · Sans inscription · Rien n'est enregistré",
+    "heroBefore": "Vérifiez un message avant de ",
+    "heroEmph": "répondre, cliquer ou payer",
+    "heroAfter": ".",
+    "helpTitle": "Vous avez déjà cliqué, répondu ou payé ?",
+    "helpBody": "Pas de panique. Agir vite aide, et nous vous montrons exactement quoi faire.",
+    "helpCta": "Obtenir de l'aide"
+   },
+   "checkingSteps": [
+    "Lecture de votre message…",
+    "Recherche des signes d'alerte…",
+    "Préparation de vos prochaines étapes…"
+   ],
+   "scale": {
+    "no_signs": "Aucun signe courant",
+    "careful": "Prudence",
+    "likely_scam": "Arnaque probable"
+   },
+   "learn": {
+    "eyebrow": "Apprendre",
+    "title": "Connaître les arnaques courantes",
+    "intro": "Les escrocs changent d'histoire, mais leurs ruses restent les mêmes. Voici celles que nous voyons le plus.",
+    "exampleLabel": "À quoi ça ressemble",
+    "howLabel": "Comment ça marche",
+    "signsLabel": "Signes d'alerte",
+    "todoLabel": "Que faire",
+    "checkCta": "Vous en avez reçu un ? Vérifiez-le",
+    "practiceCta": "S'entraîner à repérer les arnaques",
+    "allTypes": "Tous les types d'arnaque",
+    "next": "Suivant"
+   },
+   "practice": {
+    "eyebrow": "S'entraîner",
+    "title": "Saurez-vous repérer l'arnaque ?",
+    "intro": "Nous allons vous montrer 8 messages. Certains sont des arnaques, d'autres sont vrais. Décidez pour chacun, puis voyez les indices.",
+    "start": "Commencer",
+    "progress": "Message {n} sur {total}",
+    "fromLabel": "De",
+    "scamButton": "Ça ressemble à une arnaque",
+    "realButton": "Ça semble vrai",
+    "correct": "Bien vu !",
+    "wrong": "Pas tout à fait.",
+    "answerScam": "Celui-ci est une arnaque.",
+    "answerReal": "Celui-ci semble vrai.",
+    "cluesLabel": "Les indices",
+    "next": "Message suivant",
+    "finish": "Voir mon score",
+    "scoreTitle": "Vous en avez repéré {n} sur {total}",
+    "scoreHigh": "Très bon œil. Partagez cet entraînement avec un proche pour qu'il l'essaie aussi.",
+    "scoreLow": "Les arnaques sont faites pour tromper. Chaque partie rend la prochaine vraie arnaque plus facile à repérer.",
+    "again": "Recommencer",
+    "checkReal": "Vérifier un vrai message"
+   },
+   "about": {
+    "eyebrow": "À propos",
+    "title": "Comment fonctionne ScamShield",
+    "intro": "ScamShield est un outil gratuit qui aide à vérifier un message suspect avant d'agir.",
+    "sections": [
+     {
+      "title": "Ce qu'il vérifie",
+      "body": [
+       "Il lit le message, une capture ou votre description d'un appel, et cherche 11 signes d'alerte courants : pression, menaces, moyens de paiement étranges, demandes de codes.",
+       "Chaque signe renvoie aux mots exacts de votre message, pour que vous voyiez la preuve vous-même."
+      ]
+     },
+     {
+      "title": "Comment la réponse est décidée",
+      "body": [
+       "Un programme informatique lit le message et liste les signes d'alerte. La réponse suit des règles fixes : deux signes ou plus, ou un signe grave comme une demande de cartes cadeaux ou de code PIN, signifie « Très probablement une arnaque ».",
+       "ScamShield ne dit jamais qu'un message est sûr. Il peut manquer de nouvelles ruses : dès qu'il s'agit d'argent ou d'informations personnelles, contactez l'organisme avec un numéro que vous connaissez déjà."
+      ]
+     },
+     {
+      "title": "Votre vie privée",
+      "body": [
+       "Nous n'enregistrons pas vos messages et il n'y a pas de compte. Le message est vérifié puis oublié.",
+       "Votre choix de langue est gardé uniquement sur votre appareil."
+      ]
+     },
+     {
+      "title": "Pour les associations",
+      "body": [
+       "Clubs Rotary, bibliothèques, centres pour seniors et communautés religieuses peuvent utiliser les pages S'entraîner et Apprendre en atelier. Elles fonctionnent sur n'importe quel téléphone, en 7 langues, sans inscription."
+      ]
+     }
+    ]
+   },
+   "notFound": {
+    "title": "Page introuvable",
+    "body": "Le lien est peut-être ancien ou mal saisi. Vous pouvez quand même vérifier un message ou découvrir les arnaques courantes."
+   },
+   "footerAbout": "Comment fonctionne ScamShield",
+   "footerMade": "Conçu pour le hackathon Rotary AI for Good."
+  }
+ },
+ "features": {
+  "en": {
+   "trusted": {
+    "title": "My trusted numbers",
+    "intro": "Save the real numbers you'd call to check something. They stay on this phone only.",
+    "bankName": "Your bank",
+    "bankNamePh": "For example: Chase",
+    "bankPhone": "Your bank's phone number",
+    "bankHint": "It's on the back of your bank card.",
+    "familyName": "Someone you trust",
+    "familyNamePh": "For example: my daughter Priya",
+    "familyPhone": "Their phone number",
+    "save": "Save",
+    "saved": "Saved on this phone.",
+    "clear": "Remove my numbers",
+    "add": "Add my trusted numbers",
+    "edit": "Change my trusted numbers",
+    "callBank": "Call {name}",
+    "textFamily": "Text {name} about this",
+    "textBody": "Can you look at a message with me? ScamShield says: {verdict}",
+    "homeTitle": "Keep your trusted numbers close",
+    "homeBody": "Save your bank's real number and someone you trust. When a message looks wrong, they're one tap away."
+   },
+   "speech": {
+    "readAloud": "Read aloud",
+    "stop": "Stop reading",
+    "speak": "Speak instead",
+    "listening": "Listening… tap to stop",
+    "privacy": "Voice typing uses your phone's or browser's own speech service."
+   },
+   "workshop": {
+    "navLabel": "Workshop kit",
+    "eyebrow": "For groups",
+    "title": "Workshop kit",
+    "intro": "Run a 20-minute scam-awareness session at a Rotary club, library, senior center or place of worship. No sign-up, works with any projector.",
+    "presentTitle": "Presenter mode",
+    "presentBody": "Show the 8 practice messages in big text. The room decides, then you reveal the clues.",
+    "presentCta": "Start presenting",
+    "handoutTitle": "Printable handout",
+    "handoutBody": "One page per person: the common scams, the warning signs, and a card to write their trusted numbers on.",
+    "handoutCta": "Open the handout",
+    "tipsTitle": "How to run it",
+    "tips": [
+     "Start with a show of hands: who has received a strange text or call this month?",
+     "Go through the practice messages. Let people vote before you reveal each answer.",
+     "Hand out the sheet and help everyone fill in their trusted numbers.",
+     "Finish by checking a real message someone in the room received."
+    ],
+    "reveal": "Show the answer",
+    "next": "Next",
+    "prev": "Back",
+    "exit": "Exit",
+    "keys": "Arrow keys or space bar also work.",
+    "print": "Print",
+    "handoutHeading": "Spot a scam before it costs you",
+    "handoutCardTitle": "My trusted numbers",
+    "handoutCardLines": [
+     "My bank",
+     "Someone I trust",
+     "My doctor or pharmacy"
+    ],
+    "handoutRule": "When in doubt: hang up, don't click, and call a number you already trust.",
+    "handoutCheck": "Check any message for free:"
+   },
+   "followup": {
+    "title": "Questions about this message?",
+    "intro": "Ask anything about this message or what to do next. For example: \"What if I already replied?\"",
+    "placeholder": "Type your question",
+    "ask": "Ask",
+    "thinking": "Finding an answer…",
+    "stepsLabel": "Step by step",
+    "limit": "That's the limit of questions for this message. For more help, see Get help or talk to someone you trust.",
+    "error": "We couldn't answer that right now. Please try again.",
+    "you": "You asked"
+   },
+   "form": {
+    "paste": "Paste message",
+    "clear": "Clear",
+    "pasteFailed": "Couldn't paste. Press and hold in the box, then tap Paste.",
+    "imageDrop": "You can also paste a picture or drag it here.",
+    "cancel": "Cancel"
+   },
+   "offline": {
+    "note": "Checked on this phone, without the internet. When you're back online, check again for a fuller answer."
+   },
+   "link": {
+    "lookalike": "This link uses the name {brand}, but it isn't {brand}'s real website.",
+    "shortener": "This is a shortened link, so you can't see where it really goes."
+   }
+  },
+  "es": {
+   "trusted": {
+    "title": "Mis números de confianza",
+    "intro": "Guarde los números reales a los que llamaría para verificar algo. Se quedan solo en este teléfono.",
+    "bankName": "Su banco",
+    "bankNamePh": "Por ejemplo: Chase",
+    "bankPhone": "El teléfono de su banco",
+    "bankHint": "Está detrás de su tarjeta bancaria.",
+    "familyName": "Alguien de confianza",
+    "familyNamePh": "Por ejemplo: mi hija Priya",
+    "familyPhone": "Su número de teléfono",
+    "save": "Guardar",
+    "saved": "Guardado en este teléfono.",
+    "clear": "Borrar mis números",
+    "add": "Agregar mis números de confianza",
+    "edit": "Cambiar mis números de confianza",
+    "callBank": "Llamar a {name}",
+    "textFamily": "Escribirle a {name} sobre esto",
+    "textBody": "¿Puedes revisar un mensaje conmigo? ScamShield dice: {verdict}",
+    "homeTitle": "Tenga a mano sus números de confianza",
+    "homeBody": "Guarde el número real de su banco y el de alguien de confianza. Si un mensaje parece raro, estarán a un toque."
+   },
+   "speech": {
+    "readAloud": "Leer en voz alta",
+    "stop": "Dejar de leer",
+    "speak": "Hablar en vez de escribir",
+    "listening": "Escuchando… toque para parar",
+    "privacy": "El dictado usa el servicio de voz de su teléfono o navegador."
+   },
+   "workshop": {
+    "navLabel": "Kit para talleres",
+    "eyebrow": "Para grupos",
+    "title": "Kit para talleres",
+    "intro": "Haga una sesión de 20 minutos sobre estafas en un club Rotario, biblioteca, centro para mayores o iglesia. Sin registrarse, con cualquier proyector.",
+    "presentTitle": "Modo presentación",
+    "presentBody": "Muestre los 8 mensajes de práctica en letra grande. El grupo decide y luego usted revela las pistas.",
+    "presentCta": "Empezar a presentar",
+    "handoutTitle": "Hoja para imprimir",
+    "handoutBody": "Una página por persona: las estafas comunes, las señales de alerta y una tarjeta para anotar sus números de confianza.",
+    "handoutCta": "Abrir la hoja",
+    "tipsTitle": "Cómo hacerlo",
+    "tips": [
+     "Empiece preguntando: ¿quién recibió un mensaje o llamada extraña este mes?",
+     "Pase los mensajes de práctica. Deje que voten antes de revelar cada respuesta.",
+     "Reparta la hoja y ayude a todos a anotar sus números de confianza.",
+     "Termine revisando un mensaje real que haya recibido alguien del grupo."
+    ],
+    "reveal": "Mostrar la respuesta",
+    "next": "Siguiente",
+    "prev": "Atrás",
+    "exit": "Salir",
+    "keys": "También funcionan las flechas o la barra espaciadora.",
+    "print": "Imprimir",
+    "handoutHeading": "Detecte una estafa antes de que le cueste",
+    "handoutCardTitle": "Mis números de confianza",
+    "handoutCardLines": [
+     "Mi banco",
+     "Alguien de confianza",
+     "Mi médico o farmacia"
+    ],
+    "handoutRule": "Si tiene dudas: cuelgue, no haga clic y llame a un número en el que ya confía.",
+    "handoutCheck": "Revise cualquier mensaje gratis:"
+   },
+   "followup": {
+    "title": "¿Preguntas sobre este mensaje?",
+    "intro": "Pregunte lo que quiera sobre este mensaje o qué hacer. Por ejemplo: \"¿Y si ya respondí?\"",
+    "placeholder": "Escriba su pregunta",
+    "ask": "Preguntar",
+    "thinking": "Buscando una respuesta…",
+    "stepsLabel": "Paso a paso",
+    "limit": "Ese es el límite de preguntas para este mensaje. Para más ayuda, vea Ayuda o hable con alguien de confianza.",
+    "error": "No pudimos responder ahora. Inténtelo de nuevo.",
+    "you": "Usted preguntó"
+   },
+   "form": {
+    "paste": "Pegar mensaje",
+    "clear": "Borrar",
+    "pasteFailed": "No se pudo pegar. Mantenga presionado el recuadro y toque Pegar.",
+    "imageDrop": "También puede pegar una imagen o arrastrarla aquí.",
+    "cancel": "Cancelar"
+   },
+   "offline": {
+    "note": "Revisado en este teléfono, sin internet. Cuando vuelva a tener conexión, revíselo otra vez para una respuesta más completa."
+   },
+   "link": {
+    "lookalike": "Este enlace usa el nombre {brand}, pero no es el sitio web real de {brand}.",
+    "shortener": "Es un enlace acortado, así que no puede ver a dónde lleva en realidad."
+   }
+  },
+  "zh": {
+   "trusted": {
+    "title": "我信任的号码",
+    "intro": "保存您核实时会拨打的真实号码。只保存在这部手机上。",
+    "bankName": "您的银行",
+    "bankNamePh": "例如：Chase",
+    "bankPhone": "银行电话",
+    "bankHint": "在您银行卡的背面。",
+    "familyName": "您信任的人",
+    "familyNamePh": "例如：我女儿 Priya",
+    "familyPhone": "他们的电话",
+    "save": "保存",
+    "saved": "已保存在这部手机上。",
+    "clear": "删除我的号码",
+    "add": "添加我信任的号码",
+    "edit": "修改我信任的号码",
+    "callBank": "打给{name}",
+    "textFamily": "给{name}发短信说这件事",
+    "textBody": "你能和我一起看一条信息吗？ScamShield 显示：{verdict}",
+    "homeTitle": "把信任的号码放在手边",
+    "homeBody": "保存银行的真实号码和一位您信任的人。信息看起来不对时，一点就能联系。"
+   },
+   "speech": {
+    "readAloud": "朗读",
+    "stop": "停止朗读",
+    "speak": "用说的",
+    "listening": "正在听… 点一下停止",
+    "privacy": "语音输入使用您手机或浏览器自带的语音服务。"
+   },
+   "workshop": {
+    "navLabel": "讲座工具包",
+    "eyebrow": "给团体",
+    "title": "讲座工具包",
+    "intro": "在扶轮社、图书馆、老年中心或宗教场所举办 20 分钟的防诈骗讲座。无需注册，任何投影仪都能用。",
+    "presentTitle": "演示模式",
+    "presentBody": "用大字显示 8 条练习信息。大家先判断，再由您揭晓线索。",
+    "presentCta": "开始演示",
+    "handoutTitle": "可打印讲义",
+    "handoutBody": "每人一页：常见诈骗、警告信号，以及一张填写信任号码的卡片。",
+    "handoutCta": "打开讲义",
+    "tipsTitle": "怎么做",
+    "tips": [
+     "先问大家：这个月谁收到过奇怪的短信或电话？",
+     "逐条展示练习信息。揭晓答案前先让大家投票。",
+     "发讲义，帮每个人填好信任的号码。",
+     "最后检查一条在场某人真实收到的信息。"
+    ],
+    "reveal": "显示答案",
+    "next": "下一条",
+    "prev": "上一条",
+    "exit": "退出",
+    "keys": "也可以用方向键或空格键。",
+    "print": "打印",
+    "handoutHeading": "在受骗之前识破诈骗",
+    "handoutCardTitle": "我信任的号码",
+    "handoutCardLines": [
+     "我的银行",
+     "我信任的人",
+     "我的医生或药房"
+    ],
+    "handoutRule": "有疑问时：挂断，不要点击，打您本来就信任的号码。",
+    "handoutCheck": "免费检查任何信息："
+   },
+   "followup": {
+    "title": "对这条信息有疑问？",
+    "intro": "关于这条信息或下一步怎么做，都可以问。例如：\"如果我已经回复了怎么办？\"",
+    "placeholder": "输入您的问题",
+    "ask": "提问",
+    "thinking": "正在寻找答案…",
+    "stepsLabel": "一步一步",
+    "limit": "这条信息的提问次数已用完。需要更多帮助，请看\"求助\"页面，或和您信任的人谈谈。",
+    "error": "暂时无法回答。请再试一次。",
+    "you": "您的问题"
+   },
+   "form": {
+    "paste": "粘贴信息",
+    "clear": "清除",
+    "pasteFailed": "无法粘贴。请在输入框内长按，然后点「粘贴」。",
+    "imageDrop": "也可以粘贴图片，或把图片拖到这里。",
+    "cancel": "取消"
+   },
+   "offline": {
+    "note": "已在本机检查，没有使用网络。恢复联网后，可以再检查一次，获得更完整的结果。"
+   },
+   "link": {
+    "lookalike": "这个链接用了 {brand} 的名字，但不是 {brand} 的真实网站。",
+    "shortener": "这是短链接，您看不出它真正通往哪里。"
+   }
+  },
+  "vi": {
+   "trusted": {
+    "title": "Số điện thoại tin cậy của tôi",
+    "intro": "Lưu các số thật mà quý vị sẽ gọi để kiểm tra. Chỉ lưu trên điện thoại này.",
+    "bankName": "Ngân hàng của quý vị",
+    "bankNamePh": "Ví dụ: Chase",
+    "bankPhone": "Số điện thoại ngân hàng",
+    "bankHint": "Có ở mặt sau thẻ ngân hàng.",
+    "familyName": "Người quý vị tin",
+    "familyNamePh": "Ví dụ: con gái tôi Priya",
+    "familyPhone": "Số điện thoại của họ",
+    "save": "Lưu",
+    "saved": "Đã lưu trên điện thoại này.",
+    "clear": "Xóa các số của tôi",
+    "add": "Thêm số tin cậy",
+    "edit": "Đổi số tin cậy",
+    "callBank": "Gọi {name}",
+    "textFamily": "Nhắn {name} về chuyện này",
+    "textBody": "Xem giúp tôi một tin nhắn được không? ScamShield nói: {verdict}",
+    "homeTitle": "Giữ sẵn số điện thoại tin cậy",
+    "homeBody": "Lưu số thật của ngân hàng và một người quý vị tin. Khi tin nhắn có vẻ lạ, chỉ cần một chạm."
+   },
+   "speech": {
+    "readAloud": "Đọc to",
+    "stop": "Ngừng đọc",
+    "speak": "Nói thay vì gõ",
+    "listening": "Đang nghe… chạm để dừng",
+    "privacy": "Nhập bằng giọng nói dùng dịch vụ giọng nói của điện thoại hoặc trình duyệt."
+   },
+   "workshop": {
+    "navLabel": "Bộ tài liệu hội thảo",
+    "eyebrow": "Cho các nhóm",
+    "title": "Bộ tài liệu hội thảo",
+    "intro": "Tổ chức buổi 20 phút về lừa đảo tại câu lạc bộ Rotary, thư viện, trung tâm người cao tuổi hoặc nơi thờ phượng. Không cần đăng ký, dùng với mọi máy chiếu.",
+    "presentTitle": "Chế độ trình chiếu",
+    "presentBody": "Hiện 8 tin nhắn luyện tập bằng chữ lớn. Mọi người đoán trước, rồi quý vị mở manh mối.",
+    "presentCta": "Bắt đầu trình chiếu",
+    "handoutTitle": "Tài liệu in",
+    "handoutBody": "Mỗi người một trang: các kiểu lừa đảo, dấu hiệu cảnh báo, và một thẻ để ghi số tin cậy.",
+    "handoutCta": "Mở tài liệu",
+    "tipsTitle": "Cách tổ chức",
+    "tips": [
+     "Mở đầu bằng câu hỏi: tháng này ai nhận được tin nhắn hay cuộc gọi lạ?",
+     "Lần lượt xem các tin nhắn luyện tập. Cho mọi người chọn trước khi mở đáp án.",
+     "Phát tài liệu và giúp mọi người ghi số tin cậy.",
+     "Kết thúc bằng việc kiểm tra một tin nhắn thật mà ai đó trong nhóm nhận được."
+    ],
+    "reveal": "Xem đáp án",
+    "next": "Tiếp",
+    "prev": "Quay lại",
+    "exit": "Thoát",
+    "keys": "Cũng có thể dùng phím mũi tên hoặc phím cách.",
+    "print": "In",
+    "handoutHeading": "Nhận ra lừa đảo trước khi mất tiền",
+    "handoutCardTitle": "Số điện thoại tin cậy của tôi",
+    "handoutCardLines": [
+     "Ngân hàng của tôi",
+     "Người tôi tin",
+     "Bác sĩ hoặc nhà thuốc"
+    ],
+    "handoutRule": "Khi nghi ngờ: cúp máy, đừng bấm vào, và gọi số quý vị đã tin tưởng.",
+    "handoutCheck": "Kiểm tra mọi tin nhắn miễn phí:"
+   },
+   "followup": {
+    "title": "Có câu hỏi về tin nhắn này?",
+    "intro": "Hỏi bất cứ điều gì về tin nhắn này hoặc nên làm gì tiếp. Ví dụ: \"Nếu tôi đã trả lời thì sao?\"",
+    "placeholder": "Nhập câu hỏi của quý vị",
+    "ask": "Hỏi",
+    "thinking": "Đang tìm câu trả lời…",
+    "stepsLabel": "Từng bước",
+    "limit": "Đã hết số câu hỏi cho tin nhắn này. Để được giúp thêm, xem trang Trợ giúp hoặc nói chuyện với người quý vị tin.",
+    "error": "Chưa trả lời được lúc này. Vui lòng thử lại.",
+    "you": "Quý vị hỏi"
+   },
+   "form": {
+    "paste": "Dán tin nhắn",
+    "clear": "Xóa",
+    "pasteFailed": "Không dán được. Hãy nhấn giữ trong ô, rồi chọn Dán.",
+    "imageDrop": "Quý vị cũng có thể dán hình hoặc kéo hình vào đây.",
+    "cancel": "Hủy"
+   },
+   "offline": {
+    "note": "Đã kiểm tra ngay trên điện thoại này, không cần mạng. Khi có mạng lại, hãy kiểm tra lần nữa để có kết quả đầy đủ hơn."
+   },
+   "link": {
+    "lookalike": "Đường link này dùng tên {brand}, nhưng không phải trang web thật của {brand}.",
+    "shortener": "Đây là link rút gọn, nên quý vị không thấy được nó thật sự dẫn đến đâu."
+   }
+  },
+  "tl": {
+   "trusted": {
+    "title": "Mga numerong pinagkakatiwalaan ko",
+    "intro": "I-save ang mga tunay na numerong tatawagan mo para mag-check. Sa teleponong ito lang naka-save.",
+    "bankName": "Ang iyong bangko",
+    "bankNamePh": "Halimbawa: Chase",
+    "bankPhone": "Numero ng iyong bangko",
+    "bankHint": "Nasa likod ito ng iyong bank card.",
+    "familyName": "Taong pinagkakatiwalaan mo",
+    "familyNamePh": "Halimbawa: anak kong si Priya",
+    "familyPhone": "Numero nila",
+    "save": "I-save",
+    "saved": "Naka-save sa teleponong ito.",
+    "clear": "Burahin ang mga numero ko",
+    "add": "Idagdag ang mga numerong pinagkakatiwalaan ko",
+    "edit": "Palitan ang mga numerong pinagkakatiwalaan ko",
+    "callBank": "Tawagan ang {name}",
+    "textFamily": "I-text si {name} tungkol dito",
+    "textBody": "Pwede mo ba akong samahan tingnan ang isang mensahe? Sabi ng ScamShield: {verdict}",
+    "homeTitle": "Ihanda ang mga numerong pinagkakatiwalaan mo",
+    "homeBody": "I-save ang tunay na numero ng bangko mo at ng taong pinagkakatiwalaan mo. Kapag may kakaibang mensahe, isang pindot lang sila."
+   },
+   "speech": {
+    "readAloud": "Basahin nang malakas",
+    "stop": "Itigil ang pagbasa",
+    "speak": "Magsalita sa halip na mag-type",
+    "listening": "Nakikinig… pindutin para huminto",
+    "privacy": "Ginagamit ng voice typing ang sariling speech service ng telepono o browser mo."
+   },
+   "workshop": {
+    "navLabel": "Workshop kit",
+    "eyebrow": "Para sa mga grupo",
+    "title": "Workshop kit",
+    "intro": "Magpatakbo ng 20-minutong session tungkol sa scam sa Rotary club, aklatan, senior center o simbahan. Walang sign-up, gumagana sa kahit anong projector.",
+    "presentTitle": "Presenter mode",
+    "presentBody": "Ipakita ang 8 practice na mensahe sa malalaking letra. Magpapasya ang grupo, saka mo ipapakita ang mga palatandaan.",
+    "presentCta": "Simulan ang presentasyon",
+    "handoutTitle": "Handout na ipi-print",
+    "handoutBody": "Isang pahina bawat tao: ang mga karaniwang scam, mga babala, at card para isulat ang mga numerong pinagkakatiwalaan nila.",
+    "handoutCta": "Buksan ang handout",
+    "tipsTitle": "Paano ito gawin",
+    "tips": [
+     "Magsimula sa tanong: sino ang nakatanggap ng kakaibang text o tawag ngayong buwan?",
+     "Isa-isahin ang practice na mensahe. Pabotohin muna sila bago ipakita ang sagot.",
+     "Ipamigay ang handout at tulungan ang lahat na isulat ang mga numerong pinagkakatiwalaan nila.",
+     "Tapusin sa pag-check ng totoong mensaheng natanggap ng isa sa grupo."
+    ],
+    "reveal": "Ipakita ang sagot",
+    "next": "Susunod",
+    "prev": "Bumalik",
+    "exit": "Lumabas",
+    "keys": "Gumagana rin ang arrow keys o space bar.",
+    "print": "I-print",
+    "handoutHeading": "Makita ang scam bago ka mawalan",
+    "handoutCardTitle": "Mga numerong pinagkakatiwalaan ko",
+    "handoutCardLines": [
+     "Bangko ko",
+     "Taong pinagkakatiwalaan ko",
+     "Doktor o botika ko"
+    ],
+    "handoutRule": "Kapag may duda: ibaba ang tawag, huwag mag-click, at tumawag sa numerong pinagkakatiwalaan mo na.",
+    "handoutCheck": "Libreng suriin ang kahit anong mensahe:"
+   },
+   "followup": {
+    "title": "May tanong tungkol sa mensaheng ito?",
+    "intro": "Magtanong ng kahit ano tungkol sa mensaheng ito o kung ano ang susunod na gagawin. Halimbawa: \"Paano kung nakasagot na ako?\"",
+    "placeholder": "I-type ang tanong mo",
+    "ask": "Magtanong",
+    "thinking": "Hinahanap ang sagot…",
+    "stepsLabel": "Hakbang-hakbang",
+    "limit": "Naabot na ang limit ng tanong para sa mensaheng ito. Para sa dagdag na tulong, tingnan ang Tulong o kausapin ang taong pinagkakatiwalaan mo.",
+    "error": "Hindi kami makasagot ngayon. Pakisubukang muli.",
+    "you": "Tanong mo"
+   },
+   "form": {
+    "paste": "I-paste ang mensahe",
+    "clear": "Burahin",
+    "pasteFailed": "Hindi ma-paste. Pindutin nang matagal ang kahon, saka i-tap ang Paste.",
+    "imageDrop": "Puwede ring mag-paste ng larawan o i-drag ito rito.",
+    "cancel": "Kanselahin"
+   },
+   "offline": {
+    "note": "Sinuri sa teleponong ito nang walang internet. Kapag may internet ka na ulit, suriin ulit para sa mas buong sagot."
+   },
+   "link": {
+    "lookalike": "Ginagamit ng link na ito ang pangalang {brand}, pero hindi ito ang tunay na website ng {brand}.",
+    "shortener": "Pinaikling link ito, kaya hindi mo makita kung saan talaga ito papunta."
+   }
+  },
+  "hi": {
+   "trusted": {
+    "title": "मेरे भरोसेमंद नंबर",
+    "intro": "जाँच के लिए जिन असली नंबरों पर आप कॉल करेंगे, उन्हें सेव करें। ये सिर्फ़ इसी फ़ोन पर रहते हैं।",
+    "bankName": "आपका बैंक",
+    "bankNamePh": "उदाहरण: Chase",
+    "bankPhone": "बैंक का फ़ोन नंबर",
+    "bankHint": "यह आपके बैंक कार्ड के पीछे लिखा होता है।",
+    "familyName": "कोई भरोसेमंद व्यक्ति",
+    "familyNamePh": "उदाहरण: मेरी बेटी प्रिया",
+    "familyPhone": "उनका फ़ोन नंबर",
+    "save": "सेव करें",
+    "saved": "इस फ़ोन पर सेव हो गया।",
+    "clear": "मेरे नंबर हटाएँ",
+    "add": "मेरे भरोसेमंद नंबर जोड़ें",
+    "edit": "मेरे भरोसेमंद नंबर बदलें",
+    "callBank": "{name} को कॉल करें",
+    "textFamily": "इस बारे में {name} को मैसेज करें",
+    "textBody": "क्या तुम मेरे साथ एक संदेश देख सकते हो? ScamShield कहता है: {verdict}",
+    "homeTitle": "भरोसेमंद नंबर पास रखें",
+    "homeBody": "अपने बैंक का असली नंबर और किसी भरोसेमंद व्यक्ति का नंबर सेव करें। कोई संदेश गड़बड़ लगे, तो एक टैप में संपर्क करें।"
+   },
+   "speech": {
+    "readAloud": "पढ़कर सुनाएँ",
+    "stop": "पढ़ना बंद करें",
+    "speak": "लिखने के बजाय बोलें",
+    "listening": "सुन रहे हैं… रोकने के लिए टैप करें",
+    "privacy": "बोलकर लिखने में आपके फ़ोन या ब्राउज़र की अपनी स्पीच सेवा इस्तेमाल होती है।"
+   },
+   "workshop": {
+    "navLabel": "वर्कशॉप किट",
+    "eyebrow": "समूहों के लिए",
+    "title": "वर्कशॉप किट",
+    "intro": "रोटरी क्लब, लाइब्रेरी, वरिष्ठ नागरिक केंद्र या धार्मिक स्थल पर धोखाधड़ी से बचाव का 20 मिनट का सत्र चलाएँ। कोई साइन-अप नहीं, किसी भी प्रोजेक्टर पर चलता है।",
+    "presentTitle": "प्रेज़ेंटर मोड",
+    "presentBody": "8 अभ्यास संदेश बड़े अक्षरों में दिखाएँ। लोग पहले फ़ैसला करें, फिर आप सुराग दिखाएँ।",
+    "presentCta": "प्रेज़ेंटेशन शुरू करें",
+    "handoutTitle": "प्रिंट करने वाला हैंडआउट",
+    "handoutBody": "हर व्यक्ति के लिए एक पेज: आम धोखे, चेतावनी के संकेत, और भरोसेमंद नंबर लिखने का कार्ड।",
+    "handoutCta": "हैंडआउट खोलें",
+    "tipsTitle": "इसे कैसे चलाएँ",
+    "tips": [
+     "शुरुआत में पूछें: इस महीने किसे अजीब मैसेज या कॉल आया?",
+     "अभ्यास संदेश एक-एक करके दिखाएँ। जवाब दिखाने से पहले लोगों से राय लें।",
+     "हैंडआउट बाँटें और सबको भरोसेमंद नंबर लिखने में मदद करें।",
+     "अंत में समूह में किसी को आया कोई असली संदेश जाँचें।"
+    ],
+    "reveal": "जवाब दिखाएँ",
+    "next": "अगला",
+    "prev": "पिछला",
+    "exit": "बाहर निकलें",
+    "keys": "ऐरो की या स्पेसबार भी काम करते हैं।",
+    "print": "प्रिंट करें",
+    "handoutHeading": "नुकसान से पहले धोखा पहचानें",
+    "handoutCardTitle": "मेरे भरोसेमंद नंबर",
+    "handoutCardLines": [
+     "मेरा बैंक",
+     "मेरा भरोसेमंद व्यक्ति",
+     "मेरे डॉक्टर या फ़ार्मेसी"
+    ],
+    "handoutRule": "शक हो तो: फ़ोन काटें, क्लिक न करें, और ऐसे नंबर पर कॉल करें जिस पर पहले से भरोसा है।",
+    "handoutCheck": "कोई भी संदेश मुफ़्त में जाँचें:"
+   },
+   "followup": {
+    "title": "इस संदेश के बारे में सवाल?",
+    "intro": "इस संदेश या आगे क्या करें, इसके बारे में कुछ भी पूछें। उदाहरण: \"अगर मैंने जवाब दे दिया है तो?\"",
+    "placeholder": "अपना सवाल लिखें",
+    "ask": "पूछें",
+    "thinking": "जवाब ढूँढा जा रहा है…",
+    "stepsLabel": "क़दम-दर-क़दम",
+    "limit": "इस संदेश के लिए सवालों की सीमा पूरी हो गई। ज़्यादा मदद के लिए \"मदद\" पेज देखें या किसी भरोसेमंद व्यक्ति से बात करें।",
+    "error": "अभी जवाब नहीं दे पाए। कृपया फिर कोशिश करें।",
+    "you": "आपने पूछा"
+   },
+   "form": {
+    "paste": "संदेश पेस्ट करें",
+    "clear": "मिटाएँ",
+    "pasteFailed": "पेस्ट नहीं हो सका। बॉक्स में दबाकर रखें, फिर पेस्ट पर टैप करें।",
+    "imageDrop": "आप तस्वीर पेस्ट भी कर सकते हैं या उसे यहाँ खींचकर ला सकते हैं।",
+    "cancel": "रद्द करें"
+   },
+   "offline": {
+    "note": "बिना इंटरनेट के इसी फ़ोन पर जाँचा गया। इंटरनेट वापस आने पर, पूरा जवाब पाने के लिए फिर से जाँचें।"
+   },
+   "link": {
+    "lookalike": "यह लिंक {brand} का नाम इस्तेमाल करता है, पर यह {brand} की असली वेबसाइट नहीं है।",
+    "shortener": "यह छोटा किया गया लिंक है, इसलिए पता नहीं चलता कि यह असल में कहाँ ले जाता है।"
+   }
+  },
+  "fr": {
+   "trusted": {
+    "title": "Mes numéros de confiance",
+    "intro": "Enregistrez les vrais numéros que vous appelleriez pour vérifier. Ils restent uniquement sur ce téléphone.",
+    "bankName": "Votre banque",
+    "bankNamePh": "Par exemple : Chase",
+    "bankPhone": "Le numéro de votre banque",
+    "bankHint": "Il figure au dos de votre carte bancaire.",
+    "familyName": "Une personne de confiance",
+    "familyNamePh": "Par exemple : ma fille Priya",
+    "familyPhone": "Son numéro de téléphone",
+    "save": "Enregistrer",
+    "saved": "Enregistré sur ce téléphone.",
+    "clear": "Supprimer mes numéros",
+    "add": "Ajouter mes numéros de confiance",
+    "edit": "Modifier mes numéros de confiance",
+    "callBank": "Appeler {name}",
+    "textFamily": "Écrire à {name} à ce sujet",
+    "textBody": "Tu peux regarder un message avec moi ? ScamShield dit : {verdict}",
+    "homeTitle": "Gardez vos numéros de confiance à portée de main",
+    "homeBody": "Enregistrez le vrai numéro de votre banque et celui d'une personne de confiance. Si un message semble louche, ils sont à un geste."
+   },
+   "speech": {
+    "readAloud": "Lire à voix haute",
+    "stop": "Arrêter la lecture",
+    "speak": "Parler au lieu d'écrire",
+    "listening": "J'écoute… touchez pour arrêter",
+    "privacy": "La dictée utilise le service vocal de votre téléphone ou navigateur."
+   },
+   "workshop": {
+    "navLabel": "Kit atelier",
+    "eyebrow": "Pour les groupes",
+    "title": "Kit atelier",
+    "intro": "Animez une séance de 20 minutes sur les arnaques dans un club Rotary, une bibliothèque, un centre pour seniors ou un lieu de culte. Sans inscription, avec n'importe quel projecteur.",
+    "presentTitle": "Mode présentation",
+    "presentBody": "Affichez les 8 messages d'entraînement en grand. Le groupe décide, puis vous révélez les indices.",
+    "presentCta": "Commencer la présentation",
+    "handoutTitle": "Fiche à imprimer",
+    "handoutBody": "Une page par personne : les arnaques courantes, les signes d'alerte et une carte pour noter ses numéros de confiance.",
+    "handoutCta": "Ouvrir la fiche",
+    "tipsTitle": "Comment l'animer",
+    "tips": [
+     "Commencez par demander : qui a reçu un SMS ou un appel étrange ce mois-ci ?",
+     "Passez les messages d'entraînement. Faites voter avant de révéler chaque réponse.",
+     "Distribuez la fiche et aidez chacun à noter ses numéros de confiance.",
+     "Terminez en vérifiant un vrai message reçu par quelqu'un du groupe."
+    ],
+    "reveal": "Montrer la réponse",
+    "next": "Suivant",
+    "prev": "Retour",
+    "exit": "Quitter",
+    "keys": "Les flèches ou la barre d'espace fonctionnent aussi.",
+    "print": "Imprimer",
+    "handoutHeading": "Repérez l'arnaque avant qu'elle ne vous coûte",
+    "handoutCardTitle": "Mes numéros de confiance",
+    "handoutCardLines": [
+     "Ma banque",
+     "Une personne de confiance",
+     "Mon médecin ou ma pharmacie"
+    ],
+    "handoutRule": "En cas de doute : raccrochez, ne cliquez pas, et appelez un numéro que vous connaissez déjà.",
+    "handoutCheck": "Vérifiez n'importe quel message gratuitement :"
+   },
+   "followup": {
+    "title": "Des questions sur ce message ?",
+    "intro": "Posez n'importe quelle question sur ce message ou sur la suite. Par exemple : « Et si j'ai déjà répondu ? »",
+    "placeholder": "Tapez votre question",
+    "ask": "Demander",
+    "thinking": "Recherche d'une réponse…",
+    "stepsLabel": "Étape par étape",
+    "limit": "C'est la limite de questions pour ce message. Pour plus d'aide, voyez la page Aide ou parlez à une personne de confiance.",
+    "error": "Impossible de répondre pour le moment. Veuillez réessayer.",
+    "you": "Votre question"
+   },
+   "form": {
+    "paste": "Coller le message",
+    "clear": "Effacer",
+    "pasteFailed": "Impossible de coller. Appuyez longuement dans la case, puis touchez Coller.",
+    "imageDrop": "Vous pouvez aussi coller une image ou la glisser ici.",
+    "cancel": "Annuler"
+   },
+   "offline": {
+    "note": "Vérifié sur ce téléphone, sans internet. Quand vous serez de nouveau connecté, vérifiez encore pour une réponse plus complète."
+   },
+   "link": {
+    "lookalike": "Ce lien utilise le nom {brand}, mais ce n'est pas le vrai site de {brand}.",
+    "shortener": "C'est un lien raccourci : impossible de voir où il mène vraiment."
+   }
+  }
+ },
+ "guides": {
+  "en": {
+   "delivery": {
+    "title": "Fake delivery and toll fees",
+    "short": "A text says a package is stuck or a toll is unpaid, and asks for a small fee.",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS: Your package is on hold. Pay the $1.99 redelivery fee within 24h: usps-redeliver-help.co"
+    },
+    "how": "The fee is small so you don't think twice. The link goes to a fake site that steals your card number, which is then used for much bigger charges.",
+    "signs": [
+     "A link that isn't the company's real website",
+     "A deadline, like \"within 24 hours\"",
+     "A fee you didn't expect"
+    ],
+    "todo": [
+     "Don't tap the link.",
+     "Track packages in the real app or website you already use.",
+     "Delete the text and block the number."
+    ]
+   },
+   "bank": {
+    "title": "Bank and card alerts",
+    "short": "A message says your account is locked or there's fraud, and asks you to confirm details.",
+    "example": {
+     "from": "Chase Alert",
+     "text": "Your debit card is locked due to suspicious activity. Reply with your 4-digit PIN to unlock it."
+    },
+    "how": "Scammers pretend to be your bank's fraud team. They ask for your PIN, a one-time code, or your login, then empty the account.",
+    "signs": [
+     "Asks for a PIN, password or code",
+     "Says your account is locked or closing",
+     "Asks you to move money to a \"safe account\""
+    ],
+    "todo": [
+     "Never share a PIN or code. Real banks never ask for them.",
+     "Call the number on the back of your card.",
+     "If you shared anything, call your bank right away."
+    ]
+   },
+   "government": {
+    "title": "Government and immigration threats",
+    "short": "Someone claims to be the IRS, Social Security, Medicare, police or immigration, and says you'll be in trouble unless you pay.",
+    "example": {
+     "from": "Unknown caller",
+     "text": "This is the IRS. A warrant will be issued for your arrest unless you pay today with gift cards."
+    },
+    "how": "Fear makes people act fast. Real agencies send letters first, and never demand gift cards, crypto or wire transfers, or threaten arrest over the phone.",
+    "signs": [
+     "Threats of arrest, deportation or losing benefits",
+     "Demands payment right now",
+     "Asks for gift cards, crypto or a wire"
+    ],
+    "todo": [
+     "Hang up. Don't call back the number they give you.",
+     "Look up the agency's real number yourself, on its official .gov website.",
+     "Talk to someone you trust before doing anything."
+    ]
+   },
+   "family": {
+    "title": "A family member in trouble",
+    "short": "A call or text from a \"grandchild\" or relative who needs money fast and asks you to keep it secret.",
+    "example": {
+     "from": "Unknown number",
+     "text": "Grandma it's me, I'm in jail and need help. Please send $2,000 in gift cards. Don't tell Mom."
+    },
+    "how": "Scammers use emotion and secrecy. Some even use AI to copy a loved one's voice. They ask for gift cards, cash by courier, or a wire.",
+    "signs": [
+     "An emergency and a request for money",
+     "\"Don't tell anyone\"",
+     "A new number, or a voice that sounds a bit off"
+    ],
+    "todo": [
+     "Hang up and call your family member on the number you already have.",
+     "Ask a question only they would know.",
+     "Agree on a family code word ahead of time."
+    ]
+   },
+   "tech-support": {
+    "title": "Fake tech support",
+    "short": "A pop-up or call says your computer has a virus and gives you a number to call.",
+    "example": {
+     "from": "Pop-up on screen",
+     "text": "WARNING! Your computer is infected. Do not close this page. Call Microsoft Support at 1-844-555-0199."
+    },
+    "how": "The \"technician\" asks you to install an app like AnyDesk so they can control your device, then steals passwords or asks you to pay for fake repairs.",
+    "signs": [
+     "A scary pop-up with a phone number",
+     "Asks you to install an app or share your screen",
+     "Asks to be paid in gift cards or crypto"
+    ],
+    "todo": [
+     "Don't call. Close the browser, or restart the computer.",
+     "Never let a stranger control your device.",
+     "If you let them in, disconnect from the internet and get help."
+    ]
+   },
+   "prize": {
+    "title": "Prizes, lotteries and refunds",
+    "short": "You've \"won\" money or a prize, but first you need to pay a fee or tax.",
+    "example": {
+     "from": "Prize Center",
+     "text": "Congratulations! You won $5,000 in our annual draw. Pay $50 in taxes by Western Union to claim your prize today."
+    },
+    "how": "Real prizes never ask you to pay to receive them. Once you pay, more \"fees\" keep coming, and the prize never arrives.",
+    "signs": [
+     "A prize for a contest you didn't enter",
+     "A fee or tax to get the money",
+     "Pressure to claim it today"
+    ],
+    "todo": [
+     "Don't pay anything.",
+     "Don't share bank or card details.",
+     "Delete the message."
+    ]
+   },
+   "romance": {
+    "title": "Romance and \"wrong number\" scams",
+    "short": "A friendly stranger starts chatting, builds trust over weeks, then asks for money or investment.",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "Hi, is this Sam? Oh sorry, wrong number! You seem really nice though. Where are you from?"
+    },
+    "how": "The scammer becomes a \"friend\" or partner, often for weeks. Later they need money for an emergency, or invite you to a crypto \"investment\" that can't be withdrawn.",
+    "signs": [
+     "A stranger who becomes very friendly very fast",
+     "They can never meet or video chat",
+     "Talk of investments, crypto, or money troubles"
+    ],
+    "todo": [
+     "Never send money to someone you haven't met in person.",
+     "Talk to a family member or friend about the relationship.",
+     "Stop replying if money or investing comes up."
+    ]
+   },
+   "job": {
+    "title": "Fake jobs and overpayments",
+    "short": "An easy job with high pay, or a buyer who \"accidentally\" overpays you and asks for the difference back.",
+    "example": {
+     "from": "HR Team",
+     "text": "Remote job! Earn $500/day liking videos. Message our manager on WhatsApp to start. Small deposit required."
+    },
+    "how": "You're asked to pay for training or equipment, or you get a check that later bounces after you've sent money back.",
+    "signs": [
+     "Pay that seems too high for easy work",
+     "You must pay to start",
+     "A check for more than you're owed"
+    ],
+    "todo": [
+     "Never pay to get a job.",
+     "Never send back extra money from a check or transfer.",
+     "Look up the company yourself before replying."
+    ]
+   }
+  },
+  "es": {
+   "delivery": {
+    "title": "Cobros falsos de entrega y peaje",
+    "short": "Un texto dice que un paquete está detenido o que debe un peaje, y pide un pago pequeño.",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS: Su paquete está retenido. Pague $1.99 de reenvío en 24h: usps-redeliver-help.co"
+    },
+    "how": "El cobro es pequeño para que no lo piense dos veces. El enlace lleva a un sitio falso que roba el número de su tarjeta, que luego usan para cargos mucho mayores.",
+    "signs": [
+     "Un enlace que no es el sitio real de la empresa",
+     "Un plazo, como \"en 24 horas\"",
+     "Un cobro que no esperaba"
+    ],
+    "todo": [
+     "No toque el enlace.",
+     "Rastree sus paquetes en la aplicación o sitio real que ya usa.",
+     "Borre el texto y bloquee el número."
+    ]
+   },
+   "bank": {
+    "title": "Alertas de banco y tarjeta",
+    "short": "Un mensaje dice que su cuenta está bloqueada o que hay fraude, y le pide confirmar datos.",
+    "example": {
+     "from": "Chase Alert",
+     "text": "Su tarjeta de débito está bloqueada por actividad sospechosa. Responda con su PIN de 4 dígitos para desbloquearla."
+    },
+    "how": "Los estafadores fingen ser el equipo de fraude de su banco. Piden su PIN, un código de un solo uso o su usuario, y luego vacían la cuenta.",
+    "signs": [
+     "Pide un PIN, contraseña o código",
+     "Dice que su cuenta está bloqueada o se cerrará",
+     "Le pide mover dinero a una \"cuenta segura\""
+    ],
+    "todo": [
+     "Nunca comparta un PIN o código. Los bancos reales nunca los piden.",
+     "Llame al número detrás de su tarjeta.",
+     "Si compartió algo, llame a su banco de inmediato."
+    ]
+   },
+   "government": {
+    "title": "Amenazas del gobierno o de inmigración",
+    "short": "Alguien dice ser del IRS, Seguro Social, Medicare, la policía o inmigración, y dice que tendrá problemas si no paga.",
+    "example": {
+     "from": "Llamada desconocida",
+     "text": "Habla el IRS. Se emitirá una orden de arresto en su contra si no paga hoy con tarjetas de regalo."
+    },
+    "how": "El miedo hace que la gente actúe rápido. Las agencias reales envían cartas primero y nunca exigen tarjetas de regalo, criptomonedas o giros, ni amenazan con arresto por teléfono.",
+    "signs": [
+     "Amenazas de arresto, deportación o perder beneficios",
+     "Exige pagar ahora mismo",
+     "Pide tarjetas de regalo, criptomonedas o un giro"
+    ],
+    "todo": [
+     "Cuelgue. No devuelva la llamada al número que le dan.",
+     "Busque usted mismo el número real de la agencia en su sitio oficial .gov.",
+     "Hable con alguien de confianza antes de hacer nada."
+    ]
+   },
+   "family": {
+    "title": "Un familiar en problemas",
+    "short": "Una llamada o texto de un \"nieto\" o pariente que necesita dinero rápido y le pide guardar el secreto.",
+    "example": {
+     "from": "Número desconocido",
+     "text": "Abuela soy yo, estoy en la cárcel y necesito ayuda. Mándame $2,000 en tarjetas de regalo. No le digas a mamá."
+    },
+    "how": "Los estafadores usan la emoción y el secreto. Algunos incluso usan IA para copiar la voz de un ser querido. Piden tarjetas de regalo, efectivo por mensajero o un giro.",
+    "signs": [
+     "Una emergencia y un pedido de dinero",
+     "\"No le digas a nadie\"",
+     "Un número nuevo, o una voz que suena un poco rara"
+    ],
+    "todo": [
+     "Cuelgue y llame a su familiar al número que ya tiene.",
+     "Haga una pregunta que solo esa persona sabría.",
+     "Acuerden de antemano una palabra clave familiar."
+    ]
+   },
+   "tech-support": {
+    "title": "Falso soporte técnico",
+    "short": "Una ventana emergente o una llamada dice que su computadora tiene un virus y le da un número para llamar.",
+    "example": {
+     "from": "Ventana en pantalla",
+     "text": "¡ADVERTENCIA! Su computadora está infectada. No cierre esta página. Llame a Soporte de Microsoft al 1-844-555-0199."
+    },
+    "how": "El \"técnico\" le pide instalar una aplicación como AnyDesk para controlar su aparato, y luego roba contraseñas o le cobra reparaciones falsas.",
+    "signs": [
+     "Una ventana alarmante con un número de teléfono",
+     "Le pide instalar una aplicación o compartir su pantalla",
+     "Pide pago con tarjetas de regalo o criptomonedas"
+    ],
+    "todo": [
+     "No llame. Cierre el navegador o reinicie la computadora.",
+     "Nunca deje que un desconocido controle su aparato.",
+     "Si les dio acceso, desconéctese del internet y busque ayuda."
+    ]
+   },
+   "prize": {
+    "title": "Premios, loterías y reembolsos",
+    "short": "Usted \"ganó\" dinero o un premio, pero primero tiene que pagar una tarifa o impuesto.",
+    "example": {
+     "from": "Centro de Premios",
+     "text": "¡Felicidades! Usted ganó $5,000 en nuestro sorteo anual. Pague $50 de impuestos por Western Union para reclamar su premio hoy."
+    },
+    "how": "Los premios reales nunca piden que pague para recibirlos. Cuando paga, siguen llegando más \"cobros\" y el premio nunca llega.",
+    "signs": [
+     "Un premio de un concurso en el que no participó",
+     "Una tarifa o impuesto para recibir el dinero",
+     "Presión para reclamarlo hoy"
+    ],
+    "todo": [
+     "No pague nada.",
+     "No comparta datos de banco o tarjeta.",
+     "Borre el mensaje."
+    ]
+   },
+   "romance": {
+    "title": "Estafas románticas y de \"número equivocado\"",
+    "short": "Un desconocido amable empieza a conversar, gana su confianza durante semanas y luego pide dinero o inversión.",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "Hola, ¿eres Sam? ¡Ay, perdón, número equivocado! Pero pareces muy amable. ¿De dónde eres?"
+    },
+    "how": "El estafador se vuelve un \"amigo\" o pareja, a menudo durante semanas. Luego necesita dinero para una emergencia, o le invita a una \"inversión\" en criptomonedas que no se puede retirar.",
+    "signs": [
+     "Un desconocido que se vuelve muy cercano muy rápido",
+     "Nunca puede verse en persona ni por video",
+     "Habla de inversiones, criptomonedas o problemas de dinero"
+    ],
+    "todo": [
+     "Nunca envíe dinero a alguien que no conoce en persona.",
+     "Hable de la relación con un familiar o amigo.",
+     "Deje de responder si sale el tema del dinero o de invertir."
+    ]
+   },
+   "job": {
+    "title": "Empleos falsos y pagos de más",
+    "short": "Un trabajo fácil muy bien pagado, o un comprador que le paga de más \"por error\" y le pide devolver la diferencia.",
+    "example": {
+     "from": "Equipo de RR. HH.",
+     "text": "¡Trabajo desde casa! Gane $500 al día dando \"me gusta\" a videos. Escriba a nuestro gerente por WhatsApp. Se requiere un pequeño depósito."
+    },
+    "how": "Le piden pagar por capacitación o equipo, o recibe un cheque que luego rebota después de que usted devolvió dinero.",
+    "signs": [
+     "Un sueldo demasiado alto para un trabajo fácil",
+     "Tiene que pagar para empezar",
+     "Un cheque por más de lo que le deben"
+    ],
+    "todo": [
+     "Nunca pague para conseguir un trabajo.",
+     "Nunca devuelva dinero extra de un cheque o transferencia.",
+     "Busque la empresa usted mismo antes de responder."
+    ]
+   }
+  },
+  "zh": {
+   "delivery": {
+    "title": "假快递费和过路费",
+    "short": "短信说包裹被扣或过路费未付，要求付一小笔钱。",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS：您的包裹已被扣留。请在 24 小时内支付 $1.99 重新派送费：usps-redeliver-help.co"
+    },
+    "how": "金额很小，让您不会多想。链接通往假网站，盗取您的卡号，之后被用来刷更大的金额。",
+    "signs": [
+     "链接不是该公司的真实网站",
+     "有期限，例如\"24 小时内\"",
+     "您没预料到的费用"
+    ],
+    "todo": [
+     "不要点链接。",
+     "在您平时用的正规应用或网站查询包裹。",
+     "删除短信并屏蔽号码。"
+    ]
+   },
+   "bank": {
+    "title": "银行和信用卡警报",
+    "short": "信息说您的账户被锁或有盗刷，要求您确认资料。",
+    "example": {
+     "from": "Chase Alert",
+     "text": "您的借记卡因可疑活动已被锁定。请回复您的 4 位 PIN 码以解锁。"
+    },
+    "how": "骗子冒充银行的反诈团队，索要 PIN 码、一次性验证码或登录信息，然后把账户里的钱转走。",
+    "signs": [
+     "索要 PIN 码、密码或验证码",
+     "说您的账户被锁或将被关闭",
+     "要求您把钱转到\"安全账户\""
+    ],
+    "todo": [
+     "绝不要透露 PIN 码或验证码。真正的银行从不索要。",
+     "拨打您卡背面的电话。",
+     "如果已经透露了，立刻打电话给银行。"
+    ]
+   },
+   "government": {
+    "title": "冒充政府和移民局的威胁",
+    "short": "有人自称是国税局、社会安全局、联邦医疗保险、警察或移民局，说不付钱就有麻烦。",
+    "example": {
+     "from": "未知来电",
+     "text": "这里是国税局（IRS）。如果您今天不用礼品卡付款，将对您发出逮捕令。"
+    },
+    "how": "恐惧让人仓促行事。真正的政府机构会先寄信，从不要求礼品卡、加密货币或电汇，也不会在电话里威胁逮捕。",
+    "signs": [
+     "威胁逮捕、驱逐出境或取消福利",
+     "要求马上付款",
+     "要求礼品卡、加密货币或电汇"
+    ],
+    "todo": [
+     "挂断电话。不要回拨对方给的号码。",
+     "自己在官方 .gov 网站上查该机构的真实电话。",
+     "做任何事之前，先和您信任的人谈谈。"
+    ]
+   },
+   "family": {
+    "title": "家人出事了",
+    "short": "\"孙子\"或亲戚打电话或发短信，急需用钱，还要求您保密。",
+    "example": {
+     "from": "未知号码",
+     "text": "奶奶是我，我被关在拘留所，需要帮忙。请寄 $2,000 的礼品卡给我。别告诉妈妈。"
+    },
+    "how": "骗子利用感情和保密。有些甚至用 AI 模仿亲人的声音。他们要礼品卡、让快递员上门取现金，或要求电汇。",
+    "signs": [
+     "紧急情况加上要钱",
+     "\"别告诉任何人\"",
+     "新号码，或声音听起来有点不对"
+    ],
+    "todo": [
+     "挂断，用您原本就有的号码打给这位家人。",
+     "问一个只有他们才知道的问题。",
+     "事先和家人约定一个暗号。"
+    ]
+   },
+   "tech-support": {
+    "title": "假冒技术支持",
+    "short": "弹窗或电话说您的电脑中了病毒，并给您一个电话号码。",
+    "example": {
+     "from": "屏幕弹窗",
+     "text": "警告！您的电脑已被感染。不要关闭此页面。请拨打微软支持 1-844-555-0199。"
+    },
+    "how": "\"技术员\"会让您安装 AnyDesk 之类的应用来控制您的设备，然后盗取密码，或让您为假维修付钱。",
+    "signs": [
+     "带电话号码的吓人弹窗",
+     "要求您安装应用或共享屏幕",
+     "要求用礼品卡或加密货币付款"
+    ],
+    "todo": [
+     "不要打电话。关闭浏览器或重启电脑。",
+     "绝不要让陌生人控制您的设备。",
+     "如果已经让他们进入，请断开网络并寻求帮助。"
+    ]
+   },
+   "prize": {
+    "title": "中奖、彩票和退款",
+    "short": "您\"赢了\"钱或奖品，但要先付手续费或税。",
+    "example": {
+     "from": "颁奖中心",
+     "text": "恭喜！您在我们的年度抽奖中赢得 $5,000。今天通过西联汇款支付 $50 税款即可领奖。"
+    },
+    "how": "真正的奖品从不需要您先付钱。一旦付了，就会有更多\"费用\"，奖品永远不会到。",
+    "signs": [
+     "没参加过的抽奖却中了奖",
+     "要付费或交税才能拿到钱",
+     "催您今天就领"
+    ],
+    "todo": [
+     "什么钱都不要付。",
+     "不要透露银行或信用卡资料。",
+     "删除这条信息。"
+    ]
+   },
+   "romance": {
+    "title": "恋爱诈骗和\"打错电话\"诈骗",
+    "short": "友善的陌生人开始聊天，花几周赢得信任，然后要钱或拉您投资。",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "你好，是 Sam 吗？哎呀，打错了！不过你人好像很好。你是哪里人？"
+    },
+    "how": "骗子会成为您的\"朋友\"或恋人，往往持续好几周。之后他们遇到急事要钱，或邀请您参加取不出钱的加密货币\"投资\"。",
+    "signs": [
+     "陌生人很快变得非常亲热",
+     "从来不能见面或视频",
+     "谈到投资、加密货币或缺钱"
+    ],
+    "todo": [
+     "绝不要给没见过面的人寄钱。",
+     "和家人或朋友谈谈这段关系。",
+     "一提到钱或投资，就不要再回复。"
+    ]
+   },
+   "job": {
+    "title": "假工作和多付款",
+    "short": "轻松高薪的工作，或买家\"不小心\"多付了钱，要您退回差额。",
+    "example": {
+     "from": "人事部",
+     "text": "远程工作！给视频点赞每天赚 $500。在 WhatsApp 上联系我们的经理开始。需要少量押金。"
+    },
+    "how": "他们让您付培训费或设备费，或者寄给您一张支票，等您退钱之后支票才被退票。",
+    "signs": [
+     "轻松工作却给很高的报酬",
+     "要先付钱才能开始",
+     "支票金额比应付的多"
+    ],
+    "todo": [
+     "找工作绝不要付钱。",
+     "绝不要把支票或转账多出来的钱退回去。",
+     "回复之前，自己查一查这家公司。"
+    ]
+   }
+  },
+  "vi": {
+   "delivery": {
+    "title": "Phí giao hàng và phí cầu đường giả",
+    "short": "Tin nhắn nói gói hàng bị giữ hoặc chưa trả phí cầu đường, và đòi một khoản phí nhỏ.",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS: Gói hàng của quý vị đang bị giữ. Trả phí giao lại $1.99 trong 24 giờ: usps-redeliver-help.co"
+    },
+    "how": "Phí nhỏ để quý vị không suy nghĩ nhiều. Đường link dẫn đến trang giả để lấy số thẻ, rồi dùng nó cho những khoản lớn hơn nhiều.",
+    "signs": [
+     "Đường link không phải trang web thật của công ty",
+     "Có hạn chót, như \"trong 24 giờ\"",
+     "Một khoản phí quý vị không ngờ tới"
+    ],
+    "todo": [
+     "Đừng bấm vào link.",
+     "Theo dõi gói hàng trong ứng dụng hoặc trang web thật quý vị vẫn dùng.",
+     "Xóa tin nhắn và chặn số đó."
+    ]
+   },
+   "bank": {
+    "title": "Cảnh báo ngân hàng và thẻ",
+    "short": "Tin nhắn nói tài khoản bị khóa hoặc có gian lận, và bảo quý vị xác nhận thông tin.",
+    "example": {
+     "from": "Chase Alert",
+     "text": "Thẻ ghi nợ của quý vị bị khóa do hoạt động đáng ngờ. Trả lời bằng mã PIN 4 số để mở khóa."
+    },
+    "how": "Kẻ lừa đảo giả làm bộ phận chống gian lận của ngân hàng. Họ hỏi mã PIN, mã một lần hoặc thông tin đăng nhập, rồi rút sạch tài khoản.",
+    "signs": [
+     "Hỏi mã PIN, mật khẩu hay mã số",
+     "Nói tài khoản bị khóa hoặc sắp đóng",
+     "Bảo chuyển tiền sang \"tài khoản an toàn\""
+    ],
+    "todo": [
+     "Đừng bao giờ đưa mã PIN hay mã số. Ngân hàng thật không bao giờ hỏi.",
+     "Gọi số ở mặt sau thẻ.",
+     "Nếu đã đưa thông tin, hãy gọi ngân hàng ngay."
+    ]
+   },
+   "government": {
+    "title": "Đe dọa giả danh chính phủ và di trú",
+    "short": "Có người tự xưng là IRS, An Sinh Xã Hội, Medicare, cảnh sát hay sở di trú, và nói quý vị sẽ gặp rắc rối nếu không trả tiền.",
+    "example": {
+     "from": "Người gọi lạ",
+     "text": "Đây là IRS. Lệnh bắt sẽ được ban hành nếu quý vị không trả tiền hôm nay bằng thẻ quà tặng."
+    },
+    "how": "Nỗi sợ khiến người ta hành động vội. Cơ quan thật gửi thư trước, không bao giờ đòi thẻ quà tặng, tiền mã hóa hay chuyển khoản, và không đe dọa bắt giữ qua điện thoại.",
+    "signs": [
+     "Đe dọa bắt giữ, trục xuất hoặc mất trợ cấp",
+     "Đòi trả tiền ngay",
+     "Đòi thẻ quà tặng, tiền mã hóa hay chuyển khoản"
+    ],
+    "todo": [
+     "Cúp máy. Đừng gọi lại số họ đưa.",
+     "Tự tìm số thật của cơ quan trên trang web chính thức .gov.",
+     "Nói chuyện với người quý vị tin trước khi làm gì."
+    ]
+   },
+   "family": {
+    "title": "Người thân gặp nạn",
+    "short": "Cuộc gọi hoặc tin nhắn từ \"cháu\" hay người thân cần tiền gấp và bảo quý vị giữ bí mật.",
+    "example": {
+     "from": "Số lạ",
+     "text": "Bà ơi con đây, con đang bị giam và cần giúp. Bà gửi con $2,000 thẻ quà tặng nhé. Đừng nói với mẹ."
+    },
+    "how": "Kẻ lừa đảo dùng cảm xúc và sự bí mật. Có kẻ còn dùng AI để giả giọng người thân. Họ đòi thẻ quà tặng, tiền mặt qua người giao hàng, hoặc chuyển khoản.",
+    "signs": [
+     "Chuyện khẩn cấp kèm đòi tiền",
+     "\"Đừng nói với ai\"",
+     "Số mới, hoặc giọng nghe hơi lạ"
+    ],
+    "todo": [
+     "Cúp máy và gọi người thân bằng số quý vị đã có.",
+     "Hỏi một câu chỉ người đó mới biết.",
+     "Thống nhất trước một mật khẩu gia đình."
+    ]
+   },
+   "tech-support": {
+    "title": "Hỗ trợ kỹ thuật giả",
+    "short": "Cửa sổ bật lên hoặc cuộc gọi nói máy tính bị virus và đưa số điện thoại để gọi.",
+    "example": {
+     "from": "Cửa sổ trên màn hình",
+     "text": "CẢNH BÁO! Máy tính của quý vị bị nhiễm virus. Đừng đóng trang này. Gọi Hỗ trợ Microsoft: 1-844-555-0199."
+    },
+    "how": "\"Kỹ thuật viên\" bảo quý vị cài ứng dụng như AnyDesk để điều khiển thiết bị, rồi lấy mật khẩu hoặc đòi trả tiền sửa chữa giả.",
+    "signs": [
+     "Cửa sổ đáng sợ có số điện thoại",
+     "Bảo cài ứng dụng hoặc chia sẻ màn hình",
+     "Đòi trả bằng thẻ quà tặng hay tiền mã hóa"
+    ],
+    "todo": [
+     "Đừng gọi. Đóng trình duyệt hoặc khởi động lại máy.",
+     "Đừng bao giờ để người lạ điều khiển thiết bị.",
+     "Nếu đã cho họ vào, hãy ngắt mạng và tìm trợ giúp."
+    ]
+   },
+   "prize": {
+    "title": "Giải thưởng, xổ số và hoàn tiền",
+    "short": "Quý vị \"trúng\" tiền hay giải thưởng, nhưng phải trả phí hoặc thuế trước.",
+    "example": {
+     "from": "Trung tâm Giải thưởng",
+     "text": "Chúc mừng! Quý vị đã trúng $5,000 trong đợt quay thưởng năm. Trả $50 tiền thuế qua Western Union để nhận giải hôm nay."
+    },
+    "how": "Giải thưởng thật không bao giờ bắt trả tiền mới được nhận. Trả rồi thì lại có thêm \"phí\", và giải thưởng không bao giờ đến.",
+    "signs": [
+     "Trúng giải của cuộc thi mình không tham gia",
+     "Phải trả phí hay thuế để nhận tiền",
+     "Hối thúc nhận ngay hôm nay"
+    ],
+    "todo": [
+     "Đừng trả bất cứ khoản nào.",
+     "Đừng đưa thông tin ngân hàng hay thẻ.",
+     "Xóa tin nhắn."
+    ]
+   },
+   "romance": {
+    "title": "Lừa đảo tình cảm và \"nhắn nhầm số\"",
+    "short": "Một người lạ thân thiện bắt chuyện, tạo lòng tin trong nhiều tuần, rồi xin tiền hoặc rủ đầu tư.",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "Chào, có phải Sam không? Ôi xin lỗi, nhầm số! Nhưng bạn có vẻ dễ thương ghê. Bạn ở đâu vậy?"
+    },
+    "how": "Kẻ lừa đảo trở thành \"bạn\" hoặc người yêu, thường trong nhiều tuần. Sau đó họ cần tiền gấp, hoặc rủ quý vị \"đầu tư\" tiền mã hóa mà không rút ra được.",
+    "signs": [
+     "Người lạ trở nên rất thân rất nhanh",
+     "Không bao giờ gặp mặt hay gọi video được",
+     "Nói chuyện đầu tư, tiền mã hóa hay khó khăn tiền bạc"
+    ],
+    "todo": [
+     "Đừng bao giờ gửi tiền cho người chưa gặp ngoài đời.",
+     "Kể về mối quan hệ này với người thân hoặc bạn bè.",
+     "Ngừng trả lời nếu bắt đầu nói đến tiền hay đầu tư."
+    ]
+   },
+   "job": {
+    "title": "Việc làm giả và trả dư tiền",
+    "short": "Việc nhẹ lương cao, hoặc người mua \"lỡ\" trả dư rồi xin quý vị gửi lại phần chênh lệch.",
+    "example": {
+     "from": "Phòng Nhân sự",
+     "text": "Việc làm tại nhà! Kiếm $500/ngày bằng cách bấm thích video. Nhắn quản lý qua WhatsApp để bắt đầu. Cần đặt cọc nhỏ."
+    },
+    "how": "Quý vị bị bảo trả tiền đào tạo hay thiết bị, hoặc nhận một tấm séc mà sau đó bị trả về sau khi quý vị đã gửi lại tiền.",
+    "signs": [
+     "Lương quá cao cho việc dễ",
+     "Phải trả tiền mới được bắt đầu",
+     "Séc nhiều hơn số tiền đáng nhận"
+    ],
+    "todo": [
+     "Đừng bao giờ trả tiền để có việc làm.",
+     "Đừng bao giờ gửi lại tiền dư từ séc hay chuyển khoản.",
+     "Tự tìm hiểu công ty trước khi trả lời."
+    ]
+   }
+  },
+  "tl": {
+   "delivery": {
+    "title": "Pekeng bayad sa delivery at toll",
+    "short": "Sinasabi ng text na naipit ang package o may hindi bayad na toll, at humihingi ng maliit na bayad.",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS: Naka-hold ang iyong package. Bayaran ang $1.99 redelivery fee sa loob ng 24h: usps-redeliver-help.co"
+    },
+    "how": "Maliit ang bayad para hindi ka na mag-isip. Papunta ang link sa pekeng site na nagnanakaw ng numero ng card mo, na ginagamit sa mas malalaking singil.",
+    "signs": [
+     "Link na hindi tunay na website ng kumpanya",
+     "May deadline, tulad ng \"sa loob ng 24 oras\"",
+     "Bayad na hindi mo inaasahan"
+    ],
+    "todo": [
+     "Huwag pindutin ang link.",
+     "I-track ang package sa tunay na app o website na gamit mo na.",
+     "Burahin ang text at i-block ang numero."
+    ]
+   },
+   "bank": {
+    "title": "Alerto mula sa bangko at card",
+    "short": "Sinasabi ng mensahe na naka-lock ang account mo o may fraud, at pinakukumpirma ang iyong detalye.",
+    "example": {
+     "from": "Chase Alert",
+     "text": "Naka-lock ang iyong debit card dahil sa kahina-hinalang aktibidad. Sumagot gamit ang iyong 4-digit PIN para ma-unlock."
+    },
+    "how": "Nagpapanggap ang scammer na fraud team ng bangko mo. Hinihingi nila ang PIN, one-time code o login mo, saka nila uubusin ang account.",
+    "signs": [
+     "Humihingi ng PIN, password o code",
+     "Sinasabing naka-lock o isasara ang account",
+     "Pinalilipat ang pera sa \"safe account\""
+    ],
+    "todo": [
+     "Huwag ibigay ang PIN o code. Hindi ito hinihingi ng tunay na bangko.",
+     "Tawagan ang numero sa likod ng iyong card.",
+     "Kung may naibigay ka, tawagan agad ang bangko."
+    ]
+   },
+   "government": {
+    "title": "Pananakot mula sa \"gobyerno\" at immigration",
+    "short": "May nagsasabing taga-IRS, Social Security, Medicare, pulis o immigration sila, at magkakaproblema ka kung hindi ka magbabayad.",
+    "example": {
+     "from": "Hindi kilalang tumatawag",
+     "text": "Ito ang IRS. Maglalabas ng warrant of arrest laban sa iyo kung hindi ka magbabayad ngayon gamit ang gift card."
+    },
+    "how": "Pinapabilis ng takot ang pagkilos ng tao. Nagpapadala muna ng sulat ang tunay na ahensya, at hindi sila humihingi ng gift card, crypto o wire, o nananakot ng pag-aresto sa telepono.",
+    "signs": [
+     "Banta ng pag-aresto, deportasyon o pagkawala ng benepisyo",
+     "Pinababayad agad-agad",
+     "Humihingi ng gift card, crypto o wire"
+    ],
+    "todo": [
+     "Ibaba ang tawag. Huwag tawagan ang numerong ibinigay nila.",
+     "Ikaw mismo ang maghanap ng tunay na numero sa opisyal na .gov website.",
+     "Kausapin muna ang taong pinagkakatiwalaan mo bago kumilos."
+    ]
+   },
+   "family": {
+    "title": "Kapamilyang nasa gulo",
+    "short": "Tawag o text mula sa \"apo\" o kamag-anak na nangangailangan agad ng pera at pinalilihim ito sa iyo.",
+    "example": {
+     "from": "Hindi kilalang numero",
+     "text": "Lola ako 'to, nakakulong ako at kailangan ko ng tulong. Padalhan mo ako ng $2,000 na gift card. Huwag mong sabihin kay Mama."
+    },
+    "how": "Ginagamit ng scammer ang damdamin at paglilihim. May ilan pang gumagamit ng AI para gayahin ang boses ng mahal mo sa buhay. Humihingi sila ng gift card, cash sa courier o wire.",
+    "signs": [
+     "Emergency at paghingi ng pera",
+     "\"Huwag mong sabihin kahit kanino\"",
+     "Bagong numero, o boses na parang may mali"
+    ],
+    "todo": [
+     "Ibaba ang tawag at tawagan ang kapamilya sa numerong alam mo na.",
+     "Magtanong ng bagay na sila lang ang nakakaalam.",
+     "Magkasundo nang maaga sa isang family code word."
+    ]
+   },
+   "tech-support": {
+    "title": "Pekeng tech support",
+    "short": "May pop-up o tawag na nagsasabing may virus ang computer mo at nagbibigay ng numerong tatawagan.",
+    "example": {
+     "from": "Pop-up sa screen",
+     "text": "BABALA! Infected ang iyong computer. Huwag isara ang page na ito. Tawagan ang Microsoft Support sa 1-844-555-0199."
+    },
+    "how": "Ipapa-install sa iyo ng \"technician\" ang app tulad ng AnyDesk para makontrol ang device mo, saka magnanakaw ng password o pababayarin ka sa pekeng repair.",
+    "signs": [
+     "Nakakatakot na pop-up na may numero ng telepono",
+     "Pinapa-install ng app o pinapa-share ang screen",
+     "Pinababayad sa gift card o crypto"
+    ],
+    "todo": [
+     "Huwag tumawag. Isara ang browser o i-restart ang computer.",
+     "Huwag hayaang kontrolin ng estranghero ang device mo.",
+     "Kung napapasok mo sila, putulin ang internet at humingi ng tulong."
+    ]
+   },
+   "prize": {
+    "title": "Premyo, lotto at refund",
+    "short": "\"Nanalo\" ka ng pera o premyo, pero kailangan mo munang magbayad ng fee o buwis.",
+    "example": {
+     "from": "Prize Center",
+     "text": "Congratulations! Nanalo ka ng $5,000 sa aming taunang raffle. Magbayad ng $50 na buwis sa Western Union para makuha ang premyo ngayon."
+    },
+    "how": "Hindi ka pinababayad ng tunay na premyo bago mo ito makuha. Kapag nagbayad ka, may susunod pang \"fee\", at hindi darating ang premyo.",
+    "signs": [
+     "Premyo sa paligsahang hindi mo sinalihan",
+     "May fee o buwis bago makuha ang pera",
+     "Minamadaling kunin ngayon"
+    ],
+    "todo": [
+     "Huwag magbayad ng kahit ano.",
+     "Huwag ibigay ang detalye ng bangko o card.",
+     "Burahin ang mensahe."
+    ]
+   },
+   "romance": {
+    "title": "Romance at \"wrong number\" na scam",
+    "short": "Isang mabait na estranghero ang nakikipag-chat, kinukuha ang tiwala mo nang ilang linggo, saka hihingi ng pera o pag-invest.",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "Hi, si Sam ba ito? Ay sorry, wrong number! Pero mukha kang mabait. Taga-saan ka?"
+    },
+    "how": "Nagiging \"kaibigan\" o karelasyon ang scammer, kadalasan nang ilang linggo. Saka sila mangangailangan ng pera sa emergency, o iimbitahan ka sa crypto \"investment\" na hindi na mawi-withdraw.",
+    "signs": [
+     "Estrangherong biglang naging malapit",
+     "Hindi kayo makapagkita o makapag-video call",
+     "Usapan tungkol sa investment, crypto o problema sa pera"
+    ],
+    "todo": [
+     "Huwag magpadala ng pera sa taong hindi mo pa nakikita nang personal.",
+     "Ikuwento ang relasyon sa kapamilya o kaibigan.",
+     "Huminto sa pagsagot kapag napag-usapan na ang pera o pag-invest."
+    ]
+   },
+   "job": {
+    "title": "Pekeng trabaho at sobrang bayad",
+    "short": "Madaling trabaho na malaki ang sweldo, o mamimiling \"aksidenteng\" nagbayad nang sobra at pinababalik ang sukli.",
+    "example": {
+     "from": "HR Team",
+     "text": "Remote job! Kumita ng $500/araw sa pag-like ng videos. I-message ang manager namin sa WhatsApp para magsimula. May maliit na deposit."
+    },
+    "how": "Pinababayad ka para sa training o kagamitan, o makakatanggap ka ng tseke na tatalbog pagkatapos mong magpadala ng pera pabalik.",
+    "signs": [
+     "Sweldong sobrang laki para sa madaling trabaho",
+     "Kailangan mong magbayad para magsimula",
+     "Tsekeng mas malaki kaysa sa utang sa iyo"
+    ],
+    "todo": [
+     "Huwag magbayad para lang magkatrabaho.",
+     "Huwag ibalik ang sobrang pera mula sa tseke o transfer.",
+     "Ikaw mismo ang mag-research sa kumpanya bago sumagot."
+    ]
+   }
+  },
+  "hi": {
+   "delivery": {
+    "title": "नकली डिलीवरी और टोल फ़ीस",
+    "short": "मैसेज कहता है कि पैकेज अटका है या टोल बकाया है, और थोड़ी सी फ़ीस माँगता है।",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS: आपका पैकेज रुका हुआ है। 24 घंटे में $1.99 री-डिलीवरी फ़ीस भरें: usps-redeliver-help.co"
+    },
+    "how": "फ़ीस छोटी होती है ताकि आप ज़्यादा न सोचें। लिंक नकली साइट पर ले जाता है जो आपका कार्ड नंबर चुरा लेती है, फिर उससे बड़े खर्च किए जाते हैं।",
+    "signs": [
+     "लिंक कंपनी की असली वेबसाइट नहीं है",
+     "समय-सीमा, जैसे \"24 घंटे में\"",
+     "ऐसी फ़ीस जिसकी आपको उम्मीद नहीं थी"
+    ],
+    "todo": [
+     "लिंक पर न दबाएँ।",
+     "पैकेज उसी असली ऐप या वेबसाइट पर ट्रैक करें जो आप पहले से इस्तेमाल करते हैं।",
+     "मैसेज डिलीट करें और नंबर ब्लॉक करें।"
+    ]
+   },
+   "bank": {
+    "title": "बैंक और कार्ड अलर्ट",
+    "short": "संदेश कहता है कि खाता लॉक है या धोखाधड़ी हुई है, और जानकारी पक्की करने को कहता है।",
+    "example": {
+     "from": "Chase Alert",
+     "text": "संदिग्ध गतिविधि के कारण आपका डेबिट कार्ड लॉक है। अनलॉक करने के लिए अपना 4 अंकों का PIN भेजें।"
+    },
+    "how": "धोखेबाज़ बैंक की फ़्रॉड टीम बनकर PIN, वन-टाइम कोड या लॉगिन माँगते हैं, फिर खाता खाली कर देते हैं।",
+    "signs": [
+     "PIN, पासवर्ड या कोड माँगना",
+     "कहना कि खाता लॉक है या बंद होगा",
+     "पैसे किसी \"सुरक्षित खाते\" में भेजने को कहना"
+    ],
+    "todo": [
+     "PIN या कोड कभी न बताएँ। असली बैंक ये नहीं माँगते।",
+     "कार्ड के पीछे लिखे नंबर पर कॉल करें।",
+     "अगर कुछ बता दिया है, तो तुरंत बैंक को कॉल करें।"
+    ]
+   },
+   "government": {
+    "title": "सरकार और इमिग्रेशन के नाम पर धमकी",
+    "short": "कोई खुद को IRS, Social Security, Medicare, पुलिस या इमिग्रेशन से बताता है, और कहता है कि पैसे न दिए तो मुसीबत होगी।",
+    "example": {
+     "from": "अनजान कॉलर",
+     "text": "यह IRS है। अगर आपने आज गिफ़्ट कार्ड से भुगतान नहीं किया, तो आपकी गिरफ़्तारी का वारंट निकलेगा।"
+    },
+    "how": "डर से लोग जल्दबाज़ी करते हैं। असली विभाग पहले चिट्ठी भेजते हैं, और गिफ़्ट कार्ड, क्रिप्टो या वायर कभी नहीं माँगते, न फ़ोन पर गिरफ़्तारी की धमकी देते हैं।",
+    "signs": [
+     "गिरफ़्तारी, देश से निकालने या लाभ बंद करने की धमकी",
+     "अभी के अभी भुगतान की माँग",
+     "गिफ़्ट कार्ड, क्रिप्टो या वायर माँगना"
+    ],
+    "todo": [
+     "फ़ोन काट दें। उनके दिए नंबर पर वापस कॉल न करें।",
+     "विभाग का असली नंबर उसकी आधिकारिक .gov वेबसाइट पर खुद ढूँढें।",
+     "कुछ भी करने से पहले किसी भरोसेमंद व्यक्ति से बात करें।"
+    ]
+   },
+   "family": {
+    "title": "परिवार का कोई सदस्य मुसीबत में",
+    "short": "किसी \"पोते\" या रिश्तेदार का कॉल या मैसेज, जिसे जल्दी पैसे चाहिए और जो बात छिपाने को कहता है।",
+    "example": {
+     "from": "अनजान नंबर",
+     "text": "दादी मैं हूँ, मैं जेल में हूँ और मुझे मदद चाहिए। $2,000 के गिफ़्ट कार्ड भेज दो। मम्मी को मत बताना।"
+    },
+    "how": "धोखेबाज़ भावनाओं और राज़दारी का फ़ायदा उठाते हैं। कुछ AI से अपनों की आवाज़ की नकल भी करते हैं। वे गिफ़्ट कार्ड, कूरियर से नकद या वायर माँगते हैं।",
+    "signs": [
+     "इमरजेंसी के साथ पैसों की माँग",
+     "\"किसी को मत बताना\"",
+     "नया नंबर, या आवाज़ थोड़ी अलग लगना"
+    ],
+    "todo": [
+     "फ़ोन काटें और परिवार के सदस्य को उनके पुराने नंबर पर कॉल करें।",
+     "ऐसा सवाल पूछें जिसका जवाब सिर्फ़ वही जानते हों।",
+     "परिवार में पहले से एक कोड शब्द तय कर लें।"
+    ]
+   },
+   "tech-support": {
+    "title": "नकली टेक सपोर्ट",
+    "short": "कोई पॉप-अप या कॉल कहता है कि कंप्यूटर में वायरस है और कॉल करने को एक नंबर देता है।",
+    "example": {
+     "from": "स्क्रीन पर पॉप-अप",
+     "text": "चेतावनी! आपका कंप्यूटर संक्रमित है। यह पेज बंद न करें। Microsoft Support को 1-844-555-0199 पर कॉल करें।"
+    },
+    "how": "\"टेक्नीशियन\" AnyDesk जैसा ऐप इंस्टॉल करवाकर आपका डिवाइस चलाता है, फिर पासवर्ड चुराता है या नकली मरम्मत के पैसे माँगता है।",
+    "signs": [
+     "फ़ोन नंबर वाला डरावना पॉप-अप",
+     "ऐप इंस्टॉल करने या स्क्रीन शेयर करने को कहना",
+     "गिफ़्ट कार्ड या क्रिप्टो में पैसे माँगना"
+    ],
+    "todo": [
+     "कॉल न करें। ब्राउज़र बंद करें या कंप्यूटर रीस्टार्ट करें।",
+     "किसी अनजान को कभी अपना डिवाइस चलाने न दें।",
+     "अगर उन्हें अंदर आने दिया, तो इंटरनेट बंद करें और मदद लें।"
+    ]
+   },
+   "prize": {
+    "title": "इनाम, लॉटरी और रिफ़ंड",
+    "short": "आपने पैसे या इनाम \"जीता\" है, पर पहले फ़ीस या टैक्स देना होगा।",
+    "example": {
+     "from": "प्राइज़ सेंटर",
+     "text": "बधाई! आपने हमारे वार्षिक ड्रॉ में $5,000 जीते हैं। आज Western Union से $50 टैक्स भरकर इनाम लें।"
+    },
+    "how": "असली इनाम पाने के लिए कभी पैसे नहीं देने पड़ते। एक बार देने पर और \"फ़ीस\" आती रहती है, इनाम कभी नहीं आता।",
+    "signs": [
+     "ऐसी प्रतियोगिता का इनाम जिसमें आपने भाग नहीं लिया",
+     "पैसे पाने के लिए फ़ीस या टैक्स",
+     "आज ही लेने का दबाव"
+    ],
+    "todo": [
+     "कोई पैसा न दें।",
+     "बैंक या कार्ड की जानकारी न दें।",
+     "संदेश डिलीट करें।"
+    ]
+   },
+   "romance": {
+    "title": "रोमांस और \"गलत नंबर\" वाले धोखे",
+    "short": "एक दोस्ताना अनजान व्यक्ति बात शुरू करता है, हफ़्तों भरोसा जीतता है, फिर पैसे या निवेश माँगता है।",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "हाय, क्या यह Sam है? ओह माफ़ कीजिए, गलत नंबर! पर आप बहुत अच्छे लगते हैं। आप कहाँ से हैं?"
+    },
+    "how": "धोखेबाज़ अक्सर हफ़्तों तक \"दोस्त\" या साथी बनता है। फिर उसे इमरजेंसी में पैसे चाहिए होते हैं, या वह क्रिप्टो \"निवेश\" में बुलाता है जिससे पैसा निकल नहीं पाता।",
+    "signs": [
+     "अनजान व्यक्ति का बहुत जल्दी बहुत करीब आ जाना",
+     "कभी मिल नहीं पाते या वीडियो कॉल नहीं करते",
+     "निवेश, क्रिप्टो या पैसों की तंगी की बातें"
+    ],
+    "todo": [
+     "जिससे कभी आमने-सामने नहीं मिले, उसे कभी पैसे न भेजें।",
+     "इस रिश्ते के बारे में परिवार या दोस्त से बात करें।",
+     "पैसे या निवेश की बात आते ही जवाब देना बंद करें।"
+    ]
+   },
+   "job": {
+    "title": "नकली नौकरी और ज़्यादा भुगतान",
+    "short": "आसान काम और बहुत ज़्यादा तनख़्वाह, या कोई खरीदार जो \"गलती से\" ज़्यादा पैसे भेजकर बाकी लौटाने को कहे।",
+    "example": {
+     "from": "HR टीम",
+     "text": "घर बैठे नौकरी! वीडियो लाइक करके रोज़ $500 कमाएँ। शुरू करने के लिए WhatsApp पर मैनेजर को मैसेज करें। थोड़ा डिपॉज़िट ज़रूरी है।"
+    },
+    "how": "आपसे ट्रेनिंग या सामान के पैसे माँगे जाते हैं, या एक चेक मिलता है जो आपके पैसे लौटाने के बाद बाउंस हो जाता है।",
+    "signs": [
+     "आसान काम के लिए बहुत ज़्यादा तनख़्वाह",
+     "शुरू करने के लिए पैसे देने पड़ना",
+     "बकाया से ज़्यादा रकम का चेक"
+    ],
+    "todo": [
+     "नौकरी पाने के लिए कभी पैसे न दें।",
+     "चेक या ट्रांसफ़र का अतिरिक्त पैसा कभी वापस न भेजें।",
+     "जवाब देने से पहले कंपनी के बारे में खुद पता करें।"
+    ]
+   }
+  },
+  "fr": {
+   "delivery": {
+    "title": "Faux frais de livraison et de péage",
+    "short": "Un SMS dit qu'un colis est bloqué ou qu'un péage est impayé, et demande de petits frais.",
+    "example": {
+     "from": "+1 (415) 555-0187",
+     "text": "USPS : Votre colis est en attente. Payez 1,99 $ de frais de relivraison sous 24 h : usps-redeliver-help.co"
+    },
+    "how": "Les frais sont faibles pour que vous n'hésitiez pas. Le lien mène à un faux site qui vole votre numéro de carte, utilisé ensuite pour de bien plus gros achats.",
+    "signs": [
+     "Un lien qui n'est pas le vrai site de l'entreprise",
+     "Un délai, comme « sous 24 h »",
+     "Des frais que vous n'attendiez pas"
+    ],
+    "todo": [
+     "Ne touchez pas le lien.",
+     "Suivez vos colis dans l'application ou le site officiel que vous utilisez déjà.",
+     "Supprimez le SMS et bloquez le numéro."
+    ]
+   },
+   "bank": {
+    "title": "Alertes de banque et de carte",
+    "short": "Un message dit que votre compte est bloqué ou qu'il y a une fraude, et vous demande de confirmer vos informations.",
+    "example": {
+     "from": "Chase Alert",
+     "text": "Votre carte de débit est bloquée pour activité suspecte. Répondez avec votre code PIN à 4 chiffres pour la débloquer."
+    },
+    "how": "Les escrocs se font passer pour le service anti-fraude de votre banque. Ils demandent votre PIN, un code à usage unique ou vos identifiants, puis vident le compte.",
+    "signs": [
+     "Demande un PIN, un mot de passe ou un code",
+     "Dit que le compte est bloqué ou va être fermé",
+     "Demande de transférer l'argent sur un « compte sécurisé »"
+    ],
+    "todo": [
+     "Ne donnez jamais un PIN ou un code. Les vraies banques ne les demandent jamais.",
+     "Appelez le numéro au dos de votre carte.",
+     "Si vous avez donné quelque chose, appelez votre banque tout de suite."
+    ]
+   },
+   "government": {
+    "title": "Menaces de l'administration ou de l'immigration",
+    "short": "Quelqu'un se dit de l'IRS, de la sécurité sociale, de Medicare, de la police ou de l'immigration, et menace si vous ne payez pas.",
+    "example": {
+     "from": "Appel inconnu",
+     "text": "Ici l'IRS. Un mandat d'arrêt sera émis contre vous si vous ne payez pas aujourd'hui en cartes cadeaux."
+    },
+    "how": "La peur fait agir vite. Les vraies administrations envoient d'abord des courriers, ne demandent jamais de cartes cadeaux, de cryptomonnaie ou de virement, et ne menacent pas d'arrestation au téléphone.",
+    "signs": [
+     "Menaces d'arrestation, d'expulsion ou de perte d'aides",
+     "Exige un paiement immédiat",
+     "Demande des cartes cadeaux, de la cryptomonnaie ou un virement"
+    ],
+    "todo": [
+     "Raccrochez. Ne rappelez pas le numéro donné.",
+     "Cherchez vous-même le vrai numéro sur le site officiel en .gov.",
+     "Parlez à quelqu'un de confiance avant de faire quoi que ce soit."
+    ]
+   },
+   "family": {
+    "title": "Un proche en difficulté",
+    "short": "Un appel ou un SMS d'un « petit-enfant » ou d'un proche qui a besoin d'argent vite et demande de garder le secret.",
+    "example": {
+     "from": "Numéro inconnu",
+     "text": "Mamie c'est moi, je suis en prison et j'ai besoin d'aide. Envoie-moi 2 000 $ en cartes cadeaux. Ne dis rien à maman."
+    },
+    "how": "Les escrocs jouent sur l'émotion et le secret. Certains imitent même la voix d'un proche grâce à l'IA. Ils demandent des cartes cadeaux, de l'argent liquide par coursier ou un virement.",
+    "signs": [
+     "Une urgence et une demande d'argent",
+     "« N'en parle à personne »",
+     "Un nouveau numéro, ou une voix un peu bizarre"
+    ],
+    "todo": [
+     "Raccrochez et rappelez votre proche à son numéro habituel.",
+     "Posez une question dont lui seul connaît la réponse.",
+     "Convenez à l'avance d'un mot de passe familial."
+    ]
+   },
+   "tech-support": {
+    "title": "Faux support technique",
+    "short": "Une fenêtre ou un appel dit que votre ordinateur a un virus et donne un numéro à appeler.",
+    "example": {
+     "from": "Fenêtre à l'écran",
+     "text": "ATTENTION ! Votre ordinateur est infecté. Ne fermez pas cette page. Appelez le support Microsoft au 1-844-555-0199."
+    },
+    "how": "Le « technicien » vous fait installer une application comme AnyDesk pour contrôler votre appareil, puis vole vos mots de passe ou vous fait payer de fausses réparations.",
+    "signs": [
+     "Une fenêtre alarmante avec un numéro de téléphone",
+     "Demande d'installer une application ou de partager l'écran",
+     "Demande un paiement en cartes cadeaux ou cryptomonnaie"
+    ],
+    "todo": [
+     "N'appelez pas. Fermez le navigateur ou redémarrez l'ordinateur.",
+     "Ne laissez jamais un inconnu contrôler votre appareil.",
+     "Si vous les avez laissés entrer, coupez Internet et demandez de l'aide."
+    ]
+   },
+   "prize": {
+    "title": "Prix, loteries et remboursements",
+    "short": "Vous avez « gagné » de l'argent ou un prix, mais il faut d'abord payer des frais ou une taxe.",
+    "example": {
+     "from": "Centre des prix",
+     "text": "Félicitations ! Vous avez gagné 5 000 $ à notre tirage annuel. Payez 50 $ de taxes par Western Union pour recevoir votre prix aujourd'hui."
+    },
+    "how": "Un vrai prix ne demande jamais de payer pour le recevoir. Une fois payé, d'autres « frais » arrivent et le prix ne vient jamais.",
+    "signs": [
+     "Un prix pour un concours auquel vous n'avez pas participé",
+     "Des frais ou une taxe pour recevoir l'argent",
+     "Pression pour le réclamer aujourd'hui"
+    ],
+    "todo": [
+     "Ne payez rien.",
+     "Ne donnez pas vos informations bancaires.",
+     "Supprimez le message."
+    ]
+   },
+   "romance": {
+    "title": "Arnaques sentimentales et « faux numéro »",
+    "short": "Un inconnu sympathique engage la conversation, gagne votre confiance pendant des semaines, puis demande de l'argent ou un investissement.",
+    "example": {
+     "from": "+1 (628) 555-0140",
+     "text": "Bonjour, c'est bien Sam ? Oh pardon, mauvais numéro ! Mais vous avez l'air vraiment sympa. Vous êtes d'où ?"
+    },
+    "how": "L'escroc devient un « ami » ou un partenaire, souvent pendant des semaines. Ensuite il a besoin d'argent pour une urgence, ou vous invite à un « investissement » en cryptomonnaie impossible à retirer.",
+    "signs": [
+     "Un inconnu qui devient très proche très vite",
+     "Jamais de rencontre ni d'appel vidéo",
+     "Parle d'investissements, de cryptomonnaie ou de soucis d'argent"
+    ],
+    "todo": [
+     "N'envoyez jamais d'argent à quelqu'un que vous n'avez pas rencontré en personne.",
+     "Parlez de cette relation à un proche.",
+     "Arrêtez de répondre dès qu'il est question d'argent ou d'investir."
+    ]
+   },
+   "job": {
+    "title": "Faux emplois et trop-perçus",
+    "short": "Un travail facile très bien payé, ou un acheteur qui paie trop « par erreur » et demande de lui rendre la différence.",
+    "example": {
+     "from": "Équipe RH",
+     "text": "Travail à domicile ! Gagnez 500 $ par jour en aimant des vidéos. Écrivez à notre responsable sur WhatsApp. Petit dépôt requis."
+    },
+    "how": "On vous demande de payer une formation ou du matériel, ou vous recevez un chèque qui sera rejeté après que vous avez renvoyé de l'argent.",
+    "signs": [
+     "Un salaire trop élevé pour un travail facile",
+     "Il faut payer pour commencer",
+     "Un chèque supérieur à ce qu'on vous doit"
+    ],
+    "todo": [
+     "Ne payez jamais pour obtenir un emploi.",
+     "Ne renvoyez jamais l'excédent d'un chèque ou d'un virement.",
+     "Renseignez-vous vous-même sur l'entreprise avant de répondre."
+    ]
+   }
+  }
+ },
+ "practice": {
+  "en": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass: You have an unpaid toll of $6.89. Pay by today to avoid a $50 late fee: ezpass-tollpay.info",
+    "clues": [
+     "The link isn't the real E-ZPass website.",
+     "A deadline and a late-fee threat rush you.",
+     "Toll agencies send bills by mail to your registered address."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Main Street Pharmacy",
+    "text": "Your prescription is ready for pickup at Main Street Pharmacy. Reply STOP to opt out of texts.",
+    "clues": [
+     "It doesn't ask for money, codes or personal details.",
+     "There's no link to tap.",
+     "It's something you'd expect if you ordered a refill."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Unknown number",
+    "text": "Hi Grandpa, it's me. I had a car accident and need bail money. Please don't tell Mom. Can you get gift cards?",
+    "clues": [
+     "A family emergency plus a money request.",
+     "\"Don't tell Mom\" keeps you from checking.",
+     "Gift cards are a scammer's favorite way to be paid."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Your bank",
+    "text": "Did you try a $86.40 purchase at Target? Reply YES or NO. We will never ask for your PIN or passcode.",
+    "clues": [
+     "Banks really do send yes/no fraud checks.",
+     "It asks for no codes, no link, and no payment.",
+     "If in doubt, call the number on the back of your card."
+    ],
+    "scam": false
+   },
+   {
+    "from": "HR Recruiting",
+    "text": "Remote job! Earn $500/day liking videos. Message our manager on WhatsApp to start. Small deposit required.",
+    "clues": [
+     "Pay that's far too high for easy work.",
+     "You have to pay a deposit to start.",
+     "Moving you to WhatsApp avoids normal hiring checks."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Medicare Services",
+    "text": "Your Medicare card will be cancelled. Call now to confirm your Medicare number and bank details.",
+    "clues": [
+     "Medicare doesn't call or text to cancel your card.",
+     "It asks for your Medicare number and bank details.",
+     "The threat of losing benefits is meant to scare you."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "Your package was delivered to your front door. You can see details in the Amazon app.",
+    "clues": [
+     "No link, no payment, no request.",
+     "It points you to the app you already use.",
+     "It matches something you'd expect after an order."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Pop-up on screen",
+    "text": "WARNING! Your computer is infected. Do not close this page. Call Microsoft Support at 1-844-555-0199.",
+    "clues": [
+     "Real virus warnings never include a phone number to call.",
+     "\"Do not close this page\" is meant to trap you.",
+     "They'll ask to control your computer once you call."
+    ],
+    "scam": true
+   }
+  ],
+  "es": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass: Tiene un peaje sin pagar de $6.89. Pague hoy para evitar un recargo de $50: ezpass-tollpay.info",
+    "clues": [
+     "El enlace no es el sitio real de E-ZPass.",
+     "Un plazo y una amenaza de recargo le apuran.",
+     "Las agencias de peaje envían facturas por correo a su dirección registrada."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Farmacia Main Street",
+    "text": "Su receta está lista para recoger en Farmacia Main Street. Responda STOP para dejar de recibir textos.",
+    "clues": [
+     "No pide dinero, códigos ni datos personales.",
+     "No hay ningún enlace.",
+     "Es algo que esperaría si pidió un resurtido."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Número desconocido",
+    "text": "Abuelo, soy yo. Tuve un accidente y necesito dinero para la fianza. Por favor no le digas a mamá. ¿Puedes comprar tarjetas de regalo?",
+    "clues": [
+     "Una emergencia familiar más un pedido de dinero.",
+     "\"No le digas a mamá\" evita que usted lo verifique.",
+     "Las tarjetas de regalo son la forma de pago favorita de los estafadores."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Su banco",
+    "text": "¿Intentó una compra de $86.40 en Target? Responda SÍ o NO. Nunca le pediremos su PIN ni su clave.",
+    "clues": [
+     "Los bancos sí envían verificaciones de fraude de sí o no.",
+     "No pide códigos, enlaces ni pagos.",
+     "Si tiene dudas, llame al número detrás de su tarjeta."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Reclutamiento RR. HH.",
+    "text": "¡Trabajo desde casa! Gane $500 al día dando \"me gusta\" a videos. Escriba a nuestro gerente por WhatsApp. Se requiere un pequeño depósito.",
+    "clues": [
+     "Un sueldo demasiado alto para un trabajo fácil.",
+     "Tiene que pagar un depósito para empezar.",
+     "Llevarle a WhatsApp evita los controles normales de contratación."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Servicios de Medicare",
+    "text": "Su tarjeta de Medicare será cancelada. Llame ahora para confirmar su número de Medicare y sus datos bancarios.",
+    "clues": [
+     "Medicare no llama ni manda textos para cancelar su tarjeta.",
+     "Pide su número de Medicare y datos bancarios.",
+     "La amenaza de perder beneficios busca asustarle."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "Su paquete fue entregado en la puerta de su casa. Puede ver los detalles en la aplicación de Amazon.",
+    "clues": [
+     "Sin enlace, sin pago, sin pedidos.",
+     "Le dirige a la aplicación que ya usa.",
+     "Coincide con algo que esperaría después de un pedido."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Ventana en pantalla",
+    "text": "¡ADVERTENCIA! Su computadora está infectada. No cierre esta página. Llame a Soporte de Microsoft al 1-844-555-0199.",
+    "clues": [
+     "Los avisos reales de virus nunca incluyen un teléfono para llamar.",
+     "\"No cierre esta página\" busca atraparle.",
+     "Cuando llame, pedirán controlar su computadora."
+    ],
+    "scam": true
+   }
+  ],
+  "zh": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass：您有一笔 $6.89 的过路费未付。请今天支付，以免产生 $50 滞纳金：ezpass-tollpay.info",
+    "clues": [
+     "链接不是 E-ZPass 的真实网站。",
+     "期限和滞纳金威胁在催促您。",
+     "收费机构会把账单寄到您登记的地址。"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Main Street 药房",
+    "text": "您的处方药已可在 Main Street 药房领取。回复 STOP 退订短信。",
+    "clues": [
+     "没有要钱、验证码或个人资料。",
+     "没有要点的链接。",
+     "如果您续过药，这是意料之中的信息。"
+    ],
+    "scam": false
+   },
+   {
+    "from": "未知号码",
+    "text": "爷爷，是我。我出了车祸，需要保释金。请别告诉妈妈。你能买些礼品卡吗？",
+    "clues": [
+     "家人出事加上要钱。",
+     "\"别告诉妈妈\"是为了让您无法核实。",
+     "礼品卡是骗子最爱的收款方式。"
+    ],
+    "scam": true
+   },
+   {
+    "from": "您的银行",
+    "text": "您是否在 Target 尝试消费 $86.40？请回复 YES 或 NO。我们绝不会索要您的 PIN 码或密码。",
+    "clues": [
+     "银行确实会发送\"是/否\"的盗刷确认。",
+     "没有要验证码、没有链接、没有要付款。",
+     "如有疑问，拨打您卡背面的电话。"
+    ],
+    "scam": false
+   },
+   {
+    "from": "人事招聘",
+    "text": "远程工作！给视频点赞每天赚 $500。在 WhatsApp 上联系我们的经理开始。需要少量押金。",
+    "clues": [
+     "轻松工作却给太高的报酬。",
+     "要先交押金才能开始。",
+     "转到 WhatsApp 是为了避开正常的招聘核查。"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Medicare 服务",
+    "text": "您的 Medicare 卡将被取消。请立即来电确认您的 Medicare 号码和银行资料。",
+    "clues": [
+     "Medicare 不会打电话或发短信来取消您的卡。",
+     "它索要您的 Medicare 号码和银行资料。",
+     "用失去福利来吓唬您。"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "您的包裹已送到家门口。您可以在 Amazon 应用中查看详情。",
+    "clues": [
+     "没有链接、没有付款、没有要求。",
+     "它让您去用您本来就在用的应用。",
+     "下单后收到这样的信息是正常的。"
+    ],
+    "scam": false
+   },
+   {
+    "from": "屏幕弹窗",
+    "text": "警告！您的电脑已被感染。不要关闭此页面。请拨打微软支持 1-844-555-0199。",
+    "clues": [
+     "真正的病毒警告从不附带电话号码。",
+     "\"不要关闭此页面\"是为了困住您。",
+     "您一打电话，他们就会要求控制您的电脑。"
+    ],
+    "scam": true
+   }
+  ],
+  "vi": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass: Quý vị còn nợ phí cầu đường $6.89. Hãy trả trong hôm nay để tránh phí trễ hạn $50: ezpass-tollpay.info",
+    "clues": [
+     "Đường link không phải trang web thật của E-ZPass.",
+     "Hạn chót và lời dọa phạt trễ hối thúc quý vị.",
+     "Cơ quan thu phí gửi hóa đơn qua bưu điện đến địa chỉ đã đăng ký."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Nhà thuốc Main Street",
+    "text": "Thuốc theo toa của quý vị đã sẵn sàng tại Nhà thuốc Main Street. Trả lời STOP để ngừng nhận tin.",
+    "clues": [
+     "Không đòi tiền, mã số hay thông tin cá nhân.",
+     "Không có link để bấm.",
+     "Là tin quý vị sẽ chờ nếu đã đặt thêm thuốc."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Số lạ",
+    "text": "Ông ơi, con đây. Con bị tai nạn xe và cần tiền bảo lãnh. Đừng nói với mẹ nhé. Ông mua giúp con thẻ quà tặng được không?",
+    "clues": [
+     "Chuyện khẩn cấp trong gia đình kèm đòi tiền.",
+     "\"Đừng nói với mẹ\" để quý vị không kiểm chứng được.",
+     "Thẻ quà tặng là cách trả tiền kẻ lừa đảo thích nhất."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Ngân hàng của quý vị",
+    "text": "Quý vị có thực hiện giao dịch $86.40 tại Target không? Trả lời YES hoặc NO. Chúng tôi không bao giờ hỏi mã PIN hay mật mã.",
+    "clues": [
+     "Ngân hàng thật sự có gửi tin xác nhận có/không.",
+     "Không hỏi mã số, không có link, không đòi trả tiền.",
+     "Nếu còn nghi ngờ, gọi số ở mặt sau thẻ."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Tuyển dụng",
+    "text": "Việc làm tại nhà! Kiếm $500/ngày bằng cách bấm thích video. Nhắn quản lý qua WhatsApp để bắt đầu. Cần đặt cọc nhỏ.",
+    "clues": [
+     "Lương quá cao cho việc dễ.",
+     "Phải đặt cọc mới được bắt đầu.",
+     "Chuyển sang WhatsApp để tránh các bước tuyển dụng bình thường."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Dịch vụ Medicare",
+    "text": "Thẻ Medicare của quý vị sẽ bị hủy. Hãy gọi ngay để xác nhận số Medicare và thông tin ngân hàng.",
+    "clues": [
+     "Medicare không gọi hay nhắn tin để hủy thẻ.",
+     "Nó đòi số Medicare và thông tin ngân hàng.",
+     "Dọa mất quyền lợi để làm quý vị sợ."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "Gói hàng của quý vị đã được giao đến trước cửa. Quý vị có thể xem chi tiết trong ứng dụng Amazon.",
+    "clues": [
+     "Không link, không trả tiền, không yêu cầu gì.",
+     "Chỉ quý vị đến ứng dụng quý vị vẫn dùng.",
+     "Đúng với điều quý vị chờ sau khi đặt hàng."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Cửa sổ trên màn hình",
+    "text": "CẢNH BÁO! Máy tính của quý vị bị nhiễm virus. Đừng đóng trang này. Gọi Hỗ trợ Microsoft: 1-844-555-0199.",
+    "clues": [
+     "Cảnh báo virus thật không bao giờ kèm số điện thoại.",
+     "\"Đừng đóng trang này\" là để giữ chân quý vị.",
+     "Khi quý vị gọi, họ sẽ đòi điều khiển máy tính."
+    ],
+    "scam": true
+   }
+  ],
+  "tl": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass: May hindi ka pa nababayarang toll na $6.89. Magbayad ngayong araw para iwas $50 late fee: ezpass-tollpay.info",
+    "clues": [
+     "Hindi tunay na website ng E-ZPass ang link.",
+     "Minamadali ka ng deadline at banta ng late fee.",
+     "Nagpapadala ng bill sa koreo ang toll agency sa nakarehistrong address mo."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Main Street Pharmacy",
+    "text": "Handa nang kunin ang iyong reseta sa Main Street Pharmacy. Sumagot ng STOP para huminto sa mga text.",
+    "clues": [
+     "Hindi ito humihingi ng pera, code o personal na detalye.",
+     "Walang link na pipindutin.",
+     "Inaasahan mo ito kung nag-order ka ng refill."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Hindi kilalang numero",
+    "text": "Lolo, ako 'to. Naaksidente ako at kailangan ko ng pampiyansa. Huwag mong sabihin kay Mama. Makakabili ka ba ng gift card?",
+    "clues": [
+     "Emergency sa pamilya at paghingi ng pera.",
+     "Ang \"Huwag mong sabihin kay Mama\" ay para hindi mo ito ma-check.",
+     "Gift card ang paboritong paraan ng bayad ng scammer."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Ang iyong bangko",
+    "text": "Sinubukan mo bang bumili ng $86.40 sa Target? Sumagot ng YES o NO. Hindi namin hihingin ang iyong PIN o passcode.",
+    "clues": [
+     "Talagang nagpapadala ang bangko ng yes/no na fraud check.",
+     "Walang hinihinging code, walang link, walang bayad.",
+     "Kung may duda, tawagan ang numero sa likod ng card."
+    ],
+    "scam": false
+   },
+   {
+    "from": "HR Recruiting",
+    "text": "Remote job! Kumita ng $500/araw sa pag-like ng videos. I-message ang manager namin sa WhatsApp para magsimula. May maliit na deposit.",
+    "clues": [
+     "Sobrang laki ng sweldo para sa madaling trabaho.",
+     "Kailangan mong magbayad ng deposit para magsimula.",
+     "Inililipat ka sa WhatsApp para iwasan ang normal na proseso ng pag-hire."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Medicare Services",
+    "text": "Kakanselahin ang iyong Medicare card. Tumawag ngayon para kumpirmahin ang iyong Medicare number at detalye ng bangko.",
+    "clues": [
+     "Hindi tumatawag o nagte-text ang Medicare para kanselahin ang card.",
+     "Hinihingi ang Medicare number at detalye ng bangko mo.",
+     "Tinatakot ka sa pagkawala ng benepisyo."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "Naihatid na ang iyong package sa harap ng pinto. Makikita ang detalye sa Amazon app.",
+    "clues": [
+     "Walang link, walang bayad, walang hinihingi.",
+     "Itinuturo ka sa app na gamit mo na.",
+     "Tugma sa inaasahan mo pagkatapos mag-order."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Pop-up sa screen",
+    "text": "BABALA! Infected ang iyong computer. Huwag isara ang page na ito. Tawagan ang Microsoft Support sa 1-844-555-0199.",
+    "clues": [
+     "Hindi kailanman may numerong tatawagan ang tunay na babala ng virus.",
+     "Ang \"Huwag isara ang page\" ay para ma-trap ka.",
+     "Kapag tumawag ka, hihingin nilang makontrol ang computer mo."
+    ],
+    "scam": true
+   }
+  ],
+  "hi": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass: आपका $6.89 का टोल बकाया है। $50 लेट फ़ीस से बचने के लिए आज ही भरें: ezpass-tollpay.info",
+    "clues": [
+     "लिंक E-ZPass की असली वेबसाइट नहीं है।",
+     "समय-सीमा और लेट फ़ीस की धमकी जल्दबाज़ी करवाती है।",
+     "टोल विभाग बिल आपके पंजीकृत पते पर डाक से भेजते हैं।"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Main Street Pharmacy",
+    "text": "आपकी दवा Main Street Pharmacy पर लेने के लिए तैयार है। मैसेज बंद करने के लिए STOP लिखें।",
+    "clues": [
+     "यह पैसे, कोड या निजी जानकारी नहीं माँगता।",
+     "दबाने के लिए कोई लिंक नहीं है।",
+     "अगर आपने रीफ़िल मँगवाई थी, तो यह अपेक्षित है।"
+    ],
+    "scam": false
+   },
+   {
+    "from": "अनजान नंबर",
+    "text": "दादाजी, मैं हूँ। मेरा एक्सीडेंट हो गया और ज़मानत के पैसे चाहिए। प्लीज़ मम्मी को मत बताना। क्या आप गिफ़्ट कार्ड ले सकते हैं?",
+    "clues": [
+     "परिवार की इमरजेंसी के साथ पैसों की माँग।",
+     "\"मम्मी को मत बताना\" ताकि आप पुष्टि न कर सकें।",
+     "गिफ़्ट कार्ड धोखेबाज़ों का पसंदीदा भुगतान है।"
+    ],
+    "scam": true
+   },
+   {
+    "from": "आपका बैंक",
+    "text": "क्या आपने Target पर $86.40 की खरीदारी की कोशिश की? YES या NO लिखें। हम कभी आपका PIN या पासकोड नहीं माँगेंगे।",
+    "clues": [
+     "बैंक सच में हाँ/ना वाले फ़्रॉड चेक भेजते हैं।",
+     "न कोड माँगा, न लिंक, न भुगतान।",
+     "शक हो तो कार्ड के पीछे लिखे नंबर पर कॉल करें।"
+    ],
+    "scam": false
+   },
+   {
+    "from": "HR Recruiting",
+    "text": "घर बैठे नौकरी! वीडियो लाइक करके रोज़ $500 कमाएँ। शुरू करने के लिए WhatsApp पर मैनेजर को मैसेज करें। थोड़ा डिपॉज़िट ज़रूरी है।",
+    "clues": [
+     "आसान काम के लिए बहुत ज़्यादा पैसा।",
+     "शुरू करने के लिए डिपॉज़िट देना पड़ता है।",
+     "WhatsApp पर ले जाना सामान्य भर्ती जाँच से बचने के लिए है।"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Medicare Services",
+    "text": "आपका Medicare कार्ड रद्द होने वाला है। अपना Medicare नंबर और बैंक की जानकारी पक्की करने के लिए अभी कॉल करें।",
+    "clues": [
+     "Medicare कार्ड रद्द करने के लिए कॉल या मैसेज नहीं करता।",
+     "यह Medicare नंबर और बैंक जानकारी माँगता है।",
+     "लाभ खोने का डर दिखाकर डराया जा रहा है।"
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "आपका पैकेज आपके दरवाज़े पर पहुँचा दिया गया है। विवरण Amazon ऐप में देखें।",
+    "clues": [
+     "न लिंक, न भुगतान, न कोई माँग।",
+     "यह आपको उसी ऐप पर भेजता है जो आप पहले से इस्तेमाल करते हैं।",
+     "ऑर्डर के बाद ऐसा संदेश आना सामान्य है।"
+    ],
+    "scam": false
+   },
+   {
+    "from": "स्क्रीन पर पॉप-अप",
+    "text": "चेतावनी! आपका कंप्यूटर संक्रमित है। यह पेज बंद न करें। Microsoft Support को 1-844-555-0199 पर कॉल करें।",
+    "clues": [
+     "असली वायरस चेतावनी में कभी कॉल करने का नंबर नहीं होता।",
+     "\"यह पेज बंद न करें\" आपको फँसाने के लिए है।",
+     "कॉल करते ही वे आपका कंप्यूटर चलाने की माँग करेंगे।"
+    ],
+    "scam": true
+   }
+  ],
+  "fr": [
+   {
+    "from": "+1 (309) 555-0122",
+    "text": "E-ZPass : Vous avez un péage impayé de 6,89 $. Payez aujourd'hui pour éviter 50 $ de pénalité : ezpass-tollpay.info",
+    "clues": [
+     "Le lien n'est pas le vrai site d'E-ZPass.",
+     "Un délai et une menace de pénalité vous pressent.",
+     "Les sociétés de péage envoient les factures par courrier à votre adresse."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Pharmacie Main Street",
+    "text": "Votre ordonnance est prête à la Pharmacie Main Street. Répondez STOP pour ne plus recevoir de SMS.",
+    "clues": [
+     "Il ne demande ni argent, ni code, ni information personnelle.",
+     "Il n'y a aucun lien.",
+     "C'est attendu si vous avez demandé un renouvellement."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Numéro inconnu",
+    "text": "Papi, c'est moi. J'ai eu un accident et j'ai besoin d'argent pour la caution. Ne dis rien à maman. Tu peux acheter des cartes cadeaux ?",
+    "clues": [
+     "Une urgence familiale et une demande d'argent.",
+     "« Ne dis rien à maman » vous empêche de vérifier.",
+     "Les cartes cadeaux sont le moyen de paiement préféré des escrocs."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Votre banque",
+    "text": "Avez-vous tenté un achat de 86,40 $ chez Target ? Répondez OUI ou NON. Nous ne vous demanderons jamais votre code PIN ou mot de passe.",
+    "clues": [
+     "Les banques envoient vraiment ce genre de vérification oui/non.",
+     "Aucun code, aucun lien, aucun paiement demandé.",
+     "En cas de doute, appelez le numéro au dos de votre carte."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Recrutement RH",
+    "text": "Travail à domicile ! Gagnez 500 $ par jour en aimant des vidéos. Écrivez à notre responsable sur WhatsApp. Petit dépôt requis.",
+    "clues": [
+     "Un salaire bien trop élevé pour un travail facile.",
+     "Il faut payer un dépôt pour commencer.",
+     "Passer sur WhatsApp évite les vérifications normales d'embauche."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Services Medicare",
+    "text": "Votre carte Medicare va être annulée. Appelez maintenant pour confirmer votre numéro Medicare et vos coordonnées bancaires.",
+    "clues": [
+     "Medicare n'appelle pas et n'envoie pas de SMS pour annuler votre carte.",
+     "Il demande votre numéro Medicare et vos coordonnées bancaires.",
+     "La menace de perdre vos droits sert à vous faire peur."
+    ],
+    "scam": true
+   },
+   {
+    "from": "Amazon",
+    "text": "Votre colis a été livré devant votre porte. Voir les détails dans l'application Amazon.",
+    "clues": [
+     "Pas de lien, pas de paiement, pas de demande.",
+     "Il vous renvoie vers l'application que vous utilisez déjà.",
+     "C'est normal après une commande."
+    ],
+    "scam": false
+   },
+   {
+    "from": "Fenêtre à l'écran",
+    "text": "ATTENTION ! Votre ordinateur est infecté. Ne fermez pas cette page. Appelez le support Microsoft au 1-844-555-0199.",
+    "clues": [
+     "Un vrai avertissement de virus ne donne jamais de numéro à appeler.",
+     "« Ne fermez pas cette page » sert à vous piéger.",
+     "Dès l'appel, ils voudront contrôler votre ordinateur."
+    ],
+    "scam": true
+   }
+  ]
+ }
+}

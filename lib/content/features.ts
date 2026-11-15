@@ -61,6 +61,8 @@ export type FeatureStrings = {
     you: string;
   };
   form: { paste: string; clear: string; pasteFailed: string; imageDrop: string; cancel: string };
+  /** Used by the iOS app when a check runs on the phone without internet. */
+  offline: { note: string };
   link: { lookalike: string; shortener: string }; // lookalike: {brand}
 };
 
@@ -141,6 +143,7 @@ const en: FeatureStrings = {
     imageDrop: "You can also paste a picture or drag it here.",
     cancel: "Cancel",
   },
+  offline: { note: "Checked on this phone, without the internet. When you're back online, check again for a fuller answer." },
   link: {
     lookalike: "This link uses the name {brand}, but it isn't {brand}'s real website.",
     shortener: "This is a shortened link, so you can't see where it really goes.",
@@ -224,6 +227,7 @@ const es: FeatureStrings = {
     imageDrop: "También puede pegar una imagen o arrastrarla aquí.",
     cancel: "Cancelar",
   },
+  offline: { note: "Revisado en este teléfono, sin internet. Cuando vuelva a tener conexión, revíselo otra vez para una respuesta más completa." },
   link: {
     lookalike: "Este enlace usa el nombre {brand}, pero no es el sitio web real de {brand}.",
     shortener: "Es un enlace acortado, así que no puede ver a dónde lleva en realidad.",
@@ -307,6 +311,7 @@ const zh: FeatureStrings = {
     imageDrop: "也可以粘贴图片，或把图片拖到这里。",
     cancel: "取消",
   },
+  offline: { note: "已在本机检查，没有使用网络。恢复联网后，可以再检查一次，获得更完整的结果。" },
   link: {
     lookalike: "这个链接用了 {brand} 的名字，但不是 {brand} 的真实网站。",
     shortener: "这是短链接，您看不出它真正通往哪里。",
@@ -390,6 +395,7 @@ const vi: FeatureStrings = {
     imageDrop: "Quý vị cũng có thể dán hình hoặc kéo hình vào đây.",
     cancel: "Hủy",
   },
+  offline: { note: "Đã kiểm tra ngay trên điện thoại này, không cần mạng. Khi có mạng lại, hãy kiểm tra lần nữa để có kết quả đầy đủ hơn." },
   link: {
     lookalike: "Đường link này dùng tên {brand}, nhưng không phải trang web thật của {brand}.",
     shortener: "Đây là link rút gọn, nên quý vị không thấy được nó thật sự dẫn đến đâu.",
@@ -473,6 +479,7 @@ const tl: FeatureStrings = {
     imageDrop: "Puwede ring mag-paste ng larawan o i-drag ito rito.",
     cancel: "Kanselahin",
   },
+  offline: { note: "Sinuri sa teleponong ito nang walang internet. Kapag may internet ka na ulit, suriin ulit para sa mas buong sagot." },
   link: {
     lookalike: "Ginagamit ng link na ito ang pangalang {brand}, pero hindi ito ang tunay na website ng {brand}.",
     shortener: "Pinaikling link ito, kaya hindi mo makita kung saan talaga ito papunta.",
@@ -556,6 +563,7 @@ const hi: FeatureStrings = {
     imageDrop: "आप तस्वीर पेस्ट भी कर सकते हैं या उसे यहाँ खींचकर ला सकते हैं।",
     cancel: "रद्द करें",
   },
+  offline: { note: "बिना इंटरनेट के इसी फ़ोन पर जाँचा गया। इंटरनेट वापस आने पर, पूरा जवाब पाने के लिए फिर से जाँचें।" },
   link: {
     lookalike: "यह लिंक {brand} का नाम इस्तेमाल करता है, पर यह {brand} की असली वेबसाइट नहीं है।",
     shortener: "यह छोटा किया गया लिंक है, इसलिए पता नहीं चलता कि यह असल में कहाँ ले जाता है।",
@@ -639,6 +647,7 @@ const fr: FeatureStrings = {
     imageDrop: "Vous pouvez aussi coller une image ou la glisser ici.",
     cancel: "Annuler",
   },
+  offline: { note: "Vérifié sur ce téléphone, sans internet. Quand vous serez de nouveau connecté, vérifiez encore pour une réponse plus complète." },
   link: {
     lookalike: "Ce lien utilise le nom {brand}, mais ce n'est pas le vrai site de {brand}.",
     shortener: "C'est un lien raccourci : impossible de voir où il mène vraiment.",
