@@ -1,0 +1,70 @@
+[
+  { "id": "signs-urgency-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["urgency"],
+    "text": "Final reminder: your Costco membership expires TONIGHT at midnight. Renew now or lose all your rewards." },
+  { "id": "signs-urgency-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["urgency"],
+    "text": "Act fast! Only 2 hours left to confirm your booster appointment or it will be given to someone else." },
+  { "id": "signs-urgency-3", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["urgency"],
+    "text": "IMMEDIATE ACTION REQUIRED: respond within 15 minutes to keep your account open." },
+
+  { "id": "signs-threat-1", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["threat"],
+    "text": "This is the Social Security Administration. Your SSN has been suspended due to suspicious activity. Legal action will be taken against you today unless you press 1." },
+  { "id": "signs-threat-2", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["threat"],
+    "text": "Sheriff's Office notice: you missed jury duty and a warrant has been issued. Call to resolve this before officers are sent to your home." },
+  { "id": "signs-threat-3", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["threat"],
+    "text": "USCIS: Your green card application will be denied and deportation proceedings started if the $450 fine is not paid by Friday." },
+
+  { "id": "signs-payment-1", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["unusual_payment"],
+    "text": "Your electric bill is past due. Power will be shut off in 30 minutes. Pay $380 now at a Bitcoin ATM at your nearest store." },
+  { "id": "signs-payment-2", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["unusual_payment"],
+    "text": "Hi! I'm giving away my late husband's piano for free. You only pay the $150 moving fee by Zelle to the mover." },
+  { "id": "signs-payment-3", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["unusual_payment"],
+    "text": "To release your tax refund of $2,340, a $99 processing fee must be paid with Apple gift cards." },
+
+  { "id": "signs-secrets-1", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["secrets"],
+    "text": "Amazon Security: We noticed a sign-in from a new device. Reply with the 6-digit code we just sent you to block it." },
+  { "id": "signs-secrets-2", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["secrets"],
+    "text": "Medicare update: confirm your Medicare number and Social Security number to keep your benefits active." },
+  { "id": "signs-secrets-3", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["secrets"],
+    "text": "Wells Fargo: To verify your identity please reply with your online banking username and password." },
+
+  { "id": "signs-link-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["suspicious_link"],
+    "text": "Your Netflix payment failed. Update your billing here: netflix-account-billing.help" },
+  { "id": "signs-link-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["suspicious_link"],
+    "text": "You have a pending tax refund. Claim it: bit.ly/3refundIRS" },
+  { "id": "signs-link-3", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["suspicious_link"],
+    "text": "Apple ID locked. Unlock at appleid.apple.com.secure-login.ru" },
+
+  { "id": "signs-impersonation-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["impersonation"],
+    "text": "Hi Mom, I dropped my phone in the toilet, this is my new number. Can you message me on WhatsApp?" },
+  { "id": "signs-impersonation-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["impersonation"],
+    "text": "Microsoft: Your Windows license has expired. Call our certified technicians to renew it." },
+  { "id": "signs-impersonation-3", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["impersonation"],
+    "text": "This is Pastor John. I'm in a meeting and can't talk. Can you do me a quick favor? Reply when you see this." },
+
+  { "id": "signs-toogood-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["too_good"],
+    "text": "Congratulations! You've been selected for a FREE iPhone 17 Pro. Just pay shipping to claim it." },
+  { "id": "signs-toogood-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["too_good"],
+    "text": "You are the beneficiary of $4.5 million from a relative's estate. Reply with your full name and address to begin the transfer." },
+  { "id": "signs-toogood-3", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["too_good"],
+    "text": "Federal grant program: you qualify for $9,000 that you never have to pay back. Reply YES to apply." },
+
+  { "id": "signs-secrecy-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["secrecy"],
+    "text": "Please keep this between us, I don't want the family to worry. I need $800 for my hospital bill, I'll pay you back next week." },
+  { "id": "signs-secrecy-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["secrecy"],
+    "text": "Do not tell the bank employees why you are withdrawing the cash. Some of them are part of the investigation." },
+
+  { "id": "signs-remote-1", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["remote_access"],
+    "text": "Your bank account was hacked. Download AnyDesk and give me the code on your screen so I can secure it." },
+  { "id": "signs-remote-2", "mode": "text", "language": "en", "expect": ["likely_scam"], "mustHave": ["remote_access"],
+    "text": "Hi, this is Geek Squad. To process your refund, please install TeamViewer and log in to your bank while we watch." },
+
+  { "id": "signs-mismatch-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["mismatch"],
+    "text": "From: Chase Bank <alerts@secure-chase-verify.net>\nSubject: Your account has been temporarily restricted" },
+  { "id": "signs-mismatch-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["mismatch"],
+    "text": "From: IRS Refund Department <irs.refunds.dept@gmail.com>\nYour refund of $1,120 is ready to be sent." },
+
+  { "id": "signs-stranger-1", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["unexpected_contact"],
+    "text": "Hello dear, I found your number in my contacts. I am a doctor working overseas with the UN. Can we be friends?" },
+  { "id": "signs-stranger-2", "mode": "text", "language": "en", "expect": ["careful", "likely_scam"], "mustHave": ["unexpected_contact"],
+    "text": "Hey, long time no see! Is this still Linda's number? I've been doing so well with crypto lately, you should hear about it." }
+]

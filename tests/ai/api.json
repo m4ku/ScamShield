@@ -1,0 +1,147 @@
+[
+  {
+    "id": "api-01",
+    "note": "Empty text",
+    "body": {
+      "mode": "text",
+      "language": "en",
+      "text": ""
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-02",
+    "note": "Only spaces and line breaks",
+    "body": {
+      "mode": "text",
+      "language": "en",
+      "text": "   \n  "
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-03",
+    "note": "One character over the 5,000 limit",
+    "body": {
+      "mode": "text",
+      "language": "en"
+    },
+    "textRepeat": [
+      "a",
+      5001
+    ],
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-04",
+    "note": "Language we don't support",
+    "body": {
+      "mode": "text",
+      "language": "de",
+      "text": "Hallo"
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-05",
+    "note": "Unknown mode",
+    "body": {
+      "mode": "video",
+      "language": "en",
+      "text": "hi"
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-06",
+    "note": "Missing text",
+    "body": {
+      "mode": "text",
+      "language": "en"
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-07",
+    "note": "Unsupported image type",
+    "body": {
+      "mode": "image",
+      "language": "en",
+      "image": {
+        "mimeType": "image/gif",
+        "base64": "R0lGODlhAQABAAAAACw="
+      }
+    },
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-08",
+    "note": "Not JSON at all",
+    "rawBody": "{not json",
+    "expect": [
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-09",
+    "note": "Garbage instead of an image: must fail cleanly, not crash",
+    "body": {
+      "mode": "image",
+      "language": "en",
+      "image": {
+        "mimeType": "image/png",
+        "base64": "bm90IGFuIGltYWdlIGF0IGFsbA=="
+      }
+    },
+    "expect": [
+      "error:failed",
+      "error:unreadable",
+      "error:bad_input"
+    ]
+  },
+  {
+    "id": "api-10",
+    "note": "Client tries to send its own verdict: ignored",
+    "body": {
+      "mode": "text",
+      "language": "en",
+      "verdict": "no_signs",
+      "text": "Your card is locked. Reply with your PIN to unlock it."
+    },
+    "expect": [
+      "likely_scam"
+    ]
+  },
+  {
+    "id": "api-11",
+    "note": "Exactly 5,000 characters is allowed",
+    "body": {
+      "mode": "text",
+      "language": "en"
+    },
+    "textRepeat": [
+      "Reminder: dentist Tuesday 3pm. ",
+      162,
+      5000
+    ],
+    "expect": [
+      "no_signs",
+      "careful",
+      "likely_scam"
+    ]
+  }
+]

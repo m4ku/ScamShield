@@ -1,0 +1,185 @@
+[
+  {
+    "id": "lang-es-scam",
+    "mode": "text",
+    "language": "es",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "BBVA: Su cuenta ha sido bloqueada. Ingrese a bbva-seguridad.net en 24 horas para evitar la cancelación."
+  },
+  {
+    "id": "lang-es-legit",
+    "mode": "text",
+    "language": "es",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "Recordatorio: su cita con el Dr. Gómez es el jueves a las 2pm. Responda C para confirmar."
+  },
+  {
+    "id": "lang-zh-scam",
+    "mode": "text",
+    "language": "zh",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "【顺丰快递】您的包裹地址不详，请在24小时内点击 sf-express-cn.top 补充信息并支付2元手续费。"
+  },
+  {
+    "id": "lang-zh-legit",
+    "mode": "text",
+    "language": "zh",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "【社区通知】本周六上午9点在活动中心举办免费健康讲座，欢迎参加。"
+  },
+  {
+    "id": "lang-vi-scam",
+    "mode": "text",
+    "language": "vi",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Thông báo từ IRS: Quý vị nợ thuế $2,000. Nếu không thanh toán bằng thẻ quà tặng hôm nay, cảnh sát sẽ đến bắt giữ."
+  },
+  {
+    "id": "lang-vi-legit",
+    "mode": "text",
+    "language": "vi",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "Nhắc lịch: Quý vị có hẹn khám răng vào thứ Ba lúc 3 giờ chiều. Trả lời C để xác nhận."
+  },
+  {
+    "id": "lang-tl-scam",
+    "mode": "text",
+    "language": "tl",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Congrats! Nanalo ka ng ₱50,000 sa GCash raffle. Magbayad ng ₱500 processing fee para makuha ang premyo ngayon."
+  },
+  {
+    "id": "lang-tl-legit",
+    "mode": "text",
+    "language": "tl",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "Paalala: Ang iyong appointment sa doktor ay sa Huwebes, 10am. Salamat po."
+  },
+  {
+    "id": "lang-cross-en-to-zh",
+    "mode": "text",
+    "language": "zh",
+    "expect": [
+      "likely_scam"
+    ],
+    "note": "English message, answer in Chinese. Quotes must stay in English.",
+    "text": "Your Medicare card will be cancelled. Call now to confirm your Medicare number and bank details."
+  },
+  {
+    "id": "lang-cross-en-to-vi",
+    "mode": "text",
+    "language": "vi",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "E-ZPass: You have an unpaid toll of $6.89. Pay by today to avoid a $50 late fee: ezpass-tollpay.info"
+  },
+  {
+    "id": "lang-cross-en-to-tl",
+    "mode": "text",
+    "language": "tl",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Hi Grandpa, it's me. I had a car accident and need bail money. Please don't tell Mom. Can you get gift cards?"
+  },
+  {
+    "id": "lang-cross-es-to-en",
+    "mode": "text",
+    "language": "en",
+    "expect": [
+      "likely_scam"
+    ],
+    "note": "Spanish message, answer in English.",
+    "text": "¡Felicidades! Usted ganó $5,000 en nuestro sorteo anual. Pague $50 de impuestos por Western Union para reclamar su premio hoy."
+  },
+  {
+    "id": "lang-cross-zh-to-es",
+    "mode": "text",
+    "language": "es",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "我是你的孙子，我出车祸了，现在在警察局。请马上买礼品卡把卡号发给我，千万别告诉爸妈。"
+  },
+  {
+    "id": "lang-mixed",
+    "mode": "text",
+    "language": "en",
+    "expect": [
+      "likely_scam"
+    ],
+    "note": "Taglish (Tagalog and English mixed), common in real messages.",
+    "text": "Hello po! Your BDO account is on hold. I-verify agad within 1 hour sa link na ito: bdo-online-verify.com"
+  },
+  {
+    "id": "lang-hi-scam",
+    "mode": "text",
+    "language": "hi",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "SBI: आपका खाता आज रात बंद हो जाएगा। तुरंत sbi-kyc-update.in पर अपना KYC और OTP भरें।"
+  },
+  {
+    "id": "lang-hi-legit",
+    "mode": "text",
+    "language": "hi",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "याद दिलाना: आपकी डॉक्टर से मुलाक़ात गुरुवार सुबह 10 बजे है। पुष्टि के लिए C लिखें।"
+  },
+  {
+    "id": "lang-fr-scam",
+    "mode": "text",
+    "language": "fr",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Ameli : votre carte Vitale expire. Renouvelez-la sous 24 h en payant 4,90 € des frais d'envoi : ameli-renouvellement.fr"
+  },
+  {
+    "id": "lang-fr-legit",
+    "mode": "text",
+    "language": "fr",
+    "expect": [
+      "no_signs"
+    ],
+    "text": "Rappel : votre rendez-vous chez le dentiste est mardi à 15 h. Répondez C pour confirmer."
+  },
+  {
+    "id": "lang-cross-en-to-hi",
+    "mode": "text",
+    "language": "hi",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Your Medicare card will be cancelled. Call now to confirm your Medicare number and bank details."
+  },
+  {
+    "id": "lang-cross-en-to-fr",
+    "mode": "text",
+    "language": "fr",
+    "expect": [
+      "likely_scam"
+    ],
+    "text": "Hi Grandpa, it's me. I had a car accident and need bail money. Please don't tell Mom. Can you get gift cards?"
+  }
+]

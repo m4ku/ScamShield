@@ -1,0 +1,263 @@
+@import "tailwindcss";
+
+/*
+ * ScamShield design tokens.
+ * Warm cream background, deep teal brand, soft decorative tints.
+ * Red and amber are reserved for verdicts; nothing green means "safe".
+ */
+@theme {
+  --color-bg: #fbf7f0;
+  --color-surface: #ffffff;
+  --color-panel: #f4eee4;
+  --color-line: #e3dacb;
+  --color-line-strong: #c9bda9;
+  --color-ink: #1d2321;
+  --color-ink-soft: #4a514d;
+  --color-muted: #6c726e;
+
+  --color-brand: #0f5d57;
+  --color-brand-strong: #0a4440;
+  --color-brand-soft: #d5eae4;
+  --color-brand-tint: #ecf5f2;
+  --color-clay: #ead9c3;
+  --color-clay-soft: #f6ece0;
+
+  --color-danger: #b3261e;
+  --color-danger-strong: #8c1d17;
+  --color-danger-soft: #fbe3e1;
+  --color-caution: #f3bd47;
+  --color-caution-strong: #8a5a00;
+  --color-caution-soft: #fdf0cc;
+  --color-neutral-verdict: #e9e6e0;
+
+  --font-sans: var(--font-lexend), var(--font-devanagari), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Noto Sans", Arial,
+    "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-display: var(--font-fraunces), var(--font-devanagari), Georgia, "Times New Roman", "Songti SC", serif;
+
+  --shadow-card: 0 1px 2px rgb(29 35 33 / 0.04), 0 8px 24px -12px rgb(29 35 33 / 0.18);
+  --shadow-lift: 0 2px 4px rgb(29 35 33 / 0.05), 0 18px 40px -18px rgb(29 35 33 / 0.28);
+
+  --animate-rise: rise 0.6s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  --animate-pop: pop 0.55s cubic-bezier(0.3, 1.4, 0.5, 1) both;
+  --animate-fade: fade 0.4s ease-out both;
+  --animate-float: float 7s ease-in-out infinite;
+  --animate-scan: scan 2.2s ease-in-out infinite;
+  --animate-draw: draw 0.9s 0.25s ease-out both;
+  --animate-shake: shake 0.45s ease-in-out both;
+  --animate-sheet: sheet 0.35s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes pop {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+@keyframes scan {
+  0% {
+    top: -12%;
+  }
+  50% {
+    top: 100%;
+  }
+  100% {
+    top: -12%;
+  }
+}
+@keyframes draw {
+  from {
+    stroke-dashoffset: 60;
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes shake {
+  0%,
+  100% {
+    transform: none;
+  }
+  25% {
+    transform: translateX(-6px);
+  }
+  75% {
+    transform: translateX(6px);
+  }
+}
+@keyframes sheet {
+  from {
+    opacity: 0;
+    transform: translateY(-8px) scale(0.98);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes sweep {
+  from {
+    background-size: 0% 100%;
+  }
+  to {
+    background-size: 100% 100%;
+  }
+}
+
+/* Hand-drawn style underline for the hero phrase; wraps across lines. */
+.hero-underline {
+  background-image: linear-gradient(var(--color-caution), var(--color-caution));
+  background-repeat: no-repeat;
+  background-position: 0 92%;
+  background-size: 100% 0.16em;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  padding-bottom: 0.04em;
+  animation: underline 0.9s 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+@keyframes underline {
+  from {
+    background-size: 0% 0.16em;
+  }
+  to {
+    background-size: 100% 0.16em;
+  }
+}
+
+/* Stagger: put style={{ "--d": "120ms" }} on an animated element. */
+.animate-rise,
+.animate-pop,
+.animate-fade {
+  animation-delay: var(--d, 0ms);
+}
+
+/* Elements revealed on scroll start hidden until <Reveal> marks them visible. */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms),
+    transform 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) var(--d, 0ms);
+}
+[data-reveal="shown"] {
+  opacity: 1;
+  transform: none;
+}
+
+/* Highlighted warning-sign words sweep in, one after another. */
+.mark-sweep {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  animation: sweep 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+  animation-delay: var(--d, 0ms);
+}
+
+.icon-draw path,
+.icon-draw circle {
+  stroke-dasharray: 60;
+  animation: var(--animate-draw);
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: 18px;
+  line-height: 1.55;
+}
+
+.font-display {
+  font-family: var(--font-display);
+  font-variation-settings: "SOFT" 100, "WONK" 0;
+  letter-spacing: -0.01em;
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-brand);
+  outline-offset: 3px;
+}
+
+h1:focus,
+h2:focus {
+  outline: none;
+}
+
+/* Route changes crossfade (browsers with View Transitions support). */
+::view-transition-old(root) {
+  animation: 160ms ease-out both fade reverse;
+}
+::view-transition-new(root) {
+  animation: 260ms ease-out both fade;
+}
+
+@media print {
+  @page {
+    margin: 12mm;
+  }
+  body {
+    background: #fff;
+    font-size: 12px;
+  }
+  main {
+    padding: 0 !important;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.01ms !important;
+    transition-delay: 0ms !important;
+    scroll-behavior: auto !important;
+  }
+  [data-reveal] {
+    opacity: 1;
+    transform: none;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation: none;
+  }
+}
