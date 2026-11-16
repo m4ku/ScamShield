@@ -2,7 +2,7 @@
 
 Check a suspicious text, email, letter or phone call before you reply, click or pay.
 
-**[Live app](https://rotary-ai-for-good.vercel.app)** · **Demo video:** _TBD_
+**[Live app](https://checkscamshield.vercel.app)** · **Demo video:** _TBD_
 
 ScamShield helps older adults and immigrant families spot scams in their own language. Paste a message, add a screenshot or describe a call, and get a clear verdict, the exact warning signs, and what to do next. No account, and nothing is saved.
 

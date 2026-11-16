@@ -27,7 +27,7 @@ const fraunces = Fraunces({
 const DESCRIPTION = "Check a suspicious text, email, letter or call before you reply, click or pay. Free, in 7 languages.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://rotary-ai-for-good.vercel.app"),
+  metadataBase: new URL("https://checkscamshield.vercel.app"),
   title: { default: "ScamShield", template: "%s · ScamShield" },
   description: DESCRIPTION,
   openGraph: {

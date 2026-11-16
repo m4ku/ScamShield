@@ -197,7 +197,7 @@ export function Handout() {
   const w = FEATURES[language].workshop;
   const t = STRINGS[language];
   const guides = GUIDES[language];
-  const host = useSyncExternalStore(noop, () => window.location.host, () => "rotary-ai-for-good.vercel.app");
+  const host = useSyncExternalStore(noop, () => window.location.host, () => "checkscamshield.vercel.app");
 
   return (
     <div className="mx-auto w-full max-w-4xl px-4 py-8 sm:px-6 print:max-w-none print:p-0">

@@ -2,7 +2,7 @@
 //
 // Usage:
 //   node scripts/check-fixtures.mjs                       all sections, http://localhost:3000
-//   node scripts/check-fixtures.mjs --base https://rotary-ai-for-good.vercel.app
+//   node scripts/check-fixtures.mjs --base https://checkscamshield.vercel.app
 //   node scripts/check-fixtures.mjs --only signs,legit    some sections (or id prefixes, e.g. signs-threat)
 //   node scripts/check-fixtures.mjs --repeat 3 --only core   run each case 3 times to check consistency
 //   node scripts/check-fixtures.mjs --delay 6000          pause between calls (free tier: keep >= 4000)
