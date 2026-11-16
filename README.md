@@ -121,4 +121,4 @@ ScamShield looks for common warning signs. It can miss new tricks and can't prov
 
 ## Team
 
-m4ku and J-Tunz
+[m4ku](https://github.com/m4ku) and [J-Tunz](https://github.com/J-Tunz)
