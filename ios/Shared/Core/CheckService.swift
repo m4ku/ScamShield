@@ -5,9 +5,9 @@ import Foundation
 enum Server {
     #if DEBUG
     /// Set SCAMSHIELD_API in the Xcode scheme to test against a local `npm run dev`.
-    static let base = URL(string: ProcessInfo.processInfo.environment["SCAMSHIELD_API"] ?? "https://rotary-ai-for-good.vercel.app")!
+    static let base = URL(string: ProcessInfo.processInfo.environment["SCAMSHIELD_API"] ?? "https://checkscamshield.vercel.app")!
     #else
-    static let base = URL(string: "https://rotary-ai-for-good.vercel.app")!
+    static let base = URL(string: "https://checkscamshield.vercel.app")!
     #endif
 }
 
