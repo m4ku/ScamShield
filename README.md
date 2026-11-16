@@ -8,6 +8,21 @@ ScamShield helps older adults and immigrant families spot scams in their own lan
 
 Built for the Rotary "AI for Good: Build for Your Community" hackathon (area of focus: community economic development).
 
+## For judges: try it in 2 minutes
+
+No setup or account needed. Open **[checkscamshield.vercel.app](https://checkscamshield.vercel.app)** on a phone or computer, then:
+
+1. Paste this message and tap **Check this message**:
+   ```
+   USPS: Your package is on hold due to an incomplete address. Pay the $1.99 redelivery fee within 24h or it will be returned: https://usps-redeliver-help.co/track
+   ```
+2. Read the verdict, the warning signs highlighted in the message, and the next steps.
+3. Ask a follow-up, such as *"I already clicked the link, what do I do?"*
+4. Try **Add a screenshot** or **Describe a call**, or switch the language (top right) to one of 7 languages.
+5. Explore **Learn**, **Practice** (a spot-the-scam game), **Get help**, and the **Workshop kit** (in the footer).
+
+To run it on your own machine, see [Getting started](#getting-started). The iPhone app is on the [`ios-app` branch](https://github.com/m4ku/ScamShield/tree/ios-app/ios).
+
 <p align="center">
   <img src="docs/screenshots/home.png" width="200" alt="Home: paste a message, add a screenshot, or describe a call">
   <img src="docs/screenshots/result.png" width="200" alt="Result: Very likely a scam, with the warning signs highlighted">
